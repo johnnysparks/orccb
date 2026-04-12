@@ -1,0 +1,51 @@
+{
+  "topic": "business-structure",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "business-structure-001",
+      "prompt": "Which statement best reflects Oregon CCB licensing expectations across business entity types?",
+      "choices": [
+        "Entity type changes setup steps, but covered compensated construction work still requires proper CCB licensing",
+        "Only corporations need a CCB license",
+        "Sole proprietors are exempt from licensing if they have written contracts",
+        "LLCs can delay licensing until after the first paid project"
+      ],
+      "answerIndex": 0,
+      "difficulty": "foundation",
+      "explanation": "CCB and ORS Chapter 701 requirements apply based on covered compensated construction activity, regardless of entity type.",
+      "sourceRefs": ["ors-chapter-701", "oregon-ccb-guide-becoming-licensed-contractor"],
+      "tags": ["licensing", "entity-choice"]
+    },
+    {
+      "id": "business-structure-002",
+      "prompt": "When choosing a business structure, which exam-relevant compliance check should be confirmed first?",
+      "choices": [
+        "That the license is tied to the correct business record and kept active",
+        "That the company already has a branded website",
+        "That all invoices use a time-and-materials format",
+        "That every client prepays in full"
+      ],
+      "answerIndex": 0,
+      "difficulty": "standard",
+      "explanation": "A valid active license mapped to the correct business identity is a core compliance control in Oregon contractor operations.",
+      "sourceRefs": ["oregon-ccb-license-page", "oregon-ccb-guide-becoming-licensed-contractor"],
+      "tags": ["compliance", "records"]
+    },
+    {
+      "id": "business-structure-003",
+      "prompt": "Which source is most direct for Oregon contractor setup guidance by business type?",
+      "choices": [
+        "Oregon CCB guide to becoming a licensed contractor",
+        "A private social media group for contractors",
+        "A generic out-of-state business blog",
+        "A supplier marketing flyer"
+      ],
+      "answerIndex": 0,
+      "difficulty": "foundation",
+      "explanation": "CCB's licensing guide is the official, Oregon-specific source for setup workflows and baseline requirements.",
+      "sourceRefs": ["oregon-ccb-guide-becoming-licensed-contractor"],
+      "tags": ["open-book", "source-navigation"]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "topic": "building-exterior-shell",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "building-exterior-shell-001",
+      "prompt": "Before relying on an exterior-shell code citation, what should you verify first?",
+      "choices": [
+        "That the code edition and amendment status are currently adopted in Oregon",
+        "That the citation appears in a prior estimate template",
+        "That another contractor used the same citation last year",
+        "That the section has the longest paragraph"
+      ],
+      "answerIndex": 0,
+      "difficulty": "foundation",
+      "explanation": "BCD's adopted-codes listing is the official place to verify current editions and interim amendments.",
+      "sourceRefs": ["oregon-bcd-adopted-codes-online"],
+      "tags": ["adopted-codes", "edition-control"]
+    },
+    {
+      "id": "building-exterior-shell-002",
+      "prompt": "Which chapter supplies Oregon's statewide statutory framework for building code administration?",
+      "choices": [
+        "ORS Chapter 455",
+        "ORS Chapter 701",
+        "OAR Chapter 812",
+        "OAR Chapter 340"
+      ],
+      "answerIndex": 0,
+      "difficulty": "foundation",
+      "explanation": "ORS Chapter 455 is Oregon's statewide building-code administration framework.",
+      "sourceRefs": ["ors-chapter-455"],
+      "tags": ["authority", "ors"]
+    },
+    {
+      "id": "building-exterior-shell-003",
+      "prompt": "Which workflow best reduces exterior-shell compliance errors in scenario questions?",
+      "choices": [
+        "Identify scope, verify active code edition, check amendment timing, then confirm permit path",
+        "Estimate labor first and skip code checks until inspection",
+        "Use only old project references to save lookup time",
+        "Assume no permit implications for exterior-envelope work"
+      ],
+      "answerIndex": 0,
+      "difficulty": "standard",
+      "explanation": "A structured authority-and-edition workflow helps avoid outdated-code and permit-assumption mistakes.",
+      "sourceRefs": ["oregon-bcd-adopted-codes-online", "ors-chapter-455"],
+      "tags": ["workflow", "permits"]
+    }
+  ]
+}
