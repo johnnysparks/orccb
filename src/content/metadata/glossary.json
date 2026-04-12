@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "offer",
+    "term": "Offer",
+    "definition": "A proposal by one party expressing willingness to enter into a contract on specific, definite terms. An offer lapses when rejected, when a counteroffer is made, or after a reasonable time. A bid or estimate is not automatically an offer.",
+    "sourceRefs": ["psi-cib-oregon-construction-contractors"],
+    "relatedTerms": ["acceptance", "consideration"],
+    "topicSlugs": ["contracts"]
+  },
+  {
+    "slug": "acceptance",
+    "term": "Acceptance",
+    "definition": "An unconditional agreement to all terms of an offer exactly as made. Any modification of terms creates a counteroffer, voids the original offer, and starts a new negotiation.",
+    "sourceRefs": ["psi-cib-oregon-construction-contractors"],
+    "relatedTerms": ["offer", "consideration"],
+    "topicSlugs": ["contracts"]
+  },
+  {
+    "slug": "consideration",
+    "term": "Consideration",
+    "definition": "Something of legal value exchanged by each party to a contract — typically a promise to perform work or a promise to pay. A promise to do something already legally required does not constitute valid consideration.",
+    "sourceRefs": ["psi-cib-oregon-construction-contractors"],
+    "relatedTerms": ["offer", "acceptance"],
+    "topicSlugs": ["contracts"]
+  },
+  {
+    "slug": "breach-of-contract",
+    "term": "Breach of Contract",
+    "definition": "Failure by one party to perform contractual obligations without legal excuse. A material breach entitles the non-breaching party to treat the contract as terminated and sue for compensatory damages. A minor breach allows damages but not termination.",
+    "sourceRefs": ["psi-cib-oregon-construction-contractors"],
+    "relatedTerms": ["liquidated-damages"],
+    "topicSlugs": ["contracts"]
+  },
+  {
+    "slug": "change-order",
+    "term": "Change Order",
+    "definition": "A written, signed amendment to an existing construction contract that documents a change in scope, price, or schedule. When the original contract is written, change orders must also be in writing and signed by both parties before the changed work begins.",
+    "sourceRefs": ["ors-chapter-701", "psi-cib-oregon-construction-contractors"],
+    "relatedTerms": [],
+    "topicSlugs": ["contracts"]
+  },
+  {
+    "slug": "liquidated-damages",
+    "term": "Liquidated Damages",
+    "definition": "A contractual clause specifying a predetermined amount — often per day — owed if a party fails to perform on time. Enforceable only when the specified amount is a reasonable pre-estimate of actual damages at the time of contracting, not a penalty.",
+    "sourceRefs": ["psi-cib-oregon-construction-contractors"],
+    "relatedTerms": ["breach-of-contract"],
+    "topicSlugs": ["contracts"]
+  },
+  {
+    "slug": "retainage",
+    "term": "Retainage",
+    "definition": "A percentage — typically 5 to 10 percent — of each progress payment withheld by the project owner until substantial completion. Retainage incentivizes the contractor to complete punch-list items and provides a fund to cover latent defects.",
+    "sourceRefs": ["ors-chapter-701", "psi-cib-oregon-construction-contractors"],
+    "relatedTerms": [],
+    "topicSlugs": ["contracts", "oregon-lien-law"]
+  }
+]

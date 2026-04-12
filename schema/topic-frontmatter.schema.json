@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "topic-frontmatter.schema.json",
+  "title": "TopicFrontmatter",
+  "description": "YAML frontmatter for a topic Markdown file. Every field here is the canonical record; rendered HTML and learner artifacts are derived from it.",
+  "type": "object",
+  "required": [
+    "slug",
+    "title",
+    "examWeightPct",
+    "difficulty",
+    "reviewStatus",
+    "version",
+    "lastValidatedAt",
+    "audioScriptEstMinutes",
+    "sourceRefs",
+    "learningObjectives",
+    "glossaryTermSlugs"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*[a-z0-9]$",
+      "description": "Kebab-case identifier. Must match the filename (without .md) and a slug in curriculum.json."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 120,
+      "description": "Human-readable topic title shown in the curriculum index."
+    },
+    "examWeightPct": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Approximate exam weight from the PSI Candidate Information Bulletin. Must match curriculum.json."
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["foundation", "standard", "advanced"],
+      "description": "Difficulty tier for this topic variant. All current topics use 'standard'. 'foundation' and 'advanced' are reserved for difficulty-split variants added in Phase 4+. See docs/content-model.md §Difficulty Expansion."
+    },
+    "reviewStatus": {
+      "type": "string",
+      "enum": ["draft", "source-backed", "reviewed", "published", "needs-revision"],
+      "description": "Lifecycle state. Only 'published' topics render in production. CI blocks topics with broken source refs from advancing past 'draft'."
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semver string. PATCH = copy edits. MINOR = content additions or reordered sections. MAJOR = structural rewrite or source change."
+    },
+    "lastValidatedAt": {
+      "type": ["string", "null"],
+      "description": "ISO 8601 date (YYYY-MM-DD) when a subject-matter reviewer last confirmed this topic against its source references. Null until first review pass."
+    },
+    "audioScriptEstMinutes": {
+      "type": "number",
+      "minimum": 1,
+      "description": "Estimated listening time in minutes for the Audio Script section. Used to display reading-time badges and plan audio asset production."
+    },
+    "sourceRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]*[a-z0-9]$"
+      },
+      "minItems": 1,
+      "description": "IDs referencing entries in sources.json. Every published topic must include at least one Tier 1 source. CI checks all IDs resolve."
+    },
+    "learningObjectives": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 10
+      },
+      "minItems": 2,
+      "description": "Observable, exam-relevant objectives. Start each with an action verb: Identify, Explain, Distinguish, Apply, Calculate, Recall."
+    },
+    "glossaryTermSlugs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]*$"
+      },
+      "description": "Slugs of glossary terms defined or prominently featured in this topic. Must exist in glossary.json. CI enforces referential integrity."
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]*[a-z0-9]$"
+      },
+      "description": "Optional. Topic slugs learners should complete before this one. Drives the recommended study order UI."
+    }
+  }
+}
