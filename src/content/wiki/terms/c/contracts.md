@@ -10,6 +10,12 @@ audioScriptEstMinutes: 9
 sourceRefs:
   - ors-chapter-701
   - ors-701-305
+  - ors-701-310
+  - ors-83-720
+  - ors-83-730
+  - ors-701-315
+  - ccb-contractor-tools
+  - ccb-required-notices-chart
   - psi-cib-oregon-construction-contractors
 learningObjectives:
   - Identify the four essential elements of an enforceable contract.
@@ -25,6 +31,9 @@ glossaryTermSlugs:
   - change-order
   - liquidated-damages
   - retainage
+  - written-contract-threshold
+  - right-of-rescission
+  - home-solicitation-sale
 prerequisites:
   - laws-and-regulations
 ---
@@ -33,7 +42,7 @@ prerequisites:
 
 Contracts are the legal backbone of every construction project. They define who owes what to whom, when, and under what conditions. For Oregon contractors, state law adds specific requirements on top of the common-law rules — written contracts for residential work above a dollar threshold, mandatory disclosures, and written change orders when the scope shifts.
 
-Exam questions on this topic test two things: the general contract principles that apply in every state (formation, breach, remedy), and the Oregon-specific rules that apply to licensed contractors. Know both layers.
+Exam questions on this topic test two things: the general contract principles that apply in every state (formation, breach, remedy), and the Oregon-specific rules that apply to licensed contractors. Know both layers. Source: psi-cib-oregon-construction-contractors, ors-701-305, ors-701-310.
 
 Understanding contracts also protects you in the field. A verbal agreement about added work is the most common source of contractor-client disputes. The exam will test whether you know what the law requires before work starts — not just what's polite.
 
@@ -57,16 +66,28 @@ A fifth element — **legal purpose** — is sometimes listed separately: a cont
 
 Oregon law imposes written contract requirements on top of common-law formation rules.
 
-**Residential contractors:** ORS 701.305 requires a written contract for any residential construction work with a contract price exceeding **$2,000**. The written contract must include:
+**Residential contractors:** ORS 701.305 requires a written contract for covered residential work when aggregate contract price exceeds **$2,000**. If a project starts below the threshold and later exceeds it, the contractor must deliver or mail the written contract within **five days** after the contractor knows or should know the threshold was exceeded. Source: ors-701-305.
+
+When ORS 701.305 applies, CCB guidance also ties required notices and delivery-proof retention duties to the contract-compliance workflow. Source: ccb-contractor-tools, ccb-required-notices-chart.
+
+The written contract must include:
 
 - The contractor's name, address, and **CCB license number** — this is frequently tested
 - A description of the work to be performed
 - The contract price or the basis for calculating it
 - An estimated start date and substantial completion date
 - A disclosure that the contractor is bonded and insured (or the specific coverage amounts)
-- The consumer's right to cancel the contract within three business days if signed at the consumer's home (right of rescission)
 
-Failure to include required elements does not automatically make the contract void, but it exposes the contractor to complaints, license sanctions, and potential loss of lien rights.
+Failure to include required elements does not automatically make the contract void, but it exposes the contractor to complaints, license sanctions, and potential loss of lien rights. Source: ors-701-305, ccb-contractor-tools.
+
+### Cancellation and Rescission Timelines
+
+Oregon contractors must distinguish between two different statutory cancellation frameworks:
+
+- **ORS 701.310 (residential contract cancellation):** For an initial written residential contract, a property owner generally has until **midnight of the next business day** to cancel, subject to listed exceptions. Source: ors-701-310.
+- **ORS 83.720 / ORS 83.730 (home solicitation sales):** Qualifying home solicitation sales generally carry a **third business day** cancellation window and specific written-notice requirements. Source: ors-83-720, ors-83-730.
+
+Exam questions often test whether a scenario is an ORS 701 cancellation case or an ORS 83 home-solicitation case. Source: ccb-contractor-tools.
 
 **Commercial work** does not carry the same statutory written-contract requirement, but a written contract is always best practice.
 
@@ -128,7 +149,7 @@ Now, Oregon adds some extra rules on top of that common-law foundation.
 
 For **residential contractors**, Oregon Revised Statutes require a written contract any time the price exceeds two thousand dollars. And that contract has to include specific things — the contractor's name and address, and critically, the **CCB license number**. That's a frequent exam question: what must be in the contract? The CCB license number is the answer they're looking for.
 
-The contract also needs: a description of the work, the price or how it'll be calculated, start and completion dates, and a notice that the contractor is bonded and insured. If the contract is signed at the consumer's home, there's also a three-business-day right to cancel.
+The contract also needs: a description of the work, the price or how it'll be calculated, start and completion dates, and a notice that the contractor is bonded and insured. For an initial written residential contract under ORS 701, the owner generally has until midnight of the next business day to cancel. Home-solicitation transactions under ORS 83 use a different three-business-day cancellation framework.
 
 Now let's talk about **change orders** — because this is where a lot of real-world disputes happen.
 
@@ -175,7 +196,8 @@ Alright — essential elements, written contract requirements, change orders, br
 ## Open-Book Lookup Tips
 
 - **ORS 701.305** — Written contract requirements for residential contractors. Search for "written contract" or "701.305" in your reference materials.
-- **ORS 701.310** — Additional required contract disclosures (bond, insurance, right of rescission).
+- **ORS 701.310** — Residential cancellation timing and exceptions (next business day in most initial written-contract cases).
+- **ORS 83.720 and ORS 83.730** — Home solicitation sale cancellation timing (third business day) and required written notice content.
 - The CCB license number requirement appears in ORS 701.305(1)(a). It will not be far from the written-contract threshold.
 - For change orders, look for the phrase "change in scope" or "change order" in the CCB contractor reference materials.
 - If a question asks about damages and you're not sure, default to "compensatory damages" — that's the standard remedy and the most-tested answer.

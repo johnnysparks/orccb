@@ -191,5 +191,51 @@
     "topicSlugs": [
       "oregon-building-codes"
     ]
+  },
+  {
+    "slug": "written-contract-threshold",
+    "term": "Written Contract Threshold",
+    "definition": "Under ORS 701.305, a written residential contract is required when the aggregate contract price exceeds $2,000; if the price later crosses that amount, the contractor must deliver or mail the written contract within five days after knowing or having reason to know the threshold was exceeded.",
+    "sourceRefs": [
+      "ors-701-305"
+    ],
+    "relatedTerms": [
+      "right-of-rescission",
+      "home-solicitation-sale"
+    ],
+    "topicSlugs": [
+      "contracts"
+    ]
+  },
+  {
+    "slug": "right-of-rescission",
+    "term": "Right of Rescission",
+    "definition": "A statutory cancellation right allowing an owner to cancel an initial written residential contract until midnight of the next business day under ORS 701.310, with listed exceptions; qualifying home solicitation sales follow separate ORS 83 timelines.",
+    "sourceRefs": [
+      "ors-701-310",
+      "ors-83-720"
+    ],
+    "relatedTerms": [
+      "written-contract-threshold",
+      "home-solicitation-sale"
+    ],
+    "topicSlugs": [
+      "contracts"
+    ]
+  },
+  {
+    "slug": "home-solicitation-sale",
+    "term": "Home Solicitation Sale",
+    "definition": "A transaction governed by ORS 83.720 and ORS 83.730 that generally gives a buyer until midnight of the third business day to cancel and requires a signed written agreement with prescribed cancellation notice content.",
+    "sourceRefs": [
+      "ors-83-720",
+      "ors-83-730"
+    ],
+    "relatedTerms": [
+      "right-of-rescission"
+    ],
+    "topicSlugs": [
+      "contracts"
+    ]
   }
 ]
