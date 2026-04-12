@@ -14,12 +14,13 @@
  *   4. topic .md files    — frontmatter fields, required sections,
  *                           source ref integrity, glossary term integrity,
  *                           slug↔filename agreement, published tier-1 rule
+ *                           (located at src/content/wiki/terms/{letter}/{slug}.md)
  *   5. quiz .json files   — shape, question count, ID format, globally unique
  *                           IDs, source ref integrity, slug↔filename agreement
  *   6. Cross-file checks  — every curriculum slug has a topic file and quiz file
  */
 
-import { readFileSync, readdirSync, existsSync } from "node:fs";
+import { readFileSync, readdirSync, existsSync, statSync } from "node:fs";
 import { resolve, basename } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
@@ -281,21 +282,36 @@ try {
 // 4. Validate topic Markdown files
 // ---------------------------------------------------------------------------
 
-section("topic .md files");
+section("topic .md files (wiki/terms)");
 
-const topicsDir = resolve(contentDir, "topics");
+const wikiTermsDir = resolve(contentDir, "wiki/terms");
 let topicSlugsFound = new Set();
 
-try {
-  const files = readdirSync(topicsDir).filter((f) => f.endsWith(".md"));
+// Collect all .md files from wiki/terms/{letter}/ subdirectories
+function collectTopicFiles() {
+  const result = [];
+  if (!existsSync(wikiTermsDir)) return result;
+  for (const letter of readdirSync(wikiTermsDir)) {
+    const letterDir = resolve(wikiTermsDir, letter);
+    if (!statSync(letterDir).isDirectory()) continue;
+    for (const f of readdirSync(letterDir)) {
+      if (f.endsWith(".md")) {
+        result.push({ file: f, filePath: resolve(letterDir, f) });
+      }
+    }
+  }
+  return result;
+}
 
-  if (files.length === 0) {
+try {
+  const topicFiles = collectTopicFiles();
+
+  if (topicFiles.length === 0) {
     console.log("  (no topic files yet)");
   }
 
-  for (const file of files) {
+  for (const { file, filePath } of topicFiles) {
     totalChecks++;
-    const filePath = resolve(topicsDir, file);
     const expectedSlug = basename(file, ".md");
     const content = readFileSync(filePath, "utf-8");
     const fm = parseFrontmatter(content);
@@ -544,7 +560,8 @@ section("cross-file coverage");
 
 for (const slug of curriculumSlugs) {
   totalChecks++;
-  const hasTopicFile = existsSync(resolve(topicsDir, `${slug}.md`));
+  const letter = slug.charAt(0);
+  const hasTopicFile = existsSync(resolve(wikiTermsDir, letter, `${slug}.md`));
   const hasQuizFile = existsSync(resolve(quizzesDir, `${slug}.json`));
 
   if (!hasTopicFile && !hasQuizFile) {

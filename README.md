@@ -19,6 +19,7 @@ npm install
 npm run dev          # Start Vite dev server
 npm run build        # Production build to dist/
 npm run validate     # Run content validation checks
+npm run lint:wiki    # Validate wiki cross-links
 npm run check        # TypeScript type checking
 ```
 
@@ -36,7 +37,11 @@ npm run check        # TypeScript type checking
     /lib                              # Shared utilities and types
     /styles                           # CSS
     /content
-      /topics                         # Lesson Markdown files (YAML frontmatter)
+      /raw                            # Unprocessed research dumps
+      /wiki
+        INDEX.md                      # Master index by curriculum topic
+        /terms/{letter}/{slug}.md     # Wiki term pages, alphabetically filed
+      /artifacts                      # Publishable intermediates (podcast scripts, etc.)
       /quizzes                        # Quiz JSON files
       /metadata                       # curriculum.json, sources.json, glossary.json
   /scripts                            # Build and validation scripts

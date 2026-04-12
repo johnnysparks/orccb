@@ -5,22 +5,56 @@ govern authoring, validation, and future expansion.
 
 ---
 
+## Content Directory Layout
+
+```
+src/content/
+  raw/                          # Unprocessed research dumps (importer output)
+  wiki/
+    INDEX.md                    # Master index grouped by curriculum topic
+    terms/{letter}/{slug}.md    # One wiki page per concept, alphabetically filed
+  artifacts/                    # Publishable intermediates (podcast scripts, etc.)
+  quizzes/{slug}.json           # Quiz JSON files
+  metadata/
+    curriculum.json             # Topic list, order, weights
+    sources.json                # Global source registry
+    glossary.json               # Shared glossary terms
+```
+
+### Content lifecycle
+
+1. **raw/** — Importer agents dump research material here. Files are
+   self-contained research passes with source inventories and fact lists.
+2. **wiki/terms/** — Organizer agents convert raw dumps into cited, cross-linked
+   wiki pages. Once a raw file is fully processed, it is deleted.
+3. **wiki/INDEX.md** — Groups all terms by curriculum topic for navigation.
+4. **artifacts/** — Publishable intermediate materials derived from wiki content
+   (podcast scripts, study guides, flashcard sets).
+
 ## Canonical vs. Derived Artifacts
 
 **Canonical** — authored in Git; the source of truth.
 
 | Artifact | Location | Format |
 |---|---|---|
-| Topic lesson + audio script | `src/content/topics/{slug}.md` | Markdown + YAML frontmatter |
+| Wiki term pages (lessons) | `src/content/wiki/terms/{letter}/{slug}.md` | Markdown + YAML frontmatter |
+| Wiki index | `src/content/wiki/INDEX.md` | Markdown with `[[slug]]` links |
 | Quiz questions | `src/content/quizzes/{slug}.json` | JSON |
 | Source registry | `src/content/metadata/sources.json` | JSON array |
 | Curriculum order | `src/content/metadata/curriculum.json` | JSON array |
 | Glossary terms | `src/content/metadata/glossary.json` | JSON array |
 
+**Working** — temporary; deleted after processing.
+
+| Artifact | Location | Lifecycle |
+|---|---|---|
+| Research dumps | `src/content/raw/*.md` | Created by importer, deleted by organizer |
+
 **Derived** — generated from canonical sources; never hand-edited.
 
 | Artifact | How it is produced |
 |---|---|
+| Publishable artifacts | Generated from wiki content → `src/content/artifacts/` |
 | Rendered HTML pages | Build step (Vite) transforms Markdown → HTML |
 | Aggregated glossary page | Build reads `glossary.json` → renders term list |
 | Sources page | Build reads `sources.json` → renders citations |
@@ -33,15 +67,24 @@ source file, not a generated output.
 
 ## Topic Package
 
-Each exam topic maps to one **topic package** — a pair of files that together
-form the complete learner experience for that topic.
+Each exam topic maps to one **topic package** — a wiki term page plus a companion
+quiz file that together form the complete learner experience for that topic.
 
 ```
-src/content/topics/{slug}.md        ← lesson text + audio script + key terms
-src/content/quizzes/{slug}.json     ← quiz questions
+src/content/wiki/terms/{letter}/{slug}.md   ← lesson text + audio script + key terms
+src/content/quizzes/{slug}.json             ← quiz questions
 ```
 
-Both files share the same `slug`, which is also the key in `curriculum.json`.
+The term page lives in an alphabetical subdirectory based on the first letter
+of its slug (e.g. `terms/c/contracts.md`). Both files share the same `slug`,
+which is also the key in `curriculum.json`.
+
+### Wiki cross-links
+
+Term pages link to each other using `[[slug]]` syntax. For example, the
+contracts page can reference `[[offer]]` or `[[breach-of-contract]]`. The
+`npm run lint:wiki` script validates that all wiki links resolve to existing
+term files.
 
 ### Topic Markdown frontmatter
 
@@ -246,9 +289,9 @@ so that Phase 4 difficulty-split variants can be added without a schema migratio
 When difficulty splits are needed, add variant topic files alongside the existing one:
 
 ```
-src/content/topics/contracts.md                 ← standard (existing)
-src/content/topics/contracts.foundation.md      ← simplified variant
-src/content/topics/contracts.advanced.md        ← deep-dive variant
+src/content/wiki/terms/c/contracts.md                 ← standard (existing)
+src/content/wiki/terms/c/contracts.foundation.md      ← simplified variant
+src/content/wiki/terms/c/contracts.advanced.md        ← deep-dive variant
 ```
 
 Frontmatter `difficulty` distinguishes them. Curriculum and quiz IDs remain
@@ -341,12 +384,21 @@ this on every PR targeting `main`.
 
 ### What is checked
 
+**`npm run validate`** (scripts/validate-content.mjs):
+
 1. `sources.json` — shape, unique IDs, required fields
 2. `curriculum.json` — shape, unique slugs and `order` values
 3. `glossary.json` — shape, unique slugs, source ref integrity, related-term cross-references
-4. Topic `.md` files — frontmatter shape, enum values, semver format, source ref integrity, glossary term integrity, prerequisite integrity, required section headings, slug↔filename agreement
+4. Topic `.md` files (at `wiki/terms/{letter}/`) — frontmatter shape, enum values, semver format, source ref integrity, glossary term integrity, prerequisite integrity, required section headings, slug↔filename agreement
 5. Quiz `.json` files — shape, question count ≥ 3, ID format, globally unique IDs, 4 choices per question, valid `answerIndex`, difficulty enum, source ref integrity, slug↔filename agreement
 6. Coverage — every curriculum slug that has a topic file also has a quiz file and vice versa
+
+**`npm run lint:wiki`** (scripts/validate-wiki-links.mjs):
+
+1. Term file placement — each term is in the correct alphabetical subdirectory
+2. Wiki cross-links — all `[[slug]]` links in term files resolve to existing pages
+3. INDEX.md links — all index entries checked (missing pages are warnings, not failures)
+4. Orphan detection — term files not listed in INDEX.md
 
 Schema files in `schema/*.schema.json` (JSON Schema Draft-07) document the same
 rules for IDE tooling. If your editor supports JSON Schema, point it at these

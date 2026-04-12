@@ -179,3 +179,7 @@ Alright — essential elements, written contract requirements, change orders, br
 - The CCB license number requirement appears in ORS 701.305(1)(a). It will not be far from the written-contract threshold.
 - For change orders, look for the phrase "change in scope" or "change order" in the CCB contractor reference materials.
 - If a question asks about damages and you're not sure, default to "compensatory damages" — that's the standard remedy and the most-tested answer.
+
+## See Also
+
+<!-- Wiki cross-links will be added as term pages are created by the organizer agent. -->

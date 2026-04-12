@@ -40,19 +40,24 @@ The site is primarily rendered content (lessons, quizzes) with lightweight inter
     /styles
       main.css                         # All styles, mobile-first
     /content
-      /topics                          # One .md file per topic
+      /raw                             # Unprocessed research dumps (importer output)
+      /wiki
+        INDEX.md                       # Master index grouped by curriculum topic
+        /terms/{letter}/{slug}.md      # One wiki page per concept, alphabetically filed
+      /artifacts                       # Publishable intermediates (podcast scripts, etc.)
       /quizzes                         # One .json file per topic
       /metadata
         curriculum.json                # Topic list, order, weights
         sources.json                   # Global source registry
-        glossary.json                  # Shared glossary terms (Phase 3)
+        glossary.json                  # Shared glossary terms
   /scripts
     validate-content.mjs               # Schema + integrity checks
+    validate-wiki-links.mjs            # Wiki cross-link validation
   /docs                                # Project documentation
   /.github
     /workflows
       deploy.yml                       # Build + deploy to GitHub Pages
-      validate.yml                     # Content validation on PRs
+      validate.yml                     # Content validation + wiki link checks on PRs
     PULL_REQUEST_TEMPLATE.md           # PR checklist
 ```
 
@@ -68,20 +73,34 @@ The site is fully static after build — no server-side rendering, no API calls 
 ## Content pipeline
 
 ```
-Markdown topic file + YAML frontmatter
+  src/content/raw/          Importer agents dump research here
         |
         v
-  Build script (or Vite plugin) parses MD -> HTML
+  src/content/wiki/terms/   Organizer agents convert to cited wiki pages
         |
         v
-  Topic detail page renders lesson body, audio script, citations
+  Curator agents            Clean, dedup, cross-link, validate
         |
         v
-  Quiz JSON loaded client-side for interactive quiz
+  Build script              Reads wiki term .md + quiz .json → HTML
         |
         v
-  Progress written to localStorage on completion
+  Topic detail page         Renders lesson body, audio script, citations
+        |
+        v
+  Quiz JSON                 Loaded client-side for interactive quiz
+        |
+        v
+  src/content/artifacts/    Publishable intermediates (podcast scripts, etc.)
+        |
+        v
+  Progress                  Written to localStorage on completion
 ```
+
+Wiki term pages serve as the canonical source of truth. The three agent roles
+(importer, organizer, curator) can run concurrently with multiple instances
+each, operating on different slices of the knowledge base. See
+[Agent Prompts](agent-prompts.md) for copy-paste prompts.
 
 In Phase 0–1, content rendering may use a simple build-time MD-to-HTML transform. If the content pipeline grows complex, a Vite plugin or dedicated build step in `scripts/` will handle it.
 

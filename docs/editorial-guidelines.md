@@ -25,13 +25,19 @@ Tier 2 sources must be clearly identified as secondary when cited.
 
 ## Research output
 
-Before generating any lesson content, a research pass must produce:
+Before generating any lesson content, an importer agent runs a research pass
+that produces a dump file in `src/content/raw/`. Each research dump must contain:
 
 1. **Source inventory** — list of Tier 1 and Tier 2 sources consulted
 2. **Claim list** — specific facts extracted from sources
 3. **Citation anchors** — which claims map to which sources
 4. **Unresolved questions** — gaps where sources are silent or ambiguous
 5. **Confidence rating** — high / medium / low for the topic overall
+
+An organizer agent then converts the raw dump into wiki term pages at
+`src/content/wiki/terms/{letter}/{slug}.md` and deletes the raw file once
+fully processed. See [Agent Prompts](agent-prompts.md) for the importer and
+organizer roles.
 
 ## Content review states
 
@@ -72,13 +78,18 @@ Before a topic moves from `source-backed` to `reviewed`:
 
 These are checked automatically on every PR:
 
-- Topic files must have valid YAML frontmatter matching the schema
+**Content validation** (`npm run validate`):
+- Topic files (at `wiki/terms/{letter}/`) must have valid YAML frontmatter matching the schema
 - All `sourceRefs` in frontmatter and quizzes must exist in `sources.json`
 - Quiz question IDs must be globally unique
 - Quiz files must have exactly 4 choices per question
 - `answerIndex` must be 0-3
-- No broken internal links between content files
 - Required frontmatter fields must be present
+
+**Wiki link validation** (`npm run lint:wiki`):
+- All `[[slug]]` cross-links in term files must resolve to existing pages
+- Term files must be in the correct alphabetical subdirectory
+- INDEX.md entries are checked (missing pages produce warnings)
 
 ## Content update policy
 

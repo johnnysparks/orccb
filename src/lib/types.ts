@@ -76,7 +76,7 @@ export interface GlossaryTerm {
 // Topic frontmatter
 // ---------------------------------------------------------------------------
 
-/** YAML frontmatter for a topic Markdown file (src/content/topics/{slug}.md). */
+/** YAML frontmatter for a topic Markdown file (src/content/wiki/terms/{letter}/{slug}.md). */
 export interface TopicFrontmatter {
   /** Kebab-case identifier. Matches filename, curriculum.json entry, and quiz file. */
   slug: string;
