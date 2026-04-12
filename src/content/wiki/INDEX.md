@@ -64,6 +64,10 @@ links resolve to existing term files.
 - [[safety-requirements]]
 - [[oregon-building-codes]]
 
+## Environmental Factors
+
+- [[environmental-factors]]
+
 ## Building and Construction
 
 - [[building-permits]]

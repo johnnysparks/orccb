@@ -191,5 +191,53 @@
     "topicSlugs": [
       "oregon-building-codes"
     ]
+  },
+  {
+    "slug": "lead-based-paint-licensing",
+    "term": "Lead-Based Paint Licensing",
+    "definition": "Oregon contractor licensing framework for firms performing covered lead-based paint renovation work, especially in pre-1978 target housing and child-occupied facilities, tied to required training and certification pathways.",
+    "sourceRefs": [
+      "oregon-ccb-specialty-licenses-lead-based-paint",
+      "oha-lead-contractors-and-painters",
+      "ccb-lbp-relevant-laws-pdf"
+    ],
+    "relatedTerms": [
+      "rrp-rule",
+      "asbestos-compliance"
+    ],
+    "topicSlugs": [
+      "environmental-factors",
+      "laws-and-regulations"
+    ]
+  },
+  {
+    "slug": "rrp-rule",
+    "term": "RRP Rule",
+    "definition": "Renovation, Repair and Painting lead-safe work-practice framework requiring trained and certified renovators for covered work in pre-1978 housing and child-occupied facilities.",
+    "sourceRefs": [
+      "oha-lead-contractors-and-painters",
+      "epa-rrp-contractors"
+    ],
+    "relatedTerms": [
+      "lead-based-paint-licensing"
+    ],
+    "topicSlugs": [
+      "environmental-factors"
+    ]
+  },
+  {
+    "slug": "asbestos-compliance",
+    "term": "Asbestos Compliance",
+    "definition": "Oregon asbestos regulatory framework administered by DEQ and codified in OAR chapter 340, division 248, including licensing and certification prerequisites for asbestos abatement work.",
+    "sourceRefs": [
+      "deq-asbestos-information",
+      "deq-asbestos-for-businesses",
+      "oar-340-248"
+    ],
+    "relatedTerms": [],
+    "topicSlugs": [
+      "environmental-factors",
+      "laws-and-regulations"
+    ]
   }
 ]
