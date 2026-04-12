@@ -42,7 +42,7 @@ export type ReviewStatus =
 // Source registry
 // ---------------------------------------------------------------------------
 
-/** A single entry in the global source registry (sources.json). */
+/** A single entry in the global source registry (src/content/metadata/sources/{id}.json). */
 export interface SourceRef {
   id: string;
   title: string;
@@ -64,7 +64,7 @@ export interface GlossaryTerm {
   slug: string;
   term: string;
   definition: string;
-  /** IDs from sources.json that define or authoritatively describe this term. */
+  /** IDs from the source registry that define or authoritatively describe this term. */
   sourceRefs: string[];
   /** Slugs of related glossary terms. Keep bidirectional. */
   relatedTerms?: string[];
@@ -98,7 +98,7 @@ export interface TopicFrontmatter {
   lastValidatedAt: string | null;
   /** Estimated listening time in minutes for the Audio Script section. */
   audioScriptEstMinutes: number;
-  /** IDs from sources.json. At least one Tier 1 source required for published topics. */
+  /** IDs from the source registry. At least one Tier 1 source required for published topics. */
   sourceRefs: string[];
   /** Observable, exam-relevant objectives. Start each with an action verb. */
   learningObjectives: string[];
@@ -128,7 +128,7 @@ export interface QuizQuestion {
   difficulty: DifficultyLevel;
   /** Shown after the learner answers. Explains correct answer and key distractors. */
   explanation: string;
-  /** IDs from sources.json supporting this specific question. */
+  /** IDs from the source registry supporting this specific question. */
   sourceRefs: string[];
   /** Optional labels for filtering (e.g. "change-order", "written-requirement"). */
   tags?: string[];

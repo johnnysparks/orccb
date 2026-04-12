@@ -31,7 +31,7 @@
           "pattern": "^[a-z][a-z0-9-]*[a-z0-9]$"
         },
         "minItems": 1,
-        "description": "IDs from sources.json that define or authoritatively describe this term."
+        "description": "IDs from source registry that define or authoritatively describe this term."
       },
       "relatedTerms": {
         "type": "array",
