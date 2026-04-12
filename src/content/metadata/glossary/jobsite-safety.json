@@ -1,0 +1,18 @@
+{
+  "slug": "jobsite-safety",
+  "term": "Jobsite Safety",
+  "definition": "Oregon construction safety compliance framework combining ORS chapter 654 duties with Oregon OSHA Division 3 operational rules.",
+  "sourceRefs": [
+    "psi-cib-oregon-construction-contractors",
+    "ors-chapter-654",
+    "oar-437-division-3-construction"
+  ],
+  "relatedTerms": [
+    "competent-person",
+    "fall-protection",
+    "excavation-safety"
+  ],
+  "topicSlugs": [
+    "jobsite-safety"
+  ]
+}

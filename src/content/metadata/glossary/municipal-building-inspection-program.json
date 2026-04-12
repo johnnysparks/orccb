@@ -1,0 +1,16 @@
+{
+  "slug": "municipal-building-inspection-program",
+  "term": "Municipal Building Inspection Program",
+  "definition": "A local jurisdiction program that administers building inspection and related permitting functions and renews under OAR 918-020 reporting cycles described by BCD.",
+  "sourceRefs": [
+    "ors-chapter-455",
+    "oregon-bcd-jurisdiction-renewals-oar-918-020"
+  ],
+  "relatedTerms": [
+    "specialty-code",
+    "building-permits"
+  ],
+  "topicSlugs": [
+    "oregon-building-codes"
+  ]
+}

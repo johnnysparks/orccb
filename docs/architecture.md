@@ -49,7 +49,7 @@ The site is primarily rendered content (lessons, quizzes) with lightweight inter
       /metadata
         curriculum.json                # Topic list, order, weights
         /sources                        # Global source registry (one file per source ID)
-        glossary.json                  # Shared glossary terms
+        /glossary                      # Shared glossary terms (one file per term)
   /scripts
     validate-content.mjs               # Schema + integrity checks
     validate-wiki-links.mjs            # Wiki cross-link validation

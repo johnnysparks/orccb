@@ -1,0 +1,15 @@
+{
+  "slug": "consumer-notice",
+  "term": "Consumer Notice",
+  "definition": "A CCB-required disclosure that must be delivered to a residential client before work begins on a project subject to ORS 701.305. OAR 812-012-0130 specifies the required delivery timing and requires proof-of-delivery to be retained.",
+  "sourceRefs": [
+    "oar-812-012-0130",
+    "ors-chapter-701"
+  ],
+  "relatedTerms": [
+    "ccb-license"
+  ],
+  "topicSlugs": [
+    "laws-and-regulations"
+  ]
+}

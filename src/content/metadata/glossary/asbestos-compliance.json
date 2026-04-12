@@ -1,0 +1,16 @@
+{
+  "slug": "asbestos-compliance",
+  "term": "Asbestos Compliance",
+  "definition": "Oregon DEQ-administered asbestos compliance duties, including requirements codified in OAR chapter 340, division 248 and related contractor/business prerequisites.",
+  "sourceRefs": [
+    "deq-asbestos-information",
+    "deq-asbestos-for-businesses",
+    "oar-340-248"
+  ],
+  "relatedTerms": [
+    "environmental-factors"
+  ],
+  "topicSlugs": [
+    "environmental-factors"
+  ]
+}

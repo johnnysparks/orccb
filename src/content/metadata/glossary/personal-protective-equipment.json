@@ -1,0 +1,15 @@
+{
+  "slug": "personal-protective-equipment",
+  "term": "Personal Protective Equipment (PPE)",
+  "definition": "Protective equipment selected through hazard assessment and maintained in sanitary, reliable condition, with worker training on use, limits, and care required by Oregon construction safety rules.",
+  "sourceRefs": [
+    "oar-437-003-subdivision-e-ppe"
+  ],
+  "relatedTerms": [
+    "fall-protection",
+    "jobsite-safety"
+  ],
+  "topicSlugs": [
+    "jobsite-safety"
+  ]
+}

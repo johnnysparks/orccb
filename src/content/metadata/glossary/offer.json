@@ -1,0 +1,15 @@
+{
+  "slug": "offer",
+  "term": "Offer",
+  "definition": "A proposal by one party expressing willingness to enter into a contract on specific, definite terms. An offer lapses when rejected, when a counteroffer is made, or after a reasonable time. A bid or estimate is not automatically an offer.",
+  "sourceRefs": [
+    "psi-cib-oregon-construction-contractors"
+  ],
+  "relatedTerms": [
+    "acceptance",
+    "consideration"
+  ],
+  "topicSlugs": [
+    "contracts"
+  ]
+}

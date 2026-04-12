@@ -1,0 +1,16 @@
+{
+  "slug": "competent-person",
+  "term": "Competent Person",
+  "definition": "A person capable of identifying existing and predictable hazards in surroundings or working conditions and authorized to take prompt corrective measures under applicable Oregon safety rules.",
+  "sourceRefs": [
+    "oar-437-003-subdivision-c-general-safety",
+    "oar-437-003-subdivision-p-excavations"
+  ],
+  "relatedTerms": [
+    "jobsite-safety",
+    "excavation-safety"
+  ],
+  "topicSlugs": [
+    "jobsite-safety"
+  ]
+}

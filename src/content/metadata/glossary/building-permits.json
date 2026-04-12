@@ -1,0 +1,16 @@
+{
+  "slug": "building-permits",
+  "term": "Building Permits",
+  "definition": "Official authorizations for covered construction work under Oregon's building code framework; CCB guidance emphasizes that contractors or companies must ensure required permits are obtained.",
+  "sourceRefs": [
+    "ors-chapter-455",
+    "oregon-ccb-contractor-tools"
+  ],
+  "relatedTerms": [
+    "specialty-code",
+    "municipal-building-inspection-program"
+  ],
+  "topicSlugs": [
+    "oregon-building-codes"
+  ]
+}

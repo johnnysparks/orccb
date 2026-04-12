@@ -1,0 +1,16 @@
+{
+  "slug": "specialty-code",
+  "term": "Specialty Code",
+  "definition": "An Oregon code volume adopted for a specific construction discipline (for example, structural or residential), with current edition status and amendments published by BCD.",
+  "sourceRefs": [
+    "ors-chapter-455",
+    "oregon-bcd-adopted-codes-online"
+  ],
+  "relatedTerms": [
+    "building-permits",
+    "municipal-building-inspection-program"
+  ],
+  "topicSlugs": [
+    "oregon-building-codes"
+  ]
+}

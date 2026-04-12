@@ -18,7 +18,7 @@ src/content/
   metadata/
     curriculum.json             # Topic list, order, weights
     sources/{id}.json           # Global source registry (one file per source)
-    glossary.json               # Shared glossary terms
+    glossary/{slug}.json        # Shared glossary terms (one file per term)
 ```
 
 ### Content lifecycle
@@ -42,7 +42,7 @@ src/content/
 | Quiz questions | `src/content/quizzes/{slug}.json` | JSON |
 | Source registry | `src/content/metadata/sources/{id}.json` | JSON object (one source per file) |
 | Curriculum order | `src/content/metadata/curriculum.json` | JSON array |
-| Glossary terms | `src/content/metadata/glossary.json` | JSON array |
+| Glossary terms | `src/content/metadata/glossary/{slug}.json` | JSON object (one term per file) |
 
 **Working** — temporary; deleted after processing.
 
@@ -56,7 +56,7 @@ src/content/
 |---|---|
 | Publishable artifacts | Generated from wiki content → `src/content/artifacts/` |
 | Rendered HTML pages | Build step (Vite) transforms Markdown → HTML |
-| Aggregated glossary page | Build reads `glossary.json` → renders term list |
+| Aggregated glossary page | Build reads `metadata/glossary/*.json` → renders term list |
 | Sources page | Build reads `src/content/metadata/sources/*.json` → renders citations |
 | Learner progress | Written to `localStorage` at runtime |
 
@@ -106,7 +106,7 @@ sourceRefs:                           # IDs from source registry; at least one r
 learningObjectives:                   # minimum 2; start each with an action verb
   - Identify the four essential elements of an enforceable contract.
   - Recall the dollar threshold at which Oregon law requires a written residential contract.
-glossaryTermSlugs:                    # slugs that must exist in glossary.json
+glossaryTermSlugs:                    # slugs that must exist in metadata/glossary/{slug}.json
   - offer
   - acceptance
   - consideration
@@ -134,7 +134,7 @@ verbally rather than pointing to visual elements.
 
 ## Key Terms
 **term** — definition sentence(s). One bold term per paragraph.
-Copy the definitions from glossary.json; do not create parallel definitions.
+Copy the definitions from metadata/glossary/{slug}.json; do not create parallel definitions.
 
 ## Common Mistakes
 Misconceptions, exam traps, and misapplied rules.
@@ -247,7 +247,7 @@ One file per source lives at `src/content/metadata/sources/{id}.json`.
 
 ## Glossary
 
-`src/content/metadata/glossary.json` is the global term registry.
+`src/content/metadata/glossary/{slug}.json` is the global term registry.
 
 ```json
 {
@@ -388,7 +388,7 @@ this on every PR targeting `main`.
 
 1. `src/content/metadata/sources/*.json` — shape, unique IDs, required fields
 2. `curriculum.json` — shape, unique slugs and `order` values
-3. `glossary.json` — shape, unique slugs, source ref integrity, related-term cross-references
+3. `metadata/glossary/{slug}.json` — shape, unique slugs, source ref integrity, related-term cross-references
 4. Topic `.md` files (at `wiki/terms/{letter}/`) — frontmatter shape, enum values, semver format, source ref integrity, glossary term integrity, prerequisite integrity, required section headings, slug↔filename agreement
 5. Quiz `.json` files — shape, question count ≥ 3, ID format, globally unique IDs, 4 choices per question, valid `answerIndex`, difficulty enum, source ref integrity, slug↔filename agreement
 6. Coverage — every curriculum slug that has a topic file also has a quiz file and vice versa

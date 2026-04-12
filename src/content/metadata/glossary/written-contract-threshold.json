@@ -1,0 +1,15 @@
+{
+  "slug": "written-contract-threshold",
+  "term": "Written Contract Threshold",
+  "definition": "Under ORS 701.305, a written residential contract is required when the aggregate contract price exceeds $2,000; if the price later crosses that amount, the contractor must deliver or mail the written contract within five days after knowing or having reason to know the threshold was exceeded.",
+  "sourceRefs": [
+    "ors-701-305"
+  ],
+  "relatedTerms": [
+    "right-of-rescission",
+    "home-solicitation-sale"
+  ],
+  "topicSlugs": [
+    "contracts"
+  ]
+}

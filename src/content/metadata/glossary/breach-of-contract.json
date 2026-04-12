@@ -1,0 +1,14 @@
+{
+  "slug": "breach-of-contract",
+  "term": "Breach of Contract",
+  "definition": "Failure by one party to perform contractual obligations without legal excuse. A material breach entitles the non-breaching party to treat the contract as terminated and sue for compensatory damages. A minor breach allows damages but not termination.",
+  "sourceRefs": [
+    "psi-cib-oregon-construction-contractors"
+  ],
+  "relatedTerms": [
+    "liquidated-damages"
+  ],
+  "topicSlugs": [
+    "contracts"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "environmental-factors",
+  "term": "Environmental Factors",
+  "definition": "Exam domain focused on recognizing Oregon lead and asbestos compliance triggers, agency authority, and pre-work licensing or certification obligations.",
+  "sourceRefs": [
+    "psi-cib-oregon-construction-contractors",
+    "oregon-ccb-specialty-licenses-lead-based-paint",
+    "deq-asbestos-information"
+  ],
+  "relatedTerms": [
+    "lead-based-paint-renovation",
+    "asbestos-compliance"
+  ],
+  "topicSlugs": [
+    "environmental-factors"
+  ]
+}

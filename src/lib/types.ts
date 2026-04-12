@@ -59,7 +59,7 @@ export interface SourceRef {
 // Glossary
 // ---------------------------------------------------------------------------
 
-/** A term entry in the global glossary (glossary.json). */
+/** A term entry in the global glossary (metadata/glossary/*.json). */
 export interface GlossaryTerm {
   slug: string;
   term: string;

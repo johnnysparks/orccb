@@ -1,0 +1,15 @@
+{
+  "slug": "acceptance",
+  "term": "Acceptance",
+  "definition": "An unconditional agreement to all terms of an offer exactly as made. Any modification of terms creates a counteroffer, voids the original offer, and starts a new negotiation.",
+  "sourceRefs": [
+    "psi-cib-oregon-construction-contractors"
+  ],
+  "relatedTerms": [
+    "offer",
+    "consideration"
+  ],
+  "topicSlugs": [
+    "contracts"
+  ]
+}
