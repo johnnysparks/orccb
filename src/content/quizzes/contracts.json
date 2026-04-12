@@ -1,0 +1,96 @@
+{
+  "topic": "contracts",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "contracts-001",
+      "prompt": "Which of the following is NOT one of the four essential elements required to form an enforceable contract?",
+      "choices": [
+        "Offer",
+        "Consideration",
+        "Written signature",
+        "Acceptance"
+      ],
+      "answerIndex": 2,
+      "difficulty": "foundation",
+      "explanation": "The four common-law elements of contract formation are offer, acceptance, consideration, and mutual assent. A written signature is not universally required — Oregon's written-contract statute applies only to residential work exceeding $2,000. Verbal contracts can be enforceable under common law.",
+      "sourceRefs": ["psi-cib-oregon-construction-contractors"],
+      "tags": ["contract-formation"]
+    },
+    {
+      "id": "contracts-002",
+      "prompt": "Under Oregon law, a residential contractor must provide the client with a written contract when the total contract price exceeds which amount?",
+      "choices": [
+        "$500",
+        "$1,000",
+        "$2,000",
+        "$5,000"
+      ],
+      "answerIndex": 2,
+      "difficulty": "standard",
+      "explanation": "ORS 701.305 requires a written contract for residential construction work with a price exceeding $2,000. This threshold is a frequently tested fact. Work at or below $2,000 is not exempt from contract law generally, but Oregon statute does not impose the written-contract requirement.",
+      "sourceRefs": ["ors-701-305", "ors-chapter-701"],
+      "tags": ["written-requirement", "residential"]
+    },
+    {
+      "id": "contracts-003",
+      "prompt": "A homeowner asks a contractor to add a skylight not included in the signed written contract. Before beginning the extra work, the contractor should:",
+      "choices": [
+        "Proceed immediately to avoid delaying the project",
+        "Send a follow-up email documenting the verbal agreement",
+        "Obtain a written change order signed by both parties",
+        "Note the change in the project log and invoice later"
+      ],
+      "answerIndex": 2,
+      "difficulty": "standard",
+      "explanation": "When a written contract exists, changes to scope must be documented in a written change order signed by both parties before the extra work begins. A verbal agreement, email, or project log entry does not satisfy the requirement and leaves the contractor at risk of non-payment for the added work.",
+      "sourceRefs": ["ors-chapter-701", "psi-cib-oregon-construction-contractors"],
+      "tags": ["change-order"]
+    },
+    {
+      "id": "contracts-004",
+      "prompt": "Oregon law requires that every residential construction contract include which of the following?",
+      "choices": [
+        "The contractor's CCB license number",
+        "The contractor's federal tax ID number",
+        "A list of all subcontractors to be used",
+        "The county building permit number"
+      ],
+      "answerIndex": 0,
+      "difficulty": "standard",
+      "explanation": "ORS 701.305 requires the contractor's CCB license number in every residential construction contract. The permit number (if any) is not yet known at contract signing, and federal tax ID and subcontractor lists are not statutory contract requirements.",
+      "sourceRefs": ["ors-701-305", "ors-chapter-701"],
+      "tags": ["written-requirement", "ccb-license"]
+    },
+    {
+      "id": "contracts-005",
+      "prompt": "A client refuses to pay the final invoice after a contractor completes all work according to the contract. This is best described as:",
+      "choices": [
+        "Anticipatory repudiation",
+        "Substantial performance",
+        "Liquidated damages",
+        "Material breach of contract"
+      ],
+      "answerIndex": 3,
+      "difficulty": "standard",
+      "explanation": "A refusal to pay for completed, conforming work is a material breach — a significant failure to perform that goes to the heart of the agreement. The contractor may stop further performance (there is none) and pursue compensatory damages. Anticipatory repudiation is a pre-deadline announcement of intent not to perform; substantial performance is a doctrine protecting contractors who have mostly performed; liquidated damages are contractual pre-set penalties for delay.",
+      "sourceRefs": ["psi-cib-oregon-construction-contractors"],
+      "tags": ["breach"]
+    },
+    {
+      "id": "contracts-006",
+      "prompt": "A contract clause states that the contractor must pay the owner $300 for every calendar day the project runs past the agreed completion date. For this clause to be enforceable, the $300 figure must represent:",
+      "choices": [
+        "A punitive penalty designed to ensure timely completion",
+        "A reasonable pre-estimate of the owner's actual daily damages from delay",
+        "Ten percent of the total contract price divided by project days",
+        "The contractor's daily overhead rate"
+      ],
+      "answerIndex": 1,
+      "difficulty": "advanced",
+      "explanation": "A liquidated damages clause is enforceable only if the specified amount is a reasonable pre-estimate of actual damages that were difficult to calculate at contracting — not a penalty. Courts void clauses that appear punitive. The amount does not need to follow any specific formula (option C) or relate to the contractor's costs (option D).",
+      "sourceRefs": ["psi-cib-oregon-construction-contractors"],
+      "tags": ["liquidated-damages"]
+    }
+  ]
+}

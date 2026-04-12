@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "glossary.schema.json",
+  "title": "GlossaryRegistry",
+  "description": "Global glossary of defined terms. Topic frontmatter references entries here via glossaryTermSlugs. The glossary page and per-topic key-terms sidebar are derived from this file.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["slug", "term", "definition", "sourceRefs"],
+    "additionalProperties": false,
+    "properties": {
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]*$",
+        "description": "Kebab-case identifier. No topic prefix — terms are global. Must be unique across all entries."
+      },
+      "term": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Term as it appears in lesson text. Title-case for proper nouns, lower-case for common terms."
+      },
+      "definition": {
+        "type": "string",
+        "minLength": 10,
+        "description": "One to three sentences. Plain language, no unexplained jargon. Grounded in the source reference."
+      },
+      "sourceRefs": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*[a-z0-9]$"
+        },
+        "minItems": 1,
+        "description": "IDs from sources.json that define or authoritatively describe this term."
+      },
+      "relatedTerms": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$"
+        },
+        "description": "Slugs of related glossary terms. CI checks these resolve. Keep bidirectional: if A lists B, B should list A."
+      },
+      "topicSlugs": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*[a-z0-9]$"
+        },
+        "description": "Topic slugs where this term is prominently used. Drives the per-topic key-terms sidebar. Must stay in sync with topic frontmatter glossaryTermSlugs."
+      }
+    }
+  }
+}

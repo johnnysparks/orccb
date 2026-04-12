@@ -4,20 +4,47 @@
     "title": "PSI Candidate Information Bulletin — Oregon Construction Contractors",
     "url": null,
     "tier": 1,
-    "description": "Official PSI exam blueprint covering format, content areas, and passing criteria for the Oregon CCB exam."
+    "description": "Official PSI exam blueprint covering format, content areas, and passing criteria for the Oregon CCB exam.",
+    "lastCheckedAt": null
   },
   {
     "id": "oregon-ccb-prelicense",
     "title": "Oregon CCB Pre-License Education Requirements",
     "url": null,
     "tier": 1,
-    "description": "Official CCB page describing the 16-hour pre-license training requirement."
+    "description": "Official CCB page describing the 16-hour pre-license training requirement.",
+    "lastCheckedAt": null
   },
   {
     "id": "ors-chapter-701",
     "title": "ORS Chapter 701 — Construction Contractors",
     "url": null,
     "tier": 1,
-    "description": "Oregon Revised Statutes governing construction contractor licensing, bonds, and enforcement."
+    "description": "Oregon Revised Statutes governing construction contractor licensing, bonds, and enforcement.",
+    "lastCheckedAt": null
+  },
+  {
+    "id": "ors-701-305",
+    "title": "ORS 701.305 — Written Contract Requirements for Residential Contractors",
+    "url": null,
+    "tier": 1,
+    "description": "Oregon statute specifying when a written contract is required for residential construction work and what it must contain, including the CCB license number, price, dates, and right-of-rescission notice.",
+    "lastCheckedAt": null
+  },
+  {
+    "id": "ors-701-310",
+    "title": "ORS 701.310 — Additional Contract Disclosures",
+    "url": null,
+    "tier": 1,
+    "description": "Oregon statute detailing required bond and insurance disclosures that must appear in residential construction contracts.",
+    "lastCheckedAt": null
+  },
+  {
+    "id": "oar-812-009",
+    "title": "OAR 812-009 — CCB Administrative Rules: Licensing and Conduct",
+    "url": null,
+    "tier": 1,
+    "description": "Oregon Administrative Rules promulgated by the CCB governing contractor conduct, complaint procedures, and enforcement actions.",
+    "lastCheckedAt": null
   }
 ]

@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "quiz.schema.json",
+  "title": "QuizFile",
+  "description": "One quiz file per topic. Quiz items are derived learner artifacts produced from the canonical topic record and must cite the same sources.",
+  "type": "object",
+  "required": ["topic", "version", "questions"],
+  "additionalProperties": false,
+  "properties": {
+    "topic": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*[a-z0-9]$",
+      "description": "Slug matching the companion topic file and curriculum.json entry."
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Should be kept in sync with the topic version when questions are revised."
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 3,
+      "description": "Minimum 3 questions per topic for CI to pass. Target: 5–10 for published topics.",
+      "items": {
+        "$ref": "#/$defs/QuizQuestion"
+      }
+    }
+  },
+  "$defs": {
+    "QuizQuestion": {
+      "type": "object",
+      "required": [
+        "id",
+        "prompt",
+        "choices",
+        "answerIndex",
+        "difficulty",
+        "explanation",
+        "sourceRefs"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]+-\\d{3}$",
+          "description": "Format: {topic-slug-prefix}-{NNN} using zero-padded 3-digit integer. E.g. contracts-001, lien-003, safety-012. Prefix must be unique per topic and consistent across all questions in the file. IDs must be globally unique across all quiz files."
+        },
+        "prompt": {
+          "type": "string",
+          "minLength": 10,
+          "description": "The question stem. Phrase as a complete sentence. Avoid negatives (NOT, EXCEPT) unless the tested concept specifically requires it."
+        },
+        "choices": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 4,
+          "maxItems": 4,
+          "description": "Exactly 4 answer options. Distractors should reflect realistic misconceptions, not obviously wrong answers."
+        },
+        "answerIndex": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3,
+          "description": "0-based index into choices[]. The correct answer."
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["foundation", "standard", "advanced"],
+          "description": "foundation: recall of a single fact. standard: application of a rule to a scenario. advanced: analysis involving multiple rules or edge cases."
+        },
+        "explanation": {
+          "type": "string",
+          "minLength": 20,
+          "description": "Shown after the learner answers. Cite the specific rule, statute, or principle. Explain why the correct answer is right and why the most tempting distractor is wrong."
+        },
+        "sourceRefs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*[a-z0-9]$"
+          },
+          "minItems": 1,
+          "description": "IDs from sources.json that support this specific question. CI checks all IDs resolve."
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          },
+          "description": "Optional labels for filtering and analytics. E.g. 'contract-formation', 'change-order', 'written-requirement'."
+        }
+      }
+    }
+  }
+}
