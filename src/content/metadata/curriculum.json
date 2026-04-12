@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "laws-and-regulations",
+    "title": "Laws and Regulations",
+    "examWeightPct": 18,
+    "order": 1,
+    "estimatedMinutes": 90
+  },
+  {
+    "slug": "business-structure",
+    "title": "Choosing Your Business Structure",
+    "examWeightPct": 6,
+    "order": 2,
+    "estimatedMinutes": 45
+  },
+  {
+    "slug": "hiring-and-managing-employees",
+    "title": "Hiring and Managing Employees",
+    "examWeightPct": 10,
+    "order": 3,
+    "estimatedMinutes": 60
+  },
+  {
+    "slug": "working-with-subcontractors",
+    "title": "Working with Subcontractors",
+    "examWeightPct": 5,
+    "order": 4,
+    "estimatedMinutes": 40
+  },
+  {
+    "slug": "contracts",
+    "title": "Contracts",
+    "examWeightPct": 12,
+    "order": 5,
+    "estimatedMinutes": 75
+  },
+  {
+    "slug": "oregon-lien-law",
+    "title": "Oregon Lien Law",
+    "examWeightPct": 8,
+    "order": 6,
+    "estimatedMinutes": 60
+  },
+  {
+    "slug": "bidding-and-estimating",
+    "title": "Bidding and Estimating",
+    "examWeightPct": 7,
+    "order": 7,
+    "estimatedMinutes": 50
+  },
+  {
+    "slug": "scheduling-and-project-management",
+    "title": "Scheduling and Project Management",
+    "examWeightPct": 5,
+    "order": 8,
+    "estimatedMinutes": 40
+  },
+  {
+    "slug": "oregon-building-codes",
+    "title": "Oregon Building Codes",
+    "examWeightPct": 7,
+    "order": 9,
+    "estimatedMinutes": 50
+  },
+  {
+    "slug": "jobsite-safety",
+    "title": "Jobsite Safety",
+    "examWeightPct": 6,
+    "order": 10,
+    "estimatedMinutes": 45
+  },
+  {
+    "slug": "environmental-factors",
+    "title": "Environmental Factors",
+    "examWeightPct": 4,
+    "order": 11,
+    "estimatedMinutes": 35
+  },
+  {
+    "slug": "building-exterior-shell",
+    "title": "Building Exterior Shell",
+    "examWeightPct": 4,
+    "order": 12,
+    "estimatedMinutes": 35
+  },
+  {
+    "slug": "financial-management",
+    "title": "Financial Management",
+    "examWeightPct": 5,
+    "order": 13,
+    "estimatedMinutes": 40
+  },
+  {
+    "slug": "tax-basics",
+    "title": "Tax Basics",
+    "examWeightPct": 3,
+    "order": 14,
+    "estimatedMinutes": 30
+  }
+]
