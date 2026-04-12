@@ -293,7 +293,7 @@ try {
 // 4. Validate topic Markdown files
 // ---------------------------------------------------------------------------
 
-section("topic .md files (wiki/terms)");
+section("wiki term .md files (wiki/terms)");
 
 const wikiTermsDir = resolve(contentDir, "wiki/terms");
 let topicSlugsFound = new Set();
@@ -338,19 +338,36 @@ try {
       continue;
     }
 
-    // Required fields
-    const requiredFields = [
-      "slug", "title", "examWeightPct", "difficulty", "reviewStatus",
-      "version", "audioScriptEstMinutes",
-    ];
-    for (const field of requiredFields) {
-      if (fm[field] == null) topicFail(`frontmatter missing required field: ${field}`);
-    }
+    const isCurriculumTopic = Boolean(fm.slug && curriculumSlugs.has(fm.slug));
 
-    // Arrays that must be present (may be empty)
-    if (!Array.isArray(fm.sourceRefs)) topicFail("frontmatter sourceRefs must be a list");
-    if (!Array.isArray(fm.learningObjectives)) topicFail("frontmatter learningObjectives must be a list");
-    if (!Array.isArray(fm.glossaryTermSlugs)) topicFail("frontmatter glossaryTermSlugs must be a list");
+    if (isCurriculumTopic) {
+      // Required fields for curriculum topic pages
+      const requiredFields = [
+        "slug", "title", "examWeightPct", "difficulty", "reviewStatus",
+        "version", "audioScriptEstMinutes",
+      ];
+      for (const field of requiredFields) {
+        if (fm[field] == null) topicFail(`frontmatter missing required field: ${field}`);
+      }
+
+      // Arrays that must be present (may be empty)
+      if (!Array.isArray(fm.sourceRefs)) topicFail("frontmatter sourceRefs must be a list");
+      if (!Array.isArray(fm.learningObjectives)) topicFail("frontmatter learningObjectives must be a list");
+      if (!Array.isArray(fm.glossaryTermSlugs)) topicFail("frontmatter glossaryTermSlugs must be a list");
+    } else {
+      // Required fields for sub-topic term pages
+      const requiredSubtopicFields = ["slug", "title", "reviewStatus", "sourceRefs"];
+      for (const field of requiredSubtopicFields) {
+        if (fm[field] == null) topicFail(`frontmatter missing required field: ${field}`);
+      }
+      if (!Array.isArray(fm.sourceRefs)) topicFail("frontmatter sourceRefs must be a list");
+      if (fm.reviewStatus && fm.reviewStatus !== "draft") {
+        topicFail('sub-topic pages must set reviewStatus to "draft"');
+      }
+      if (fm.related && !Array.isArray(fm.related)) {
+        topicFail("frontmatter related must be a list when provided");
+      }
+    }
 
     // Slug agrees with filename
     if (fm.slug && fm.slug !== expectedSlug) {
@@ -362,28 +379,23 @@ try {
       topicFail(`slug "${fm.slug}" does not match kebab-case pattern`);
     }
 
-    // Slug is in curriculum
-    if (fm.slug && !curriculumSlugs.has(fm.slug)) {
-      topicFail(`slug "${fm.slug}" not found in curriculum.json`);
-    }
-
-    // Difficulty enum
-    if (fm.difficulty && !VALID_DIFFICULTY.has(fm.difficulty)) {
+    // Difficulty enum (curriculum topics only)
+    if (isCurriculumTopic && fm.difficulty && !VALID_DIFFICULTY.has(fm.difficulty)) {
       topicFail(`invalid difficulty: "${fm.difficulty}" — must be foundation|standard|advanced`);
     }
 
-    // ReviewStatus enum
+    // ReviewStatus enum (all pages)
     if (fm.reviewStatus && !VALID_REVIEW_STATUS.has(fm.reviewStatus)) {
       topicFail(`invalid reviewStatus: "${fm.reviewStatus}"`);
     }
 
-    // Version semver format
-    if (fm.version && !VERSION_RE.test(fm.version)) {
+    // Version semver format (curriculum topics only)
+    if (isCurriculumTopic && fm.version && !VERSION_RE.test(fm.version)) {
       topicFail(`version "${fm.version}" must be semver (x.y.z)`);
     }
 
-    // learningObjectives minimum
-    if (Array.isArray(fm.learningObjectives) && fm.learningObjectives.length < 2) {
+    // learningObjectives minimum (curriculum topics only)
+    if (isCurriculumTopic && Array.isArray(fm.learningObjectives) && fm.learningObjectives.length < 2) {
       topicFail("learningObjectives must have at least 2 entries");
     }
 
@@ -404,8 +416,8 @@ try {
       // We'd need to load source tiers; skip full check here, noted in output
     }
 
-    // glossaryTermSlugs integrity
-    if (Array.isArray(fm.glossaryTermSlugs)) {
+    // glossaryTermSlugs integrity (curriculum topics only)
+    if (isCurriculumTopic && Array.isArray(fm.glossaryTermSlugs)) {
       for (const termSlug of fm.glossaryTermSlugs) {
         if (!glossarySlugs.has(termSlug)) {
           topicFail(`glossaryTermSlug "${termSlug}" not found in glossary.json`);
@@ -413,8 +425,8 @@ try {
       }
     }
 
-    // prerequisites integrity
-    if (Array.isArray(fm.prerequisites)) {
+    // prerequisites integrity (curriculum topics only)
+    if (isCurriculumTopic && Array.isArray(fm.prerequisites)) {
       for (const prereq of fm.prerequisites) {
         if (!curriculumSlugs.has(prereq)) {
           topicFail(`prerequisite slug "${prereq}" not found in curriculum.json`);
@@ -422,10 +434,12 @@ try {
       }
     }
 
-    // Required markdown sections
-    const missingSections = getMissingSections(content);
-    if (missingSections.length > 0) {
-      topicFail(`missing required sections: ${missingSections.join(", ")}`);
+    // Required markdown sections for curriculum topics only
+    if (isCurriculumTopic) {
+      const missingSections = getMissingSections(content);
+      if (missingSections.length > 0) {
+        topicFail(`missing required sections: ${missingSections.join(", ")}`);
+      }
     }
 
     if (fileOk) {

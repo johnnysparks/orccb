@@ -191,5 +191,52 @@
     "topicSlugs": [
       "oregon-building-codes"
     ]
+  },
+  {
+    "slug": "right-of-rescission",
+    "term": "Right of Rescission",
+    "definition": "A statutory cancellation right that allows a buyer or owner to cancel within a legally defined period when the governing Oregon law grants that right for the transaction.",
+    "sourceRefs": [
+      "ors-701-310",
+      "ors-83-720",
+      "ors-83-730"
+    ],
+    "relatedTerms": [
+      "home-solicitation-sale",
+      "written-contract-threshold"
+    ],
+    "topicSlugs": [
+      "contracts"
+    ]
+  },
+  {
+    "slug": "written-contract-threshold",
+    "term": "Written Contract Threshold",
+    "definition": "For covered residential work under ORS 701.305, written-contract duties apply when the aggregate contract price exceeds $2,000, including a five-day delivery duty if the project crosses the threshold after work starts.",
+    "sourceRefs": [
+      "ors-701-305",
+      "ccb-contractor-tools"
+    ],
+    "relatedTerms": [
+      "right-of-rescission"
+    ],
+    "topicSlugs": [
+      "contracts"
+    ]
+  },
+  {
+    "slug": "home-solicitation-sale",
+    "term": "Home Solicitation Sale",
+    "definition": "A transaction category regulated by ORS chapter 83 that requires specific written agreement content and cancellation-right notices, generally with a three-business-day cancellation period for qualifying sales.",
+    "sourceRefs": [
+      "ors-83-720",
+      "ors-83-730"
+    ],
+    "relatedTerms": [
+      "right-of-rescission"
+    ],
+    "topicSlugs": [
+      "contracts"
+    ]
   }
 ]
