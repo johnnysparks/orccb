@@ -1,0 +1,51 @@
+{
+  "topic": "oregon-building-codes",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "oregon-building-codes-001",
+      "prompt": "Which source should you check first to confirm the currently effective Oregon specialty code edition and interim amendments?",
+      "choices": [
+        "Oregon BCD Adopted codes online page",
+        "A prior project plan from your company",
+        "A city building department social media post",
+        "A trade forum summary"
+      ],
+      "answerIndex": 0,
+      "difficulty": "foundation",
+      "explanation": "BCD's Adopted codes online page is the official statewide listing for current code editions, amendments, and effective or mandatory dates.",
+      "sourceRefs": ["oregon-bcd-adopted-codes-online"],
+      "tags": ["adopted-codes", "specialty-code"]
+    },
+    {
+      "id": "oregon-building-codes-002",
+      "prompt": "Under Oregon CCB contractor guidance, if permits are required for work, what is the contractor's baseline responsibility?",
+      "choices": [
+        "Ensure that you or the company obtains required permits",
+        "Wait for the client to request permits after work starts",
+        "Assume permits are optional if the job is residential",
+        "Only check permits when a subcontractor asks"
+      ],
+      "answerIndex": 0,
+      "difficulty": "standard",
+      "explanation": "CCB guidance states that if permits are necessary, the contractor or company must make sure permits are obtained, with possible fines for failures.",
+      "sourceRefs": ["oregon-ccb-contractor-tools"],
+      "tags": ["permits", "compliance"]
+    },
+    {
+      "id": "oregon-building-codes-003",
+      "prompt": "Which chapter is Oregon's statewide statutory framework for building code administration?",
+      "choices": [
+        "ORS Chapter 455",
+        "ORS Chapter 701",
+        "OAR Chapter 812",
+        "OAR Chapter 918"
+      ],
+      "answerIndex": 0,
+      "difficulty": "foundation",
+      "explanation": "ORS Chapter 455 is the building code chapter covering statewide framework topics such as code scope, permits, and municipal inspection-program structure.",
+      "sourceRefs": ["ors-chapter-455", "ors-archive-2023-chapter-455-pdf"],
+      "tags": ["ors-455", "authority"]
+    }
+  ]
+}

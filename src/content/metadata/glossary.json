@@ -3,80 +3,193 @@
     "slug": "offer",
     "term": "Offer",
     "definition": "A proposal by one party expressing willingness to enter into a contract on specific, definite terms. An offer lapses when rejected, when a counteroffer is made, or after a reasonable time. A bid or estimate is not automatically an offer.",
-    "sourceRefs": ["psi-cib-oregon-construction-contractors"],
-    "relatedTerms": ["acceptance", "consideration"],
-    "topicSlugs": ["contracts"]
+    "sourceRefs": [
+      "psi-cib-oregon-construction-contractors"
+    ],
+    "relatedTerms": [
+      "acceptance",
+      "consideration"
+    ],
+    "topicSlugs": [
+      "contracts"
+    ]
   },
   {
     "slug": "acceptance",
     "term": "Acceptance",
     "definition": "An unconditional agreement to all terms of an offer exactly as made. Any modification of terms creates a counteroffer, voids the original offer, and starts a new negotiation.",
-    "sourceRefs": ["psi-cib-oregon-construction-contractors"],
-    "relatedTerms": ["offer", "consideration"],
-    "topicSlugs": ["contracts"]
+    "sourceRefs": [
+      "psi-cib-oregon-construction-contractors"
+    ],
+    "relatedTerms": [
+      "offer",
+      "consideration"
+    ],
+    "topicSlugs": [
+      "contracts"
+    ]
   },
   {
     "slug": "consideration",
     "term": "Consideration",
-    "definition": "Something of legal value exchanged by each party to a contract — typically a promise to perform work or a promise to pay. A promise to do something already legally required does not constitute valid consideration.",
-    "sourceRefs": ["psi-cib-oregon-construction-contractors"],
-    "relatedTerms": ["offer", "acceptance"],
-    "topicSlugs": ["contracts"]
+    "definition": "Something of legal value exchanged by each party to a contract \u2014 typically a promise to perform work or a promise to pay. A promise to do something already legally required does not constitute valid consideration.",
+    "sourceRefs": [
+      "psi-cib-oregon-construction-contractors"
+    ],
+    "relatedTerms": [
+      "offer",
+      "acceptance"
+    ],
+    "topicSlugs": [
+      "contracts"
+    ]
   },
   {
     "slug": "breach-of-contract",
     "term": "Breach of Contract",
     "definition": "Failure by one party to perform contractual obligations without legal excuse. A material breach entitles the non-breaching party to treat the contract as terminated and sue for compensatory damages. A minor breach allows damages but not termination.",
-    "sourceRefs": ["psi-cib-oregon-construction-contractors"],
-    "relatedTerms": ["liquidated-damages"],
-    "topicSlugs": ["contracts"]
+    "sourceRefs": [
+      "psi-cib-oregon-construction-contractors"
+    ],
+    "relatedTerms": [
+      "liquidated-damages"
+    ],
+    "topicSlugs": [
+      "contracts"
+    ]
   },
   {
     "slug": "change-order",
     "term": "Change Order",
     "definition": "A written, signed amendment to an existing construction contract that documents a change in scope, price, or schedule. When the original contract is written, change orders must also be in writing and signed by both parties before the changed work begins.",
-    "sourceRefs": ["ors-chapter-701", "psi-cib-oregon-construction-contractors"],
+    "sourceRefs": [
+      "ors-chapter-701",
+      "psi-cib-oregon-construction-contractors"
+    ],
     "relatedTerms": [],
-    "topicSlugs": ["contracts"]
+    "topicSlugs": [
+      "contracts"
+    ]
   },
   {
     "slug": "liquidated-damages",
     "term": "Liquidated Damages",
-    "definition": "A contractual clause specifying a predetermined amount — often per day — owed if a party fails to perform on time. Enforceable only when the specified amount is a reasonable pre-estimate of actual damages at the time of contracting, not a penalty.",
-    "sourceRefs": ["psi-cib-oregon-construction-contractors"],
-    "relatedTerms": ["breach-of-contract"],
-    "topicSlugs": ["contracts"]
+    "definition": "A contractual clause specifying a predetermined amount \u2014 often per day \u2014 owed if a party fails to perform on time. Enforceable only when the specified amount is a reasonable pre-estimate of actual damages at the time of contracting, not a penalty.",
+    "sourceRefs": [
+      "psi-cib-oregon-construction-contractors"
+    ],
+    "relatedTerms": [
+      "breach-of-contract"
+    ],
+    "topicSlugs": [
+      "contracts"
+    ]
   },
   {
     "slug": "retainage",
     "term": "Retainage",
-    "definition": "A percentage — typically 5 to 10 percent — of each progress payment withheld by the project owner until substantial completion. Retainage incentivizes the contractor to complete punch-list items and provides a fund to cover latent defects.",
-    "sourceRefs": ["ors-chapter-701", "psi-cib-oregon-construction-contractors"],
+    "definition": "A percentage \u2014 typically 5 to 10 percent \u2014 of each progress payment withheld by the project owner until substantial completion. Retainage incentivizes the contractor to complete punch-list items and provides a fund to cover latent defects.",
+    "sourceRefs": [
+      "ors-chapter-701",
+      "psi-cib-oregon-construction-contractors"
+    ],
     "relatedTerms": [],
-    "topicSlugs": ["contracts", "oregon-lien-law"]
+    "topicSlugs": [
+      "contracts",
+      "oregon-lien-law"
+    ]
   },
   {
     "slug": "ccb-license",
     "term": "CCB License",
     "definition": "An active Oregon Construction Contractors Board license that a contractor must hold before performing compensated construction work or advertising as a contractor. The license number must appear in written contracts and specified advertising media.",
-    "sourceRefs": ["ors-chapter-701", "oar-812-003-0120"],
-    "relatedTerms": ["responsible-managing-individual", "consumer-notice"],
-    "topicSlugs": ["laws-and-regulations"]
+    "sourceRefs": [
+      "ors-chapter-701",
+      "oar-812-003-0120"
+    ],
+    "relatedTerms": [
+      "responsible-managing-individual",
+      "consumer-notice"
+    ],
+    "topicSlugs": [
+      "laws-and-regulations"
+    ]
   },
   {
     "slug": "responsible-managing-individual",
     "term": "Responsible Managing Individual",
     "definition": "The individual designated on a contractor's CCB license application who is responsible for the qualifying examination, maintaining required insurance and bond, and ensuring the business complies with Oregon contractor law under ORS Chapter 701.",
-    "sourceRefs": ["ors-chapter-701"],
-    "relatedTerms": ["ccb-license"],
-    "topicSlugs": ["laws-and-regulations"]
+    "sourceRefs": [
+      "ors-chapter-701"
+    ],
+    "relatedTerms": [
+      "ccb-license"
+    ],
+    "topicSlugs": [
+      "laws-and-regulations"
+    ]
   },
   {
     "slug": "consumer-notice",
     "term": "Consumer Notice",
     "definition": "A CCB-required disclosure that must be delivered to a residential client before work begins on a project subject to ORS 701.305. OAR 812-012-0130 specifies the required delivery timing and requires proof-of-delivery to be retained.",
-    "sourceRefs": ["oar-812-012-0130", "ors-chapter-701"],
-    "relatedTerms": ["ccb-license"],
-    "topicSlugs": ["laws-and-regulations"]
+    "sourceRefs": [
+      "oar-812-012-0130",
+      "ors-chapter-701"
+    ],
+    "relatedTerms": [
+      "ccb-license"
+    ],
+    "topicSlugs": [
+      "laws-and-regulations"
+    ]
+  },
+  {
+    "slug": "specialty-code",
+    "term": "Specialty Code",
+    "definition": "An Oregon code volume adopted for a specific construction discipline (for example, structural or residential), with current edition status and amendments published by BCD.",
+    "sourceRefs": [
+      "ors-chapter-455",
+      "oregon-bcd-adopted-codes-online"
+    ],
+    "relatedTerms": [
+      "building-permits",
+      "municipal-building-inspection-program"
+    ],
+    "topicSlugs": [
+      "oregon-building-codes"
+    ]
+  },
+  {
+    "slug": "building-permits",
+    "term": "Building Permits",
+    "definition": "Official authorizations for covered construction work under Oregon's building code framework; CCB guidance emphasizes that contractors or companies must ensure required permits are obtained.",
+    "sourceRefs": [
+      "ors-chapter-455",
+      "oregon-ccb-contractor-tools"
+    ],
+    "relatedTerms": [
+      "specialty-code",
+      "municipal-building-inspection-program"
+    ],
+    "topicSlugs": [
+      "oregon-building-codes"
+    ]
+  },
+  {
+    "slug": "municipal-building-inspection-program",
+    "term": "Municipal Building Inspection Program",
+    "definition": "A local jurisdiction program that administers building inspection and related permitting functions and renews under OAR 918-020 reporting cycles described by BCD.",
+    "sourceRefs": [
+      "ors-chapter-455",
+      "oregon-bcd-jurisdiction-renewals-oar-918-020"
+    ],
+    "relatedTerms": [
+      "specialty-code",
+      "building-permits"
+    ],
+    "topicSlugs": [
+      "oregon-building-codes"
+    ]
   }
 ]
