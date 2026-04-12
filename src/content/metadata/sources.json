@@ -1,10 +1,42 @@
 [
   {
-    "id": "psi-cib-oregon-construction-contractors",
-    "title": "PSI Candidate Information Bulletin — Oregon Construction Contractors",
+    "id": "ccb-contract-law-rules-2014",
+    "title": "CCB Relevant Statutes and Rules \u2014 Residential Contracts (2014)",
+    "url": "https://www.oregon.gov/ccb/Documents/Contract-law-and-rules.pdf",
+    "tier": 2,
+    "description": "CCB explanatory compilation of residential contract statutes and rules (dated reference for context).",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ccb-contractor-tools",
+    "title": "Oregon CCB Contractor Tools",
+    "url": "https://www.oregon.gov/ccb/pages/contractor-tools.aspx",
+    "tier": 1,
+    "description": "Official CCB contractor guidance for required contracts, notices, cancellation rights, and compliance tools.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ccb-required-notices-chart",
+    "title": "CCB Required Notices for Residential Construction Projects (Chart)",
+    "url": "https://www.oregon.gov/ccb/Documents/Notices-Chart.pdf",
+    "tier": 1,
+    "description": "Official CCB summary chart of required residential notices, timing, proof of delivery, and authority references.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "nascla-contractors-guide-or-2e",
+    "title": "NASCLA Contractors Guide to Business, Law and Project Management \u2014 Oregon, 2nd Edition",
+    "url": "https://www.nascla.org/store/ListProducts.aspx?catid=567816",
+    "tier": 2,
+    "description": "Exam reference textbook identified by PSI for Oregon construction contractor testing.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oar-812-009",
+    "title": "OAR 812-009 \u2014 CCB Administrative Rules: Licensing and Conduct",
     "url": null,
     "tier": 1,
-    "description": "Official PSI exam blueprint covering format, content areas, and passing criteria for the Oregon CCB exam.",
+    "description": "Oregon Administrative Rules promulgated by the CCB governing contractor conduct, complaint procedures, and enforcement actions.",
     "lastCheckedAt": null
   },
   {
@@ -16,16 +48,8 @@
     "lastCheckedAt": null
   },
   {
-    "id": "ors-chapter-701",
-    "title": "ORS Chapter 701 — Construction Contractors",
-    "url": null,
-    "tier": 1,
-    "description": "Oregon Revised Statutes governing construction contractor licensing, bonds, and enforcement.",
-    "lastCheckedAt": null
-  },
-  {
     "id": "ors-701-305",
-    "title": "ORS 701.305 — Written Contract Requirements for Residential Contractors",
+    "title": "ORS 701.305 \u2014 Written Contract Requirements for Residential Contractors",
     "url": null,
     "tier": 1,
     "description": "Oregon statute specifying when a written contract is required for residential construction work and what it must contain, including the CCB license number, price, dates, and right-of-rescission notice.",
@@ -33,18 +57,58 @@
   },
   {
     "id": "ors-701-310",
-    "title": "ORS 701.310 — Additional Contract Disclosures",
+    "title": "ORS 701.310 \u2014 Additional Contract Disclosures",
     "url": null,
     "tier": 1,
     "description": "Oregon statute detailing required bond and insurance disclosures that must appear in residential construction contracts.",
     "lastCheckedAt": null
   },
   {
-    "id": "oar-812-009",
-    "title": "OAR 812-009 — CCB Administrative Rules: Licensing and Conduct",
+    "id": "ors-701-315",
+    "title": "ORS 701.315 \u2014 Contents of Contract for Work on Residential Structure",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors701.html",
+    "tier": 1,
+    "description": "Oregon statute prohibiting residential contract provisions that limit CCB complaint rights and allowing mediation/arbitration provisions.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-701-330",
+    "title": "ORS 701.330 \u2014 Consumer Notice Form; Notice of Procedure Form",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors701.html",
+    "tier": 1,
+    "description": "Oregon statute requiring CCB consumer notice and notice-of-procedure forms for residential projects.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-83-720",
+    "title": "ORS 83.720 \u2014 Cancellation of Home Solicitation Sale",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors083.html",
+    "tier": 1,
+    "description": "Oregon statute providing three-business-day cancellation rights for qualifying home solicitation sales and exceptions.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-83-730",
+    "title": "ORS 83.730 \u2014 Written Agreement Requirements for Home Solicitation Sales",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors083.html",
+    "tier": 1,
+    "description": "Oregon statute specifying required written contents and cancellation notices for home solicitation sales.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-chapter-701",
+    "title": "ORS Chapter 701 \u2014 Construction Contractors",
     "url": null,
     "tier": 1,
-    "description": "Oregon Administrative Rules promulgated by the CCB governing contractor conduct, complaint procedures, and enforcement actions.",
+    "description": "Oregon Revised Statutes governing construction contractor licensing, bonds, and enforcement.",
+    "lastCheckedAt": null
+  },
+  {
+    "id": "psi-cib-oregon-construction-contractors",
+    "title": "PSI Candidate Information Bulletin \u2014 Oregon Construction Contractors",
+    "url": null,
+    "tier": 1,
+    "description": "Official PSI exam blueprint covering format, content areas, and passing criteria for the Oregon CCB exam.",
     "lastCheckedAt": null
   }
 ]
