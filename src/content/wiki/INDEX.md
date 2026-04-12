@@ -34,6 +34,7 @@ links resolve to existing term files.
 - [[retainage]]
 - [[right-of-rescission]]
 - [[written-contract-threshold]]
+- [[home-solicitation-sale]]
 
 ## Hiring and Managing Employees
 

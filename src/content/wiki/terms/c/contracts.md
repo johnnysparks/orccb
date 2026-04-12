@@ -17,12 +17,19 @@ sourceRefs:
   - ccb-contractor-tools
   - ccb-required-notices-chart
   - psi-cib-oregon-construction-contractors
+  - ors-701-305
+  - ors-701-310
+  - ors-701-315
+  - ors-701-330
+  - ors-83-720
+  - ors-83-730
+  - ccb-contractor-tools
+  - ccb-required-notices-chart
 learningObjectives:
-  - Identify the four essential elements of an enforceable contract.
-  - Recall the dollar threshold at which Oregon law requires a written residential contract.
-  - Explain what information a contractor is legally required to include in every contract.
-  - Distinguish a valid change order from an informal verbal agreement.
-  - Recognize breach of contract and identify the primary remedy available to the non-breaching party.
+  - Distinguish the exam-tested contract compliance rules from general contract theory.
+  - Apply Oregon's $2,000 written-contract trigger and five-day catch-up requirement.
+  - Differentiate next-business-day cancellation under ORS 701.310 from three-business-day cancellation in qualifying home solicitation sales.
+  - Identify consumer notice and proof-retention duties tied to residential contracts.
 glossaryTermSlugs:
   - offer
   - acceptance
@@ -31,6 +38,8 @@ glossaryTermSlugs:
   - change-order
   - liquidated-damages
   - retainage
+  - right-of-rescission
+  - written-contract-threshold
   - written-contract-threshold
   - right-of-rescission
   - home-solicitation-sale
@@ -40,8 +49,15 @@ prerequisites:
 
 ## Summary
 
-Contracts are the legal backbone of every construction project. They define who owes what to whom, when, and under what conditions. For Oregon contractors, state law adds specific requirements on top of the common-law rules — written contracts for residential work above a dollar threshold, mandatory disclosures, and written change orders when the scope shifts.
+PSI's Oregon CCB exam blueprint places Contracts at 9 scored items out of 80, so this domain is less about deep litigation theory and more about compliance-trigger rules you can apply quickly in scenarios. Source: psi-cib-oregon-construction-contractors.
 
+The core Oregon contract rules in this module are statutory: when a written residential contract is required, what cancellation window applies, what terms cannot waive CCB complaint rights, and when required notices must be delivered and documented. Source: ors-701-305, ors-701-310, ors-701-315, ors-701-330, ccb-contractor-tools, ccb-required-notices-chart.
+
+## Lesson
+
+### Exam framing: formation + compliance
+
+You still need general contract building blocks like [[offer]], [[acceptance]], and [[consideration]], but Oregon exam questions frequently test compliance mechanics tied to residential work. Source: psi-cib-oregon-construction-contractors, ccb-contractor-tools.
 Exam questions on this topic test two things: the general contract principles that apply in every state (formation, breach, remedy), and the Oregon-specific rules that apply to licensed contractors. Know both layers. Source: psi-cib-oregon-construction-contractors, ors-701-305, ors-701-310.
 
 Understanding contracts also protects you in the field. A verbal agreement about added work is the most common source of contractor-client disputes. The exam will test whether you know what the law requires before work starts — not just what's polite.
@@ -89,112 +105,93 @@ Oregon contractors must distinguish between two different statutory cancellation
 
 Exam questions often test whether a scenario is an ORS 701 cancellation case or an ORS 83 home-solicitation case. Source: ccb-contractor-tools.
 
-**Commercial work** does not carry the same statutory written-contract requirement, but a written contract is always best practice.
+### Written-contract trigger for residential work
 
-### Change Orders
+Under ORS 701.305, a covered residential job generally requires a written contract once the aggregate contract price exceeds $2,000. Source: ors-701-305.
 
-The scope of construction work almost always changes after the contract is signed. A **change order** is a written amendment to the original contract that documents the change in scope, schedule, or price.
+If the project starts at or below $2,000 and later goes over that amount, ORS 701.305 requires the contractor to mail or deliver the written contract within five days after the contractor knew or reasonably should have known the threshold was exceeded. Source: ors-701-305.
 
-When a project has a written contract, change orders must also be **in writing and signed by both parties** before the extra work begins. Key rules:
+ORS 701.305 also states that missing the written-contract requirement does not automatically void the contract. Source: ors-701-305.
 
-- Verbal agreements to change scope are not enforceable against a written contract unless both parties later ratify them in writing.
-- A change order must specify the additional cost (or credit) and any schedule impact.
-- A contractor who performs extra work without a signed change order risks not being paid for it.
-- "Time and material" work can be documented with a written authorization instead of a firm price, as long as the authorization is signed before work starts.
+See [[written-contract-threshold]].
 
-### Breach of Contract
+### Cancellation windows: one day vs three days
 
-A **breach** occurs when one party fails to perform their contractual obligations without a valid legal excuse.
+For an initial written residential contract under ORS 701.310, the owner generally has until midnight of the next business day to cancel, with statutory exceptions in subsection (2). Source: ors-701-310.
 
-**Material breach:** A significant failure that goes to the heart of the contract — for example, a client refusing to pay after work is completed, or a contractor abandoning the project halfway through. A material breach entitles the non-breaching party to stop performance and sue for damages.
+For qualifying [[home-solicitation-sale]] transactions under ORS 83.720 and ORS 83.730, the buyer cancellation framework is generally through midnight of the third business day, subject to statutory exceptions and notice conditions. Source: ors-83-720, ors-83-730.
 
-**Minor breach (partial breach):** A small deviation from contract terms — for example, a contractor finishing three days late when the contract allowed extensions for weather. The non-breaching party can sue for damages but cannot treat the contract as terminated.
+This one-day versus three-day distinction is a common exam trap, so always classify the scenario before picking a cancellation period. Source: ors-701-310, ors-83-720, ccb-contractor-tools.
 
-**Anticipatory repudiation:** One party clearly states, before the performance date, that they will not perform. The other party may immediately treat this as a breach without waiting for the deadline.
+See [[right-of-rescission]].
 
-The primary remedy for breach is **compensatory damages** — enough money to put the non-breaching party in the position they would have been in had the contract been performed. Courts do not normally award windfall profits.
+### Contract terms and complaint-right limits
 
-### Liquidated Damages
+ORS 701.315 bars contract terms that limit a person's right to file a complaint with the CCB, even though mediation or arbitration clauses may still be included. Source: ors-701-315.
 
-Some contracts specify a fixed daily penalty for every day the contractor is late past the agreed completion date. This is called a **liquidated damages** clause. For a liquidated damages clause to be enforceable:
+CCB guidance also lists practical required elements for residential contracts, including contractor identity information, CCB number, work description, price/payment terms, and owner-rights disclosures. Source: ccb-contractor-tools.
 
-- The damages must have been difficult to estimate at the time the contract was signed.
-- The amount must be a reasonable pre-estimate of actual damages, not a penalty designed to punish.
+### Consumer notices and records
 
-Courts will void a liquidated damages clause that looks like a penalty rather than a genuine estimate.
+ORS 701.330 provides statutory authority for required residential consumer notice forms and related procedures. Source: ors-701-330.
 
-### Retainage
+CCB's Contractor Tools page and Required Notices Chart state that for qualifying residential contracts over $2,000, required notices must be provided and proof of delivery must be kept for two years. Source: ccb-contractor-tools, ccb-required-notices-chart.
 
-**Retainage** (also called retention) is a percentage of each progress payment that the owner withholds until the project reaches substantial completion. Typical retainage is **5–10%** of the contract value. Retainage protects the owner by giving the contractor a financial incentive to complete punch-list items and by covering repair costs if defects emerge.
-
-Oregon lien law intersects with retainage — contractors should understand that unpaid retainage can form the basis of a lien claim.
+CCB guidance also warns that notice or contract failures can affect lien rights in scenarios governed by lien-notice statutes. Source: ccb-contractor-tools.
 
 ## Audio Script
 
 <!-- Estimated listening time: 9 minutes -->
 
-Welcome to the Contracts module. I'm going to walk you through everything you need to know for the exam — and more importantly, for running a project without ending up in a dispute.
+In this module, think like an examiner first: Contracts is 9 scored questions on the PSI blueprint, and many of those questions are compliance scenarios, not courtroom hypotheticals. Source: psi-cib-oregon-construction-contractors.
 
-Let's start with the basics. A contract is just a legally enforceable promise. Two parties agree to exchange something of value — you build the deck, they pay you $18,000. Simple in theory. But the law has some specific requirements before that agreement becomes enforceable.
+Start with the basics: contracts still depend on offer, acceptance, and consideration. But in Oregon residential work, ORS 701.305 adds a clear written-contract trigger when the aggregate price goes over two thousand dollars. Source: ors-701-305.
 
-There are four things every contract needs. First: an **offer**. One party proposes definite terms — the scope, the price, the timeline. Not a rough estimate, not "somewhere around $18k." Definite terms.
-
-Second: **acceptance**. The other party says yes — to exactly those terms. If they say "yes, but can you knock $500 off?" — that's a counteroffer, not an acceptance. The original offer is now dead. You're negotiating a new deal.
-
-Third: **consideration**. Each side gives something of value. You promise to build the deck. They promise to pay. That exchange is what makes it a contract instead of a gift. One important nuance for the exam: a promise to do something you're already legally required to do doesn't count as consideration.
-
-Fourth: **mutual assent**. Both parties understand and agree to the same thing. If one party was misled, threatened, or didn't understand what they were signing, there's no real agreement and the contract can be voided.
-
-Now, Oregon adds some extra rules on top of that common-law foundation.
-
-For **residential contractors**, Oregon Revised Statutes require a written contract any time the price exceeds two thousand dollars. And that contract has to include specific things — the contractor's name and address, and critically, the **CCB license number**. That's a frequent exam question: what must be in the contract? The CCB license number is the answer they're looking for.
-
+If the project crosses that amount after work begins, the statute gives you five days from when you knew or should have known the threshold was exceeded to deliver the written contract. Source: ors-701-305.
 The contract also needs: a description of the work, the price or how it'll be calculated, start and completion dates, and a notice that the contractor is bonded and insured. For an initial written residential contract under ORS 701, the owner generally has until midnight of the next business day to cancel. Home-solicitation transactions under ORS 83 use a different three-business-day cancellation framework.
 
-Now let's talk about **change orders** — because this is where a lot of real-world disputes happen.
+Now remember the cancellation split. ORS 701.310 gives a next-business-day cancellation window for an initial written residential contract, with exceptions in the statute. Source: ors-701-310.
 
-Work changes. That's just construction. The client wants an extra window. You discover the subfloor is rotted. The scope shifts. When that happens with a written contract, the change has to be documented in a written change order, signed by both parties, **before** the extra work starts.
+A different law, ORS 83.720 and 83.730, governs qualifying home solicitation sales and uses a third-business-day cancellation framework. Source: ors-83-720, ors-83-730.
 
-I want to emphasize that: before the work starts. Not after. A lot of contractors do the extra work first, then try to collect, and then discover the client remembers the conversation differently. Get it in writing first.
+So on the exam, don't memorize one cancellation number in isolation; classify the scenario first and then apply the correct statute. Source: ors-701-310, ors-83-720.
 
-What if someone won't pay? That's a **breach of contract**. A material breach — refusing to pay for completed work, or walking off a job halfway done — entitles the other party to stop performance and sue for damages. The goal of those damages is to put the injured party back where they would have been if the contract had been honored. Not extra. Not a windfall. Just made whole.
+Also remember ORS 701.315: you cannot waive a person's right to file a CCB complaint in the contract, even if your agreement includes mediation or arbitration language. Source: ors-701-315.
 
-Two more terms for the exam. **Liquidated damages** is a clause where the parties agree up front on a daily penalty for being late. For it to hold up in court, it has to be a genuine estimate of what the delay costs — not a punishment. Courts throw out clauses that look like penalties.
-
-And **retainage** — the owner holds back a percentage of each payment, usually five to ten percent, until the project is substantially complete. It's the owner's insurance that you'll finish the punch list. The withheld money is still yours; you just don't get it until the end.
-
-Alright — essential elements, written contract requirements, change orders, breach, liquidated damages, retainage. Those are your key concepts. Let's test them.
+Finally, tie contracts to notices. ORS 701.330 supports required consumer notices, and CCB guidance says qualifying projects over $2,000 need proper notice delivery plus proof retention for two years. Source: ors-701-330, ccb-contractor-tools, ccb-required-notices-chart.
 
 ## Key Terms
 
-**Offer** — A proposal by one party expressing willingness to enter a contract on specific, definite terms. An offer lapses when rejected, when a counteroffer is made, or when a reasonable time passes.
+**[[offer]]** — A proposal to enter a contract on definite terms. Source: psi-cib-oregon-construction-contractors.
 
-**Acceptance** — An unconditional agreement to all terms of the offer, exactly as made. Any modification of terms creates a counteroffer and voids the original offer.
+**[[acceptance]]** — Unqualified agreement to the offer as made. Source: psi-cib-oregon-construction-contractors.
 
-**Consideration** — Something of value exchanged by each party. Can be a promise, an act, or a forbearance. A promise to do what you are already legally obligated to do is not valid consideration.
+**[[consideration]]** — Legal value exchanged by both sides. Source: psi-cib-oregon-construction-contractors.
 
-**Breach of contract** — Failure by one party to perform contractual obligations without legal excuse. Material breach permits the non-breaching party to treat the contract as terminated and sue for damages.
+**[[written-contract-threshold]]** — Oregon's residential trigger where written-contract duties apply when aggregate price exceeds $2,000. Source: ors-701-305.
 
-**Change order** — A written, signed amendment to an existing contract that documents a change in scope, price, or schedule. Must be executed before the changed work begins.
+**[[right-of-rescission]]** — Cancellation rights with different timing rules depending on the governing statute and scenario. Source: ors-701-310, ors-83-720, ors-83-730.
 
-**Liquidated damages** — A contractual clause specifying a predetermined amount (often per-day) owed if a party fails to perform on time. Enforceable only when the amount is a reasonable pre-estimate of actual damages, not a penalty.
-
-**Retainage** — A percentage (typically 5–10%) of each progress payment withheld by the owner until substantial completion. Incentivizes contractor follow-through and covers latent defects.
+**[[home-solicitation-sale]]** — A transaction category with its own disclosure and cancellation framework under ORS chapter 83. Source: ors-83-720, ors-83-730.
 
 ## Common Mistakes
 
-**Confusing a bid with a contract offer.** A bid document invites negotiation; it typically becomes a binding offer only when both parties sign a formal contract. Watch for exam questions that ask at what point a binding agreement is formed.
+Using a single cancellation deadline for every scenario. ORS 701.310 and ORS 83.720 do not use the same time window. Source: ors-701-310, ors-83-720.
 
-**Believing all verbal contracts are unenforceable.** Verbal contracts can be enforceable under common law. The Oregon statute requiring written contracts applies to *residential work over $2,000* — not all construction. Missing this distinction is a common wrong answer.
+Assuming no written contract is needed when a job starts below $2,000. The five-day catch-up rule applies if the aggregate price later exceeds $2,000. Source: ors-701-305.
 
-**Performing extra work before a signed change order.** The exam will present scenarios where a contractor does extra work on a verbal okay. The correct answer is almost always that the contractor should have obtained a written change order before starting.
+Including language that waives CCB complaint rights. ORS 701.315 prohibits that waiver. Source: ors-701-315.
 
-**Treating any deviation as a material breach.** Minor imperfections in performance are partial breaches, not material breaches. A client cannot withhold all payment because the finish coat has a small blemish.
-
-**Assuming liquidated damages always hold up.** Courts scrutinize these clauses. If the amount looks punitive rather than compensatory, the clause will be voided and the party seeking damages must prove actual loss.
+Failing to keep proof of required notice delivery. CCB guidance and the notices chart call out a two-year proof-retention expectation for qualifying projects. Source: ccb-contractor-tools, ccb-required-notices-chart.
 
 ## Open-Book Lookup Tips
 
+- Search "9 scored" and "Contracts" in the PSI bulletin when validating exam weighting. Source: psi-cib-oregon-construction-contractors.
+- Search "701.305" for the $2,000 trigger and five-day delivery rule. Source: ors-701-305.
+- Search "701.310" for next-business-day cancellation and exceptions. Source: ors-701-310.
+- Search "83.720" and "83.730" for home solicitation cancellation and notice mechanics. Source: ors-83-720, ors-83-730.
+- Search "701.315" to confirm complaint-right non-waiver language. Source: ors-701-315.
+- Search CCB Contractor Tools and Required Notices Chart for notice timing/proof documentation reminders. Source: ccb-contractor-tools, ccb-required-notices-chart.
 - **ORS 701.305** — Written contract requirements for residential contractors. Search for "written contract" or "701.305" in your reference materials.
 - **ORS 701.310** — Residential cancellation timing and exceptions (next business day in most initial written-contract cases).
 - **ORS 83.720 and ORS 83.730** — Home solicitation sale cancellation timing (third business day) and required written notice content.
