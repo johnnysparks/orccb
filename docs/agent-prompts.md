@@ -24,7 +24,7 @@ src/content/
   quizzes/{slug}.json           # Quiz JSON files
   metadata/
     curriculum.json             # Topic list, order, weights
-    sources.json                # Global source registry
+    sources/{id}.json           # Global source registry (one file per source)
     glossary.json               # Shared glossary terms
 ```
 
@@ -60,7 +60,7 @@ at the same time.
    public ORS table, extract section headings from a PDF). Save any helper
    scripts in src/content/raw/ alongside the data they produce.
 
-4. Register any new sources in src/content/metadata/sources.json with proper
+4. Register any new sources in src/content/metadata/sources/{id}.json with proper
    tier classification and stable IDs.
 
 ## Rules
@@ -121,7 +121,7 @@ at the same time.
       ---
       ```
    c. Write clear, source-backed content. Every factual claim must cite a
-      source from sources.json.
+      source from source registry.
    d. Add wiki cross-links using [[term-slug]] syntax wherever the text
       references another concept that has (or should have) its own page.
 
@@ -137,7 +137,7 @@ at the same time.
 ## Rules
 
 - Never modify src/content/raw/ except to delete fully-processed files.
-- Every factual claim must trace to a source in sources.json.
+- Every factual claim must trace to a source in the source registry.
 - Follow the slug naming conventions: ^[a-z][a-z0-9-]*[a-z0-9]$
 - File must go in the correct alphabetical subdirectory (first letter of slug).
 - Run `npm run validate` and `npm run lint:wiki` before finishing — fix any
@@ -175,7 +175,7 @@ on different sections of the wiki at the same time.
 1. Audit wiki term pages in your focus area for:
 
    **Conflicts** — Two pages that make contradictory claims about the same
-   fact. Resolve by checking sources.json references and keeping the claim
+   fact. Resolve by checking source registry references and keeping the claim
    that matches the Tier 1 source. Document the resolution in a commit
    message.
 

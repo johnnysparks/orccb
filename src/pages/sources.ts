@@ -1,5 +1,5 @@
 import type { RouteParams } from '../lib/router.js';
-import sources from '../content/metadata/sources.json';
+import sources from '../content/metadata/sources.js';
 
 export function render(_params: RouteParams, container: HTMLElement): void {
   const tier1 = sources.filter((s) => s.tier === 1);

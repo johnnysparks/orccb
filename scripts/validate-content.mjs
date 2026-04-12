@@ -8,7 +8,7 @@
  * so CI can block merges with broken content.
  *
  * Checks performed:
- *   1. sources.json       — shape, unique IDs, required fields
+ *   1. metadata/sources/*.json — shape, unique IDs, required fields
  *   2. curriculum.json    — shape, unique slugs and orders
  *   3. glossary.json      — shape, unique slugs, source ref integrity
  *   4. topic .md files    — frontmatter fields, required sections,
@@ -140,28 +140,39 @@ const VALID_REVIEW_STATUS = new Set([
 ]);
 
 // ---------------------------------------------------------------------------
-// 1. Validate sources.json
+// 1. Validate metadata/sources/*.json
 // ---------------------------------------------------------------------------
 
-section("sources.json");
+section("metadata/sources/*.json");
 
 let sourceIds = new Set();
 
 try {
-  const sources = readJSON(resolve(contentDir, "metadata/sources.json"));
-
-  if (!Array.isArray(sources)) {
-    fail("must be an array");
+  const sourcesDir = resolve(contentDir, "metadata/sources");
+  if (!existsSync(sourcesDir) || !statSync(sourcesDir).isDirectory()) {
+    fail("sources directory missing at src/content/metadata/sources");
   } else {
-    for (const src of sources) {
+    const sourceFiles = readdirSync(sourcesDir)
+      .filter((name) => name.endsWith(".json"))
+      .sort();
+
+    if (sourceFiles.length === 0) {
+      fail("no source files found in src/content/metadata/sources");
+    }
+
+    for (const file of sourceFiles) {
+      const src = readJSON(resolve(sourcesDir, file));
       totalChecks++;
       const missing = ["id", "title", "tier", "description"].filter((f) => src[f] == null);
       if (missing.length) {
-        fail(`source missing required fields [${missing.join(", ")}]: ${JSON.stringify(src)}`);
+        fail(`source file "${file}" missing required fields [${missing.join(", ")}]`);
         continue;
       }
       if (!SLUG_RE.test(src.id)) {
         fail(`source id does not match slug pattern: "${src.id}"`);
+      }
+      if (file !== `${src.id}.json`) {
+        fail(`source file "${file}" must be named "${src.id}.json"`);
       }
       if (![1, 2].includes(src.tier)) {
         fail(`source "${src.id}" has invalid tier: ${src.tier}`);
@@ -171,10 +182,10 @@ try {
       }
       sourceIds.add(src.id);
     }
-    pass(`${sources.length} source entries, all IDs unique`);
+    pass(`${sourceFiles.length} source entries, all IDs unique`);
   }
 } catch (e) {
-  fail(`cannot read/parse sources.json: ${e.message}`);
+  fail(`cannot read/parse source files: ${e.message}`);
 }
 
 // ---------------------------------------------------------------------------
@@ -383,7 +394,7 @@ try {
       }
       for (const ref of fm.sourceRefs) {
         if (!sourceIds.has(ref)) {
-          topicFail(`sourceRef "${ref}" not found in sources.json`);
+          topicFail(`sourceRef "${ref}" not found in source registry`);
         }
       }
     }
@@ -536,7 +547,7 @@ try {
           }
           for (const ref of q.sourceRefs) {
             if (!sourceIds.has(ref)) {
-              quizFail(`question "${q.id}" sourceRef "${ref}" not found in sources.json`);
+              quizFail(`question "${q.id}" sourceRef "${ref}" not found in source registry`);
             }
           }
         }

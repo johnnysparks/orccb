@@ -4,7 +4,7 @@ Rules for creating, reviewing, and publishing course content.
 
 ## Core rule
 
-Every factual claim in a published lesson must be traceable to a source in `sources.json` or explicitly marked as **study guidance** (not a source-backed fact).
+Every factual claim in a published lesson must be traceable to a source in `src/content/metadata/sources/*.json` or explicitly marked as **study guidance** (not a source-backed fact).
 
 ## Source tiers
 
@@ -80,7 +80,7 @@ These are checked automatically on every PR:
 
 **Content validation** (`npm run validate`):
 - Topic files (at `wiki/terms/{letter}/`) must have valid YAML frontmatter matching the schema
-- All `sourceRefs` in frontmatter and quizzes must exist in `sources.json`
+- All `sourceRefs` in frontmatter and quizzes must exist in `src/content/metadata/sources/*.json`
 - Quiz question IDs must be globally unique
 - Quiz files must have exactly 4 choices per question
 - `answerIndex` must be 0-3

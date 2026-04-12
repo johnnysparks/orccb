@@ -17,7 +17,7 @@ src/content/
   quizzes/{slug}.json           # Quiz JSON files
   metadata/
     curriculum.json             # Topic list, order, weights
-    sources.json                # Global source registry
+    sources/{id}.json           # Global source registry (one file per source)
     glossary.json               # Shared glossary terms
 ```
 
@@ -40,7 +40,7 @@ src/content/
 | Wiki term pages (lessons) | `src/content/wiki/terms/{letter}/{slug}.md` | Markdown + YAML frontmatter |
 | Wiki index | `src/content/wiki/INDEX.md` | Markdown with `[[slug]]` links |
 | Quiz questions | `src/content/quizzes/{slug}.json` | JSON |
-| Source registry | `src/content/metadata/sources.json` | JSON array |
+| Source registry | `src/content/metadata/sources/{id}.json` | JSON object (one source per file) |
 | Curriculum order | `src/content/metadata/curriculum.json` | JSON array |
 | Glossary terms | `src/content/metadata/glossary.json` | JSON array |
 
@@ -57,7 +57,7 @@ src/content/
 | Publishable artifacts | Generated from wiki content → `src/content/artifacts/` |
 | Rendered HTML pages | Build step (Vite) transforms Markdown → HTML |
 | Aggregated glossary page | Build reads `glossary.json` → renders term list |
-| Sources page | Build reads `sources.json` → renders citations |
+| Sources page | Build reads `src/content/metadata/sources/*.json` → renders citations |
 | Learner progress | Written to `localStorage` at runtime |
 
 The rule: if you want to change something a learner sees, change the canonical
@@ -99,7 +99,7 @@ reviewStatus: draft                   # draft | source-backed | reviewed | publi
 version: "1.0.0"                      # semver: PATCH=copy edit, MINOR=addition, MAJOR=rewrite
 lastValidatedAt: null                 # ISO date (YYYY-MM-DD) of last SME review, or null
 audioScriptEstMinutes: 9              # estimated listening time for the Audio Script section
-sourceRefs:                           # IDs from sources.json; at least one required
+sourceRefs:                           # IDs from source registry; at least one required
   - ors-chapter-701
   - ors-701-305
   - psi-cib-oregon-construction-contractors
@@ -195,7 +195,7 @@ Each topic has a companion quiz file at `src/content/quizzes/{slug}.json`.
 | `difficulty` is valid enum | `foundation` \| `standard` \| `advanced` |
 | `explanation` ≥ 20 chars | Must explain correct answer and key distractor |
 | `sourceRefs` ≥ 1 | Every question must cite a source |
-| All `sourceRefs` resolve | CI checks against `sources.json` |
+| All `sourceRefs` resolve | CI checks against `src/content/metadata/sources/*.json` |
 
 ### TypeScript types
 
@@ -205,7 +205,7 @@ See `src/lib/types.ts` → `QuizQuestion`, `QuizFile`.
 
 ## Source Registry
 
-A single file at `src/content/metadata/sources.json` holds every citable source.
+One file per source lives at `src/content/metadata/sources/{id}.json`.
 
 ```json
 {
@@ -266,7 +266,7 @@ A single file at `src/content/metadata/sources.json` holds every citable source.
 - `definition` is one to three plain-language sentences grounded in the source.
 - `relatedTerms` are bidirectional: if `offer` lists `acceptance`, `acceptance` should list `offer`.
 - `topicSlugs` must stay in sync with each topic's `glossaryTermSlugs` frontmatter field.
-- All `sourceRefs` must resolve to entries in `sources.json`.
+- All `sourceRefs` must resolve to entries in `src/content/metadata/sources/*.json`.
 - The `Key Terms` section in a topic Markdown file should use the same wording as the glossary definition (copy-paste; do not paraphrase).
 
 ---
@@ -363,7 +363,7 @@ draft  →  source-backed  →  reviewed  →  published
 | `needs-revision` | Source changed or error reported; remove from production | No |
 
 Advancing from `draft` → `source-backed` requires:
-1. All `sourceRefs` resolve in `sources.json`.
+1. All `sourceRefs` resolve in `src/content/metadata/sources/*.json`.
 2. `npm run validate` exits with code 0.
 
 Advancing to `reviewed` requires:
@@ -386,7 +386,7 @@ this on every PR targeting `main`.
 
 **`npm run validate`** (scripts/validate-content.mjs):
 
-1. `sources.json` — shape, unique IDs, required fields
+1. `src/content/metadata/sources/*.json` — shape, unique IDs, required fields
 2. `curriculum.json` — shape, unique slugs and `order` values
 3. `glossary.json` — shape, unique slugs, source ref integrity, related-term cross-references
 4. Topic `.md` files (at `wiki/terms/{letter}/`) — frontmatter shape, enum values, semver format, source ref integrity, glossary term integrity, prerequisite integrity, required section headings, slug↔filename agreement

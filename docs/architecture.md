@@ -48,7 +48,7 @@ The site is primarily rendered content (lessons, quizzes) with lightweight inter
       /quizzes                         # One .json file per topic
       /metadata
         curriculum.json                # Topic list, order, weights
-        sources.json                   # Global source registry
+        /sources                        # Global source registry (one file per source ID)
         glossary.json                  # Shared glossary terms
   /scripts
     validate-content.mjs               # Schema + integrity checks
