@@ -1,7 +1,7 @@
 [
   {
     "id": "psi-cib-oregon-construction-contractors",
-    "title": "PSI Candidate Information Bulletin — Oregon Construction Contractors",
+    "title": "PSI Candidate Information Bulletin \u2014 Oregon Construction Contractors",
     "url": null,
     "tier": 1,
     "description": "Official PSI exam blueprint covering format, content areas, and passing criteria for the Oregon CCB exam.",
@@ -17,7 +17,7 @@
   },
   {
     "id": "ors-chapter-701",
-    "title": "ORS Chapter 701 — Construction Contractors",
+    "title": "ORS Chapter 701 \u2014 Construction Contractors",
     "url": null,
     "tier": 1,
     "description": "Oregon Revised Statutes governing construction contractor licensing, bonds, and enforcement.",
@@ -25,7 +25,7 @@
   },
   {
     "id": "ors-701-305",
-    "title": "ORS 701.305 — Written Contract Requirements for Residential Contractors",
+    "title": "ORS 701.305 \u2014 Written Contract Requirements for Residential Contractors",
     "url": null,
     "tier": 1,
     "description": "Oregon statute specifying when a written contract is required for residential construction work and what it must contain, including the CCB license number, price, dates, and right-of-rescission notice.",
@@ -33,7 +33,7 @@
   },
   {
     "id": "ors-701-310",
-    "title": "ORS 701.310 — Additional Contract Disclosures",
+    "title": "ORS 701.310 \u2014 Additional Contract Disclosures",
     "url": null,
     "tier": 1,
     "description": "Oregon statute detailing required bond and insurance disclosures that must appear in residential construction contracts.",
@@ -41,10 +41,90 @@
   },
   {
     "id": "oar-812-009",
-    "title": "OAR 812-009 — CCB Administrative Rules: Licensing and Conduct",
+    "title": "OAR 812-009 \u2014 CCB Administrative Rules: Licensing and Conduct",
     "url": null,
     "tier": 1,
     "description": "Oregon Administrative Rules promulgated by the CCB governing contractor conduct, complaint procedures, and enforcement actions.",
     "lastCheckedAt": null
+  },
+  {
+    "id": "ors-701-068",
+    "title": "ORS 701.068 \u2014 Surety Bond Requirement",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors701.html",
+    "tier": 1,
+    "description": "Oregon statute requiring licensed contractors to file and maintain a surety bond and describing bond claims and suspension triggers.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-701-073",
+    "title": "ORS 701.073 \u2014 General Liability Insurance Requirement",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors701.html",
+    "tier": 1,
+    "description": "Oregon statute requiring general liability insurance for licensed contractors and setting baseline coverage obligations.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-701-081",
+    "title": "ORS 701.081 \u2014 Residential Contractor Bond and Insurance Amounts",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors701.html",
+    "tier": 1,
+    "description": "Oregon statute setting residential endorsement-level surety bond and liability insurance minimums.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-701-084",
+    "title": "ORS 701.084 \u2014 Commercial Contractor Bond and Insurance Amounts",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors701.html",
+    "tier": 1,
+    "description": "Oregon statute setting commercial endorsement-level surety bond and liability insurance minimums.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oar-812-003-0142",
+    "title": "OAR 812-003-0142 \u2014 License Fees",
+    "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=3588",
+    "tier": 1,
+    "description": "CCB administrative rule establishing new, renewal, and reissue license fee amounts and effective dates.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oar-812-003-0200",
+    "title": "OAR 812-003-0200 \u2014 Insurance Requirements",
+    "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=3588",
+    "tier": 1,
+    "description": "CCB administrative rule specifying insurer ratings, policy conditions, and compliance requirements for contractor general liability insurance.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oar-812-003-0221",
+    "title": "OAR 812-003-0221 \u2014 Insurance Amounts",
+    "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=3588",
+    "tier": 1,
+    "description": "CCB administrative rule listing required liability insurance amounts by endorsement.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oar-812-003-0260",
+    "title": "OAR 812-003-0260 \u2014 License Application Information",
+    "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=3588",
+    "tier": 1,
+    "description": "CCB administrative rule listing information and declarations required on license applications.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oregon-ccb-guide-becoming-licensed-contractor",
+    "title": "Oregon CCB \u2014 Guide to Becoming a Licensed Contractor",
+    "url": "https://www.oregon.gov/ccb/Documents/Guide%20to%20becoming%20a%20lic%20contractor.pdf",
+    "tier": 1,
+    "description": "Official CCB guide describing endorsement choices, bond/insurance amounts, and licensing process details.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "nascla-contractors-guide-oregon-2e",
+    "title": "NASCLA Contractors Guide to Business, Law and Project Management (Oregon), 2nd Edition",
+    "url": "https://www.nascla.org/store/ListProducts.aspx?catid=567816",
+    "tier": 2,
+    "description": "Primary exam-prep textbook referenced by PSI; provides detailed explanations for financial statements, cash flow, and job-cost controls.",
+    "lastCheckedAt": "2026-04-12"
   }
 ]
