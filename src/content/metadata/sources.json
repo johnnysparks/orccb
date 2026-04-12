@@ -48,6 +48,60 @@
     "lastCheckedAt": null
   },
   {
+    "id": "oregon-ccb-specialty-licenses-lead-based-paint",
+    "title": "Oregon CCB Specialty Licenses \u2014 Lead-Based Paint",
+    "url": "https://www.oregon.gov/ccb/pages/specialty%20licenses.aspx",
+    "tier": 1,
+    "description": "Official CCB page describing lead-based paint specialty licensing requirements for contractors performing covered renovation work.",
+    "lastCheckedAt": null
+  },
+  {
+    "id": "oha-lead-contractors-and-painters",
+    "title": "Oregon Health Authority \u2014 Contractors and Painters (Lead RRP)",
+    "url": "https://www.oregon.gov/oha/ph/healthyenvironments/healthyneighborhoods/leadpoisoning/contractorspainters/pages/index.aspx",
+    "tier": 1,
+    "description": "Official OHA overview of Oregon lead-based paint renovation requirements, certification, and program administration roles.",
+    "lastCheckedAt": null
+  },
+  {
+    "id": "deq-asbestos-information",
+    "title": "Oregon DEQ Asbestos Information",
+    "url": "https://www.oregon.gov/deq/Hazards-and-Cleanup/Pages/Asbestos-Information.aspx",
+    "tier": 1,
+    "description": "Official DEQ asbestos program overview, including health risk summary and compliance responsibilities.",
+    "lastCheckedAt": null
+  },
+  {
+    "id": "deq-asbestos-for-businesses",
+    "title": "Oregon DEQ Asbestos Information for Contractors and Businesses",
+    "url": "https://www.oregon.gov/deq/hazards-and-cleanup/pages/asbestos-for-businesses.aspx",
+    "tier": 1,
+    "description": "Official DEQ guidance on asbestos abatement licensing/certification and business registration requirements.",
+    "lastCheckedAt": null
+  },
+  {
+    "id": "oar-340-248",
+    "title": "OAR Chapter 340, Division 248 \u2014 Asbestos Requirements",
+    "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=1557",
+    "tier": 1,
+    "description": "Oregon Administrative Rules for asbestos survey, abatement, handling, and notification requirements.",
+    "lastCheckedAt": null
+  },
+  {
+    "id": "ccb-lbp-relevant-laws-pdf",
+    "title": "CCB Relevant Statutes \u2014 Lead-Based Paint (PDF)",
+    "url": "https://www.oregon.gov/ccb/Documents/LBP%20Relevant%20Laws.pdf",
+    "tier": 1,
+    "description": "CCB-published compilation of lead-based paint related ORS and OAR citations used for contractor licensing and enforcement context.",
+    "lastCheckedAt": null
+  },
+  {
+    "id": "epa-rrp-contractors",
+    "title": "EPA Renovation, Repair and Painting Program for Contractors",
+    "url": "https://www.epa.gov/lead/renovation-repair-and-painting-program-contractors",
+    "tier": 2,
+    "description": "Federal explanatory resource describing RRP scope and contractor responsibilities; used for context only alongside Oregon authorities.",
+    "lastCheckedAt": null
     "id": "ors-chapter-654",
     "title": "ORS Chapter 654 \u2014 Occupational Safety and Health",
     "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors654.html",
