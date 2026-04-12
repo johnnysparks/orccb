@@ -1,7 +1,7 @@
 [
   {
     "id": "psi-cib-oregon-construction-contractors",
-    "title": "PSI Candidate Information Bulletin — Oregon Construction Contractors",
+    "title": "PSI Candidate Information Bulletin \u2014 Oregon Construction Contractors",
     "url": null,
     "tier": 1,
     "description": "Official PSI exam blueprint covering format, content areas, and passing criteria for the Oregon CCB exam.",
@@ -17,7 +17,7 @@
   },
   {
     "id": "ors-chapter-701",
-    "title": "ORS Chapter 701 — Construction Contractors",
+    "title": "ORS Chapter 701 \u2014 Construction Contractors",
     "url": null,
     "tier": 1,
     "description": "Oregon Revised Statutes governing construction contractor licensing, bonds, and enforcement.",
@@ -25,7 +25,7 @@
   },
   {
     "id": "ors-701-305",
-    "title": "ORS 701.305 — Written Contract Requirements for Residential Contractors",
+    "title": "ORS 701.305 \u2014 Written Contract Requirements for Residential Contractors",
     "url": null,
     "tier": 1,
     "description": "Oregon statute specifying when a written contract is required for residential construction work and what it must contain, including the CCB license number, price, dates, and right-of-rescission notice.",
@@ -33,7 +33,7 @@
   },
   {
     "id": "ors-701-310",
-    "title": "ORS 701.310 — Additional Contract Disclosures",
+    "title": "ORS 701.310 \u2014 Additional Contract Disclosures",
     "url": null,
     "tier": 1,
     "description": "Oregon statute detailing required bond and insurance disclosures that must appear in residential construction contracts.",
@@ -41,10 +41,82 @@
   },
   {
     "id": "oar-812-009",
-    "title": "OAR 812-009 — CCB Administrative Rules: Licensing and Conduct",
+    "title": "OAR 812-009 \u2014 CCB Administrative Rules: Licensing and Conduct",
     "url": null,
     "tier": 1,
     "description": "Oregon Administrative Rules promulgated by the CCB governing contractor conduct, complaint procedures, and enforcement actions.",
     "lastCheckedAt": null
+  },
+  {
+    "id": "ors-chapter-654",
+    "title": "ORS Chapter 654 \u2014 Occupational Safety and Health",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors654.html",
+    "tier": 1,
+    "description": "Oregon Safe Employment Act statutes establishing broad workplace safety duties and compliance obligations.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oar-437-division-3-construction",
+    "title": "Oregon OSHA OAR Chapter 437 Division 3 \u2014 Construction (Current Rules Index)",
+    "url": "https://osha.oregon.gov/rules/final/Pages/division-3.aspx",
+    "tier": 1,
+    "description": "Oregon OSHA construction rules index linking active subdivision texts and administrative orders.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oar-437-003-subdivision-m-fall-protection",
+    "title": "OAR 437-003 Subdivision M \u2014 Fall Protection",
+    "url": "https://osha.oregon.gov/OSHARules/div3/div3M.pdf",
+    "tier": 1,
+    "description": "Oregon construction fall-protection rules including Oregon-specific duty and training provisions.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oar-437-003-subdivision-e-ppe",
+    "title": "OAR 437-003 Subdivision E \u2014 Personal Protective and Life Saving Equipment",
+    "url": "https://osha.oregon.gov/OSHARules/div3/div3E.pdf",
+    "tier": 1,
+    "description": "Oregon construction PPE requirements including hazard assessment, selection, and training obligations.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oar-437-003-subdivision-c-general-safety",
+    "title": "OAR 437-003 Subdivision C \u2014 General Safety and Health Provisions",
+    "url": "https://osha.oregon.gov/OSHARules/div3/div3C.pdf",
+    "tier": 1,
+    "description": "Oregon-adopted construction general safety provisions, including accident prevention and training requirements.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oar-437-003-subdivision-p-excavations",
+    "title": "OAR 437-003 Subdivision P \u2014 Excavations",
+    "url": "https://osha.oregon.gov/OSHARules/div3/div3P.pdf",
+    "tier": 1,
+    "description": "Oregon excavation and trench safety requirements, including competent person inspections and protective systems.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oar-437-003-subdivision-x-stairways-ladders",
+    "title": "OAR 437-003 Subdivision X \u2014 Stairways and Ladders",
+    "url": "https://osha.oregon.gov/OSHARules/div3/div3X.pdf",
+    "tier": 1,
+    "description": "Oregon construction stairway and ladder safety requirements.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oregon-ccb-laws-rules",
+    "title": "Oregon CCB Laws & Rules",
+    "url": "https://www.oregon.gov/ccb/Pages/Laws-%26-Rules.aspx",
+    "tier": 1,
+    "description": "Official Oregon CCB laws and rules gateway for contractor compliance references.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "cpwr-construction-chart-book-7th-edition",
+    "title": "CPWR Construction Chart Book (7th Edition)",
+    "url": "https://www.cpwr.com/wp-content/uploads/CPWR_Construction_Chart_Book-7th.pdf",
+    "tier": 2,
+    "description": "Industry research reference used for contextual construction safety trends; not controlling Oregon law.",
+    "lastCheckedAt": "2026-04-12"
   }
 ]
