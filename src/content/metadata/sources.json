@@ -32,8 +32,6 @@
     "lastCheckedAt": "2026-04-12"
   },
   {
-    "id": "oar-812-009",
-    "title": "OAR 812-009 \u2014 CCB Administrative Rules: Licensing and Conduct",
     "id": "psi-cib-oregon-construction-contractors",
     "title": "PSI Candidate Information Bulletin \u2014 Oregon Construction Contractors",
     "url": null,
@@ -50,8 +48,6 @@
     "lastCheckedAt": null
   },
   {
-    "id": "ors-701-305",
-    "title": "ORS 701.305 \u2014 Written Contract Requirements for Residential Contractors",
     "id": "ors-chapter-701",
     "title": "ORS Chapter 701 \u2014 Construction Contractors",
     "url": null,
@@ -60,8 +56,6 @@
     "lastCheckedAt": null
   },
   {
-    "id": "ors-701-310",
-    "title": "ORS 701.310 \u2014 Additional Contract Disclosures",
     "id": "ors-701-305",
     "title": "ORS 701.305 \u2014 Written Contract Requirements for Residential Contractors",
     "url": null,
@@ -102,8 +96,6 @@
     "lastCheckedAt": "2026-04-12"
   },
   {
-    "id": "ors-chapter-701",
-    "title": "ORS Chapter 701 \u2014 Construction Contractors",
     "id": "ors-701-310",
     "title": "ORS 701.310 \u2014 Additional Contract Disclosures",
     "url": null,
@@ -112,8 +104,6 @@
     "lastCheckedAt": null
   },
   {
-    "id": "psi-cib-oregon-construction-contractors",
-    "title": "PSI Candidate Information Bulletin \u2014 Oregon Construction Contractors",
     "id": "oar-812-009",
     "title": "OAR 812-009 \u2014 CCB Administrative Rules: Licensing and Conduct",
     "url": null,
@@ -194,11 +184,6 @@
     "lastCheckedAt": "2026-04-12"
   },
   {
-    "id": "nascla-contractors-guide-oregon-2e",
-    "title": "NASCLA Contractors Guide to Business, Law and Project Management (Oregon), 2nd Edition",
-    "url": "https://www.nascla.org/store/ListProducts.aspx?catid=567816",
-    "tier": 2,
-    "description": "Primary exam-prep textbook referenced by PSI; provides detailed explanations for financial statements, cash flow, and job-cost controls.",
     "id": "oregon-ccb-specialty-licenses-lead-based-paint",
     "title": "Oregon CCB Specialty Licenses \u2014 Lead-Based Paint",
     "url": "https://www.oregon.gov/ccb/pages/specialty%20licenses.aspx",
@@ -324,6 +309,46 @@
     "url": "https://www.cpwr.com/wp-content/uploads/CPWR_Construction_Chart_Book-7th.pdf",
     "tier": 2,
     "description": "Industry research reference used for contextual construction safety trends; not controlling Oregon law.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-chapter-455",
+    "title": "ORS Chapter 455 \u2014 Building Code",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors455.html",
+    "tier": 1,
+    "description": "Oregon statutes establishing statewide building code authority, uniformity, permits, and municipal inspection program framework.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-archive-2023-chapter-455-pdf",
+    "title": "ORS Chapter 455 (2023 Edition Archive PDF)",
+    "url": "https://www.oregonlegislature.gov/bills_laws/archive/2023ors455.pdf",
+    "tier": 1,
+    "description": "Official Oregon Legislature archived PDF used for extractable section text while validating ORS 455 structure and language.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oregon-bcd-adopted-codes-online",
+    "title": "Oregon BCD Adopted Codes Online",
+    "url": "https://www.oregon.gov/bcd/codes-stand/Pages/adopted-codes.aspx",
+    "tier": 1,
+    "description": "Official Building Codes Division page listing currently effective Oregon specialty code editions and interim amendments.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oregon-bcd-jurisdiction-renewals-oar-918-020",
+    "title": "Oregon BCD Jurisdiction Program Renewals (OAR 918-020)",
+    "url": "https://www.oregon.gov/bcd/jurisdictions/pages/renewals.aspx",
+    "tier": 1,
+    "description": "Official BCD jurisdiction page describing municipal program renewals under OAR chapter 918, division 020, and four-year cycles.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oregon-ccb-contractor-tools",
+    "title": "Oregon CCB Contractor Tools",
+    "url": "https://www.oregon.gov/ccb/pages/contractor-tools.aspx",
+    "tier": 1,
+    "description": "Official CCB contractor guidance hub including permit-responsibility reminders and compliance resources.",
     "lastCheckedAt": "2026-04-12"
   }
 ]
