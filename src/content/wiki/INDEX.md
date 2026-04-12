@@ -12,6 +12,7 @@ links resolve to existing term files.
 
 ## Laws and Regulations
 
+- [[laws-and-regulations]]
 - [[ccb-license]]
 - [[contractor-classification]]
 - [[exempt-vs-nonexempt]]
