@@ -1,0 +1,96 @@
+{
+  "topic": "laws-and-regulations",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "laws-001",
+      "prompt": "How many scored items does the PSI exam blueprint allocate to the 'Oregon Const. Contractor Laws and Regulations' domain?",
+      "choices": [
+        "8 items",
+        "12 items",
+        "18 items",
+        "22 items"
+      ],
+      "answerIndex": 2,
+      "difficulty": "foundation",
+      "explanation": "The PSI Candidate Information Bulletin lists 18 scored items for the Oregon Const. Contractor Laws and Regulations domain out of 80 total scored items, making it the highest-weighted single domain on the exam.",
+      "sourceRefs": ["psi-cib-oregon-construction-contractors"],
+      "tags": ["exam-structure"]
+    },
+    {
+      "id": "laws-002",
+      "prompt": "Under OAR 812-003-0120, which of the following is required before a contractor may advertise their services as a licensed contractor?",
+      "choices": [
+        "A general liability insurance certificate filed with the CCB within the past 30 days",
+        "A current, valid CCB license",
+        "Completion of a CCB-approved pre-license education course",
+        "A surety bond in an amount exceeding the project price"
+      ],
+      "answerIndex": 1,
+      "difficulty": "standard",
+      "explanation": "OAR 812-003-0120 prohibits advertising as a licensed contractor without holding a current, valid CCB license. The rule also requires the license number to appear in specified advertising and contract media. Insurance certificates and pre-license education are related requirements but are not the threshold for advertising authorization.",
+      "sourceRefs": ["oar-812-003-0120"],
+      "tags": ["advertising", "licensing"]
+    },
+    {
+      "id": "laws-003",
+      "prompt": "A residential contractor delivers a consumer notice to a client the day before work begins but keeps no documentation of delivery. Which statement best describes this situation under OAR 812-012-0130?",
+      "choices": [
+        "The contractor is in full compliance because the notice was delivered before work began.",
+        "The contractor has violated the rule because the notice must be delivered at least three business days before work begins.",
+        "The contractor has not met the rule's proof-of-delivery retention requirement, which is a separate compliance obligation.",
+        "No violation occurred because consumer notices are only required for projects over $10,000."
+      ],
+      "answerIndex": 2,
+      "difficulty": "standard",
+      "explanation": "OAR 812-012-0130 requires both timely delivery of the consumer notice and retention of proof of delivery. A contractor who delivers the notice but retains no proof fails the documentation component of the rule. Choice A is wrong because proof retention is an independent requirement. Choice B states an incorrect timing rule. Choice D is incorrect — the notice requirement is tied to ORS 701.305 written-contract requirements, not a separate dollar threshold.",
+      "sourceRefs": ["oar-812-012-0130", "ors-chapter-701"],
+      "tags": ["consumer-notice", "documentation"]
+    },
+    {
+      "id": "laws-004",
+      "prompt": "Under ORS 701.305 and OAR 812-012-0110, which of the following elements is required to appear in a residential written construction contract?",
+      "choices": [
+        "The contractor's workers' compensation policy number",
+        "An itemized materials list with unit prices",
+        "The contractor's CCB license number",
+        "The project architect's or engineer's stamp and signature"
+      ],
+      "answerIndex": 2,
+      "difficulty": "standard",
+      "explanation": "OAR 812-012-0110 specifies minimum required contract content when ORS 701.305 applies. The contractor's CCB license number is a specifically required element and one of the most frequently tested contract requirements on the exam. Workers' compensation numbers, itemized materials lists, and architect stamps are not required elements under these provisions.",
+      "sourceRefs": ["oar-812-012-0110", "ors-chapter-701"],
+      "tags": ["contracts", "written-contract"]
+    },
+    {
+      "id": "laws-005",
+      "prompt": "According to OAR 812-003-0142, what is the new-license application fee effective July 1, 2025?",
+      "choices": [
+        "$200",
+        "$350",
+        "$400",
+        "$500"
+      ],
+      "answerIndex": 2,
+      "difficulty": "foundation",
+      "explanation": "OAR 812-003-0142 sets the CCB license fee schedule. The new-license application fee effective July 1, 2025 is $400. Fee amounts are established by administrative rule and may be amended, so course statements about fee amounts are framed relative to the rule's effective date.",
+      "sourceRefs": ["oar-812-003-0142"],
+      "tags": ["fees", "licensing"]
+    },
+    {
+      "id": "laws-006",
+      "prompt": "Oregon construction contractor licensing is primarily governed by which chapter of the Oregon Revised Statutes?",
+      "choices": [
+        "ORS Chapter 651 — Employment Department",
+        "ORS Chapter 701 — Construction Contractors",
+        "ORS Chapter 812 — CCB Administrative Rules",
+        "ORS Chapter 654 — Occupational Safety and Health"
+      ],
+      "answerIndex": 1,
+      "difficulty": "foundation",
+      "explanation": "ORS Chapter 701 is the primary statutory authority for construction contractor licensing in Oregon, covering definitions, license requirements, bonds, insurance, contracts, and sanctions. OAR Chapter 812 contains the CCB's implementing administrative rules — it is an OAR (Oregon Administrative Rule) chapter, not an ORS chapter. ORS 654 governs workplace safety, and ORS 651 covers employment-related matters.",
+      "sourceRefs": ["ors-chapter-701", "oregon-ccb-laws-rules"],
+      "tags": ["legal-framework", "licensing"]
+    }
+  ]
+}
