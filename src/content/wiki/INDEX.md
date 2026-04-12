@@ -61,8 +61,11 @@ links resolve to existing term files.
 
 - [[business-structure]]
 - [[project-scheduling]]
-- [[safety-requirements]]
 - [[oregon-building-codes]]
+
+## Jobsite Safety
+
+- [[jobsite-safety]]
 
 ## Building and Construction
 

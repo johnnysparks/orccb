@@ -1,0 +1,66 @@
+{
+  "topic": "jobsite-safety",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "jobsite-safety-001",
+      "prompt": "On the Oregon CCB exam blueprint, how many scored items are in the Jobsite Safety domain?",
+      "choices": [
+        "4",
+        "6",
+        "10",
+        "18"
+      ],
+      "answerIndex": 0,
+      "difficulty": "foundation",
+      "explanation": "The PSI Candidate Information Bulletin lists Jobsite Safety as 4 scored items in the Oregon construction contractor exam outline.",
+      "sourceRefs": [
+        "psi-cib-oregon-construction-contractors"
+      ],
+      "tags": [
+        "exam-blueprint",
+        "jobsite-safety"
+      ]
+    },
+    {
+      "id": "jobsite-safety-002",
+      "prompt": "Under Oregon excavation rules, when must a trench have a safe means of egress so workers do not travel more than 25 feet laterally?",
+      "choices": [
+        "When the trench is 4 feet deep or more",
+        "When the trench is 3 feet deep or more",
+        "Only when groundwater is present",
+        "Only when work lasts more than one day"
+      ],
+      "answerIndex": 0,
+      "difficulty": "standard",
+      "explanation": "Subdivision P requires a safe means of egress for trench excavations 4 feet or deeper, arranged so no worker must travel more than 25 feet laterally.",
+      "sourceRefs": [
+        "oar-437-003-subdivision-p-excavations"
+      ],
+      "tags": [
+        "excavation",
+        "egress"
+      ]
+    },
+    {
+      "id": "jobsite-safety-003",
+      "prompt": "Which statement best matches Oregon ladder safety requirements in construction?",
+      "choices": [
+        "Defective ladders must be removed from service or tagged, and portable side rails should extend at least 3 feet above the landing unless equivalent support is provided.",
+        "Defective ladders may be used if only one rung is damaged.",
+        "Portable side rails only need to extend 1 foot above the landing.",
+        "No ladder extension requirement applies if a supervisor is present."
+      ],
+      "answerIndex": 0,
+      "difficulty": "standard",
+      "explanation": "Subdivision X requires defective ladders to be removed/tagged and generally requires portable ladder side rails to extend at least 3 feet above the upper landing unless equivalent grasping support is used.",
+      "sourceRefs": [
+        "oar-437-003-subdivision-x-stairways-ladders"
+      ],
+      "tags": [
+        "ladders",
+        "equipment"
+      ]
+    }
+  ]
+}

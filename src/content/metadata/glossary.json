@@ -191,5 +191,74 @@
     "topicSlugs": [
       "oregon-building-codes"
     ]
+  },
+  {
+    "slug": "competent-person",
+    "term": "Competent Person",
+    "definition": "A designated person in Oregon construction safety rules who can identify existing and predictable hazards and has authority to take prompt corrective measures, including required jobsite and excavation inspections.",
+    "sourceRefs": [
+      "oar-437-003-subdivision-c-general-safety",
+      "oar-437-003-subdivision-p-excavations"
+    ],
+    "relatedTerms": [
+      "excavation-safety"
+    ],
+    "topicSlugs": [
+      "jobsite-safety"
+    ]
+  },
+  {
+    "slug": "fall-protection",
+    "term": "Fall Protection",
+    "definition": "Oregon construction requirements in Subdivision M that establish fall-hazard protection duties and require employers to train employees who may be exposed to fall hazards.",
+    "sourceRefs": [
+      "oar-437-003-subdivision-m-fall-protection"
+    ],
+    "relatedTerms": [
+      "personal-protective-equipment"
+    ],
+    "topicSlugs": [
+      "jobsite-safety"
+    ]
+  },
+  {
+    "slug": "personal-protective-equipment",
+    "term": "Personal Protective Equipment (PPE)",
+    "definition": "Protective equipment required by Oregon Subdivision E to be selected through hazard assessment, kept in sanitary and reliable condition, and supported by employee training on use and limitations.",
+    "sourceRefs": [
+      "oar-437-003-subdivision-e-ppe"
+    ],
+    "relatedTerms": [
+      "fall-protection"
+    ],
+    "topicSlugs": [
+      "jobsite-safety"
+    ]
+  },
+  {
+    "slug": "excavation-safety",
+    "term": "Excavation Safety",
+    "definition": "Oregon trench and excavation requirements in Subdivision P, including egress triggers, protective-system duties, utility-location precautions, and competent-person inspections.",
+    "sourceRefs": [
+      "oar-437-003-subdivision-p-excavations"
+    ],
+    "relatedTerms": [
+      "competent-person"
+    ],
+    "topicSlugs": [
+      "jobsite-safety"
+    ]
+  },
+  {
+    "slug": "ladder-safety",
+    "term": "Ladder Safety",
+    "definition": "Oregon Subdivision X ladder requirements that include removing defective ladders from service and meeting setup and extension rules such as the 3-foot side-rail extension above landings.",
+    "sourceRefs": [
+      "oar-437-003-subdivision-x-stairways-ladders"
+    ],
+    "relatedTerms": [],
+    "topicSlugs": [
+      "jobsite-safety"
+    ]
   }
 ]
