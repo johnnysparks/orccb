@@ -1,7 +1,7 @@
 [
   {
     "id": "ccb-contract-law-rules-2014",
-    "title": "CCB Relevant Statutes and Rules \u2014 Residential Contracts (2014)",
+    "title": "CCB Relevant Statutes and Rules — Residential Contracts (2014)",
     "url": "https://www.oregon.gov/ccb/Documents/Contract-law-and-rules.pdf",
     "tier": 2,
     "description": "CCB explanatory compilation of residential contract statutes and rules (dated reference for context).",
@@ -25,17 +25,15 @@
   },
   {
     "id": "nascla-contractors-guide-or-2e",
-    "title": "NASCLA Contractors Guide to Business, Law and Project Management \u2014 Oregon, 2nd Edition",
+    "title": "NASCLA Contractors Guide to Business, Law and Project Management — Oregon, 2nd Edition",
     "url": "https://www.nascla.org/store/ListProducts.aspx?catid=567816",
     "tier": 2,
     "description": "Exam reference textbook identified by PSI for Oregon construction contractor testing.",
     "lastCheckedAt": "2026-04-12"
   },
   {
-    "id": "oar-812-009",
-    "title": "OAR 812-009 \u2014 CCB Administrative Rules: Licensing and Conduct",
     "id": "psi-cib-oregon-construction-contractors",
-    "title": "PSI Candidate Information Bulletin \u2014 Oregon Construction Contractors",
+    "title": "PSI Candidate Information Bulletin — Oregon Construction Contractors",
     "url": null,
     "tier": 1,
     "description": "Oregon Administrative Rules promulgated by the CCB governing contractor conduct, complaint procedures, and enforcement actions.",
@@ -50,20 +48,16 @@
     "lastCheckedAt": null
   },
   {
-    "id": "ors-701-305",
-    "title": "ORS 701.305 \u2014 Written Contract Requirements for Residential Contractors",
     "id": "ors-chapter-701",
-    "title": "ORS Chapter 701 \u2014 Construction Contractors",
+    "title": "ORS Chapter 701 — Construction Contractors",
     "url": null,
     "tier": 1,
     "description": "Oregon statute specifying when a written contract is required for residential construction work and what it must contain, including the CCB license number, price, dates, and right-of-rescission notice.",
     "lastCheckedAt": null
   },
   {
-    "id": "ors-701-310",
-    "title": "ORS 701.310 \u2014 Additional Contract Disclosures",
     "id": "ors-701-305",
-    "title": "ORS 701.305 \u2014 Written Contract Requirements for Residential Contractors",
+    "title": "ORS 701.305 — Written Contract Requirements for Residential Contractors",
     "url": null,
     "tier": 1,
     "description": "Oregon statute detailing required bond and insurance disclosures that must appear in residential construction contracts.",
@@ -71,7 +65,7 @@
   },
   {
     "id": "ors-701-315",
-    "title": "ORS 701.315 \u2014 Contents of Contract for Work on Residential Structure",
+    "title": "ORS 701.315 — Contents of Contract for Work on Residential Structure",
     "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors701.html",
     "tier": 1,
     "description": "Oregon statute prohibiting residential contract provisions that limit CCB complaint rights and allowing mediation/arbitration provisions.",
@@ -79,7 +73,7 @@
   },
   {
     "id": "ors-701-330",
-    "title": "ORS 701.330 \u2014 Consumer Notice Form; Notice of Procedure Form",
+    "title": "ORS 701.330 — Consumer Notice Form; Notice of Procedure Form",
     "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors701.html",
     "tier": 1,
     "description": "Oregon statute requiring CCB consumer notice and notice-of-procedure forms for residential projects.",
@@ -87,7 +81,7 @@
   },
   {
     "id": "ors-83-720",
-    "title": "ORS 83.720 \u2014 Cancellation of Home Solicitation Sale",
+    "title": "ORS 83.720 — Cancellation of Home Solicitation Sale",
     "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors083.html",
     "tier": 1,
     "description": "Oregon statute providing three-business-day cancellation rights for qualifying home solicitation sales and exceptions.",
@@ -95,27 +89,23 @@
   },
   {
     "id": "ors-83-730",
-    "title": "ORS 83.730 \u2014 Written Agreement Requirements for Home Solicitation Sales",
+    "title": "ORS 83.730 — Written Agreement Requirements for Home Solicitation Sales",
     "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors083.html",
     "tier": 1,
     "description": "Oregon statute specifying required written contents and cancellation notices for home solicitation sales.",
     "lastCheckedAt": "2026-04-12"
   },
   {
-    "id": "ors-chapter-701",
-    "title": "ORS Chapter 701 \u2014 Construction Contractors",
     "id": "ors-701-310",
-    "title": "ORS 701.310 \u2014 Additional Contract Disclosures",
+    "title": "ORS 701.310 — Additional Contract Disclosures",
     "url": null,
     "tier": 1,
     "description": "Oregon Revised Statutes governing construction contractor licensing, bonds, and enforcement.",
     "lastCheckedAt": null
   },
   {
-    "id": "psi-cib-oregon-construction-contractors",
-    "title": "PSI Candidate Information Bulletin \u2014 Oregon Construction Contractors",
     "id": "oar-812-009",
-    "title": "OAR 812-009 \u2014 CCB Administrative Rules: Licensing and Conduct",
+    "title": "OAR 812-009 — CCB Administrative Rules: Licensing and Conduct",
     "url": null,
     "tier": 1,
     "description": "Official PSI exam blueprint covering format, content areas, and passing criteria for the Oregon CCB exam.",
@@ -123,7 +113,7 @@
   },
   {
     "id": "ors-701-068",
-    "title": "ORS 701.068 \u2014 Surety Bond Requirement",
+    "title": "ORS 701.068 — Surety Bond Requirement",
     "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors701.html",
     "tier": 1,
     "description": "Oregon statute requiring licensed contractors to file and maintain a surety bond and describing bond claims and suspension triggers.",
@@ -131,7 +121,7 @@
   },
   {
     "id": "ors-701-073",
-    "title": "ORS 701.073 \u2014 General Liability Insurance Requirement",
+    "title": "ORS 701.073 — General Liability Insurance Requirement",
     "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors701.html",
     "tier": 1,
     "description": "Oregon statute requiring general liability insurance for licensed contractors and setting baseline coverage obligations.",
@@ -139,7 +129,7 @@
   },
   {
     "id": "ors-701-081",
-    "title": "ORS 701.081 \u2014 Residential Contractor Bond and Insurance Amounts",
+    "title": "ORS 701.081 — Residential Contractor Bond and Insurance Amounts",
     "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors701.html",
     "tier": 1,
     "description": "Oregon statute setting residential endorsement-level surety bond and liability insurance minimums.",
@@ -147,7 +137,7 @@
   },
   {
     "id": "ors-701-084",
-    "title": "ORS 701.084 \u2014 Commercial Contractor Bond and Insurance Amounts",
+    "title": "ORS 701.084 — Commercial Contractor Bond and Insurance Amounts",
     "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors701.html",
     "tier": 1,
     "description": "Oregon statute setting commercial endorsement-level surety bond and liability insurance minimums.",
@@ -155,7 +145,7 @@
   },
   {
     "id": "oar-812-003-0142",
-    "title": "OAR 812-003-0142 \u2014 License Fees",
+    "title": "OAR 812-003-0142 — License Fees",
     "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=3588",
     "tier": 1,
     "description": "CCB administrative rule establishing new, renewal, and reissue license fee amounts and effective dates.",
@@ -163,7 +153,7 @@
   },
   {
     "id": "oar-812-003-0200",
-    "title": "OAR 812-003-0200 \u2014 Insurance Requirements",
+    "title": "OAR 812-003-0200 — Insurance Requirements",
     "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=3588",
     "tier": 1,
     "description": "CCB administrative rule specifying insurer ratings, policy conditions, and compliance requirements for contractor general liability insurance.",
@@ -171,7 +161,7 @@
   },
   {
     "id": "oar-812-003-0221",
-    "title": "OAR 812-003-0221 \u2014 Insurance Amounts",
+    "title": "OAR 812-003-0221 — Insurance Amounts",
     "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=3588",
     "tier": 1,
     "description": "CCB administrative rule listing required liability insurance amounts by endorsement.",
@@ -179,7 +169,7 @@
   },
   {
     "id": "oar-812-003-0260",
-    "title": "OAR 812-003-0260 \u2014 License Application Information",
+    "title": "OAR 812-003-0260 — License Application Information",
     "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=3588",
     "tier": 1,
     "description": "CCB administrative rule listing information and declarations required on license applications.",
@@ -187,20 +177,15 @@
   },
   {
     "id": "oregon-ccb-guide-becoming-licensed-contractor",
-    "title": "Oregon CCB \u2014 Guide to Becoming a Licensed Contractor",
+    "title": "Oregon CCB — Guide to Becoming a Licensed Contractor",
     "url": "https://www.oregon.gov/ccb/Documents/Guide%20to%20becoming%20a%20lic%20contractor.pdf",
     "tier": 1,
     "description": "Official CCB guide describing endorsement choices, bond/insurance amounts, and licensing process details.",
     "lastCheckedAt": "2026-04-12"
   },
   {
-    "id": "nascla-contractors-guide-oregon-2e",
-    "title": "NASCLA Contractors Guide to Business, Law and Project Management (Oregon), 2nd Edition",
-    "url": "https://www.nascla.org/store/ListProducts.aspx?catid=567816",
-    "tier": 2,
-    "description": "Primary exam-prep textbook referenced by PSI; provides detailed explanations for financial statements, cash flow, and job-cost controls.",
     "id": "oregon-ccb-specialty-licenses-lead-based-paint",
-    "title": "Oregon CCB Specialty Licenses \u2014 Lead-Based Paint",
+    "title": "Oregon CCB Specialty Licenses — Lead-Based Paint",
     "url": "https://www.oregon.gov/ccb/pages/specialty%20licenses.aspx",
     "tier": 1,
     "description": "Official CCB page describing lead-based paint specialty licensing requirements for contractors performing covered renovation work.",
@@ -208,7 +193,7 @@
   },
   {
     "id": "oha-lead-contractors-and-painters",
-    "title": "Oregon Health Authority \u2014 Contractors and Painters (Lead RRP)",
+    "title": "Oregon Health Authority — Contractors and Painters (Lead RRP)",
     "url": "https://www.oregon.gov/oha/ph/healthyenvironments/healthyneighborhoods/leadpoisoning/contractorspainters/pages/index.aspx",
     "tier": 1,
     "description": "Official OHA overview of Oregon lead-based paint renovation requirements, certification, and program administration roles.",
@@ -232,7 +217,7 @@
   },
   {
     "id": "oar-340-248",
-    "title": "OAR Chapter 340, Division 248 \u2014 Asbestos Requirements",
+    "title": "OAR Chapter 340, Division 248 — Asbestos Requirements",
     "url": "https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=1557",
     "tier": 1,
     "description": "Oregon Administrative Rules for asbestos survey, abatement, handling, and notification requirements.",
@@ -240,7 +225,7 @@
   },
   {
     "id": "ccb-lbp-relevant-laws-pdf",
-    "title": "CCB Relevant Statutes \u2014 Lead-Based Paint (PDF)",
+    "title": "CCB Relevant Statutes — Lead-Based Paint (PDF)",
     "url": "https://www.oregon.gov/ccb/Documents/LBP%20Relevant%20Laws.pdf",
     "tier": 1,
     "description": "CCB-published compilation of lead-based paint related ORS and OAR citations used for contractor licensing and enforcement context.",
@@ -256,7 +241,7 @@
   },
   {
     "id": "ors-chapter-654",
-    "title": "ORS Chapter 654 \u2014 Occupational Safety and Health",
+    "title": "ORS Chapter 654 — Occupational Safety and Health",
     "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors654.html",
     "tier": 1,
     "description": "Oregon Safe Employment Act statutes establishing broad workplace safety duties and compliance obligations.",
@@ -264,7 +249,7 @@
   },
   {
     "id": "oar-437-division-3-construction",
-    "title": "Oregon OSHA OAR Chapter 437 Division 3 \u2014 Construction (Current Rules Index)",
+    "title": "Oregon OSHA OAR Chapter 437 Division 3 — Construction (Current Rules Index)",
     "url": "https://osha.oregon.gov/rules/final/Pages/division-3.aspx",
     "tier": 1,
     "description": "Oregon OSHA construction rules index linking active subdivision texts and administrative orders.",
@@ -272,7 +257,7 @@
   },
   {
     "id": "oar-437-003-subdivision-m-fall-protection",
-    "title": "OAR 437-003 Subdivision M \u2014 Fall Protection",
+    "title": "OAR 437-003 Subdivision M — Fall Protection",
     "url": "https://osha.oregon.gov/OSHARules/div3/div3M.pdf",
     "tier": 1,
     "description": "Oregon construction fall-protection rules including Oregon-specific duty and training provisions.",
@@ -280,7 +265,7 @@
   },
   {
     "id": "oar-437-003-subdivision-e-ppe",
-    "title": "OAR 437-003 Subdivision E \u2014 Personal Protective and Life Saving Equipment",
+    "title": "OAR 437-003 Subdivision E — Personal Protective and Life Saving Equipment",
     "url": "https://osha.oregon.gov/OSHARules/div3/div3E.pdf",
     "tier": 1,
     "description": "Oregon construction PPE requirements including hazard assessment, selection, and training obligations.",
@@ -288,7 +273,7 @@
   },
   {
     "id": "oar-437-003-subdivision-c-general-safety",
-    "title": "OAR 437-003 Subdivision C \u2014 General Safety and Health Provisions",
+    "title": "OAR 437-003 Subdivision C — General Safety and Health Provisions",
     "url": "https://osha.oregon.gov/OSHARules/div3/div3C.pdf",
     "tier": 1,
     "description": "Oregon-adopted construction general safety provisions, including accident prevention and training requirements.",
@@ -296,7 +281,7 @@
   },
   {
     "id": "oar-437-003-subdivision-p-excavations",
-    "title": "OAR 437-003 Subdivision P \u2014 Excavations",
+    "title": "OAR 437-003 Subdivision P — Excavations",
     "url": "https://osha.oregon.gov/OSHARules/div3/div3P.pdf",
     "tier": 1,
     "description": "Oregon excavation and trench safety requirements, including competent person inspections and protective systems.",
@@ -304,7 +289,7 @@
   },
   {
     "id": "oar-437-003-subdivision-x-stairways-ladders",
-    "title": "OAR 437-003 Subdivision X \u2014 Stairways and Ladders",
+    "title": "OAR 437-003 Subdivision X — Stairways and Ladders",
     "url": "https://osha.oregon.gov/OSHARules/div3/div3X.pdf",
     "tier": 1,
     "description": "Oregon construction stairway and ladder safety requirements.",
@@ -324,6 +309,86 @@
     "url": "https://www.cpwr.com/wp-content/uploads/CPWR_Construction_Chart_Book-7th.pdf",
     "tier": 2,
     "description": "Industry research reference used for contextual construction safety trends; not controlling Oregon law.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oregon-dor-withholding-and-payroll-tax",
+    "title": "Oregon Department of Revenue — Withholding and Payroll Tax",
+    "url": "https://www.oregon.gov/dor/programs/businesses/pages/withholding-and-payroll-tax.aspx",
+    "tier": 1,
+    "description": "Official Oregon DOR payroll tax portal covering BIN registration, withholding duties, filing due dates, Form OQ/WR requirements, and reporting channels.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oregon-dor-statewide-transit-tax",
+    "title": "Oregon Department of Revenue — Statewide Transit Tax",
+    "url": "https://www.oregon.gov/dor/programs/businesses/pages/statewide-transit-tax.aspx",
+    "tier": 1,
+    "description": "Official Oregon DOR guidance for the Statewide Transit Tax, including rate, withholding scope, filing responsibilities, and statutory references.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oregon-dor-corporate-activity-tax",
+    "title": "Oregon Department of Revenue — Corporate Activity Tax (CAT)",
+    "url": "https://www.oregon.gov/dor/programs/businesses/Pages/Corporate-Activity-Tax.aspx",
+    "tier": 1,
+    "description": "Official Oregon DOR CAT overview with threshold, rate, filing obligations, and links to ORS chapter 317A and related OAR.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oregon-dor-withholding-transit-tax-nonresident-pdf",
+    "title": "Oregon DOR Publication 150-206-692 — Withholding/Transit Tax Information: Out-of-state/Nonresident Employers",
+    "url": "https://www.oregon.gov/dor/forms/FormsPubs/withholding-transit-tax-non-resident_206-692.pdf",
+    "tier": 1,
+    "description": "Official Oregon DOR publication summarizing withholding and transit tax responsibilities for resident/nonresident wage scenarios.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oregon-ccb-license-page",
+    "title": "Oregon CCB — CCB License",
+    "url": "https://www.oregon.gov/ccb/pages/ccb%20license.aspx",
+    "tier": 1,
+    "description": "Official CCB licensing page with nine-step licensure process, including obtaining tax account numbers as part of employer setup.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oregon-independent-contractors-notice-workers",
+    "title": "Oregon Independent Contractors — Notice For Workers",
+    "url": "https://www.oregon.gov/ic/independent/pages/notice.aspx",
+    "tier": 1,
+    "description": "Official Oregon interagency notice describing worker classification under ORS 670.600 and reminding workers about tax filing implications.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-316-162",
+    "title": "ORS 316.162 — Definitions for withholding (including wages)",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors316.html",
+    "tier": 1,
+    "description": "Oregon statute defining wages and related terms used for withholding and statewide transit tax calculations.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-320-550",
+    "title": "ORS 320.550 — Statewide Transit Tax",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors320.html",
+    "tier": 1,
+    "description": "Oregon statute establishing the statewide transit tax framework and withholding obligation references.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-chapter-317a",
+    "title": "ORS Chapter 317A — Corporate Activity Tax",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors317A.html",
+    "tier": 1,
+    "description": "Oregon statutes governing the Corporate Activity Tax including definitions, thresholds, and taxation rate provisions.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-chapter-267",
+    "title": "ORS Chapter 267 — Mass Transit Districts",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors267.html",
+    "tier": 1,
+    "description": "Oregon statutes governing mass transit districts, including payroll tax authority for district funding mechanisms.",
     "lastCheckedAt": "2026-04-12"
   }
 ]
