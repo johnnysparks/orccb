@@ -32,14 +32,12 @@
     "lastCheckedAt": "2026-04-12"
   },
   {
-    "id": "oar-812-009",
-    "title": "OAR 812-009 \u2014 CCB Administrative Rules: Licensing and Conduct",
     "id": "psi-cib-oregon-construction-contractors",
     "title": "PSI Candidate Information Bulletin \u2014 Oregon Construction Contractors",
-    "url": null,
+    "url": "https://www.oregon.gov/ccb/Documents/729-1.pdf",
     "tier": 1,
-    "description": "Oregon Administrative Rules promulgated by the CCB governing contractor conduct, complaint procedures, and enforcement actions.",
-    "lastCheckedAt": null
+    "description": "Official PSI bulletin for Oregon CCB exam logistics and current content outline by topic areas.",
+    "lastCheckedAt": "2026-04-12"
   },
   {
     "id": "oregon-ccb-prelicense",
@@ -50,8 +48,6 @@
     "lastCheckedAt": null
   },
   {
-    "id": "ors-701-305",
-    "title": "ORS 701.305 \u2014 Written Contract Requirements for Residential Contractors",
     "id": "ors-chapter-701",
     "title": "ORS Chapter 701 \u2014 Construction Contractors",
     "url": null,
@@ -60,8 +56,6 @@
     "lastCheckedAt": null
   },
   {
-    "id": "ors-701-310",
-    "title": "ORS 701.310 \u2014 Additional Contract Disclosures",
     "id": "ors-701-305",
     "title": "ORS 701.305 \u2014 Written Contract Requirements for Residential Contractors",
     "url": null,
@@ -102,8 +96,6 @@
     "lastCheckedAt": "2026-04-12"
   },
   {
-    "id": "ors-chapter-701",
-    "title": "ORS Chapter 701 \u2014 Construction Contractors",
     "id": "ors-701-310",
     "title": "ORS 701.310 \u2014 Additional Contract Disclosures",
     "url": null,
@@ -112,8 +104,6 @@
     "lastCheckedAt": null
   },
   {
-    "id": "psi-cib-oregon-construction-contractors",
-    "title": "PSI Candidate Information Bulletin \u2014 Oregon Construction Contractors",
     "id": "oar-812-009",
     "title": "OAR 812-009 \u2014 CCB Administrative Rules: Licensing and Conduct",
     "url": null,
@@ -194,11 +184,6 @@
     "lastCheckedAt": "2026-04-12"
   },
   {
-    "id": "nascla-contractors-guide-oregon-2e",
-    "title": "NASCLA Contractors Guide to Business, Law and Project Management (Oregon), 2nd Edition",
-    "url": "https://www.nascla.org/store/ListProducts.aspx?catid=567816",
-    "tier": 2,
-    "description": "Primary exam-prep textbook referenced by PSI; provides detailed explanations for financial statements, cash flow, and job-cost controls.",
     "id": "oregon-ccb-specialty-licenses-lead-based-paint",
     "title": "Oregon CCB Specialty Licenses \u2014 Lead-Based Paint",
     "url": "https://www.oregon.gov/ccb/pages/specialty%20licenses.aspx",
@@ -324,6 +309,46 @@
     "url": "https://www.cpwr.com/wp-content/uploads/CPWR_Construction_Chart_Book-7th.pdf",
     "tier": 2,
     "description": "Industry research reference used for contextual construction safety trends; not controlling Oregon law.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-701-010",
+    "title": "ORS 701.010 \u2014 Exemptions from Licensure; Rules",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors701.html",
+    "tier": 1,
+    "description": "Oregon statute listing exemptions from CCB licensure and related board rule authority.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-701-021",
+    "title": "ORS 701.021 \u2014 License Requirement; Endorsements",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors701.html",
+    "tier": 1,
+    "description": "Oregon statute requiring licensure and appropriate endorsement for offering or performing contractor work.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-701-026",
+    "title": "ORS 701.026 \u2014 Subcontractor Licensing; Landscaping",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors701.html",
+    "tier": 1,
+    "description": "Oregon statute governing when a contractor may hire another contractor and requiring proper licensure/endorsement or exemption status.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "ors-670-600",
+    "title": "ORS 670.600 \u2014 Independent Contractor Defined",
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors670.html",
+    "tier": 1,
+    "description": "Cross-chapter Oregon definition of independent contractor used for licensing and other compliance contexts including ORS chapter 701.",
+    "lastCheckedAt": "2026-04-12"
+  },
+  {
+    "id": "oregon-ccb-ccb-license",
+    "title": "Oregon CCB License Page \u2014 How To Get a License",
+    "url": "https://www.oregon.gov/ccb/pages/ccb%20license.aspx",
+    "tier": 1,
+    "description": "Official CCB licensing page with exam, RMI, and application process details.",
     "lastCheckedAt": "2026-04-12"
   }
 ]
