@@ -13,7 +13,7 @@
       "slug": {
         "type": "string",
         "pattern": "^[a-z][a-z0-9-]*[a-z0-9]$",
-        "description": "Primary key. Must match: the topic file at src/content/topics/{slug}.md, the quiz file at src/content/quizzes/{slug}.json, and the slug field in each file's frontmatter / root object."
+        "description": "Primary key. Must match: the wiki term file at src/content/wiki/terms/{letter}/{slug}.md, the quiz file at src/content/quizzes/{slug}.json, and the slug field in each file's frontmatter / root object."
       },
       "title": {
         "type": "string",

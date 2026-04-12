@@ -1,142 +1,238 @@
 # Agent Prompts
 
-Reusable prompts for agent-driven workflows. Each prompt targets a specific step in the content pipeline.
+Reusable prompts for agent-driven content workflows. Each prompt targets a
+specific role in the knowledge-base pipeline and is designed to be copy-pasted
+into an AI agent session.
 
-These are reference material for operators driving the project with AI agents. They are not used by the site itself.
+**Concurrency model:** Multiple instances of each role can run simultaneously.
+Prefix the prompt with a specific letter, term, or topic area to direct each
+instance to a different surface of the knowledge base. For example, paste the
+Importer prompt with "Focus: Oregon lien law" to import lien-related research,
+while another instance runs with "Focus: building permits".
 
 ---
 
-## 1. MVP Scoping
+## Content Directory Layout
 
-```text
-You are building the MVP scope for a free, open Oregon CCB pre-license course site.
-
-Constraints:
-- host on GitHub Pages
-- static-first architecture
-- assets stored in Git
-- localStorage only for learner progress
-- no backend, no auth, no payments
-
-Produce:
-1. a sharply scoped MVP definition
-2. a list of non-goals
-3. a feature-by-feature cut list
-4. a release order for what must exist before first public launch
-
-Optimize for the smallest credible launch, not feature completeness.
-
-Return as: MVP goals, must-have features, nice-to-have later, explicit exclusions, launch checklist.
+```
+src/content/
+  raw/                          # Unprocessed research dumps (importer output)
+  wiki/
+    INDEX.md                    # Master index grouped by curriculum topic
+    terms/{letter}/{slug}.md    # One page per concept, alphabetically filed
+  artifacts/                    # Publishable intermediates (podcast scripts, etc.)
+  quizzes/{slug}.json           # Quiz JSON files
+  metadata/
+    curriculum.json             # Topic list, order, weights
+    sources.json                # Global source registry
+    glossary.json               # Shared glossary terms
 ```
 
-## 2. Architecture Design
+---
+
+## Role 1: Importer — Bulk Data Collection
+
+Copy this prompt into an agent session. Prefix with a focus area.
 
 ```text
-Design the technical architecture for a static GitHub Pages course site.
+FOCUS: [LETTER, TERM, OR TOPIC AREA — e.g. "Oregon lien law" or "M4 bidding"]
 
-Constraints:
-- public GitHub repo
-- GitHub Pages hosting
-- no backend
-- localStorage for progress only
-- all curriculum assets stored in Git
-- easy for agents to add lessons and quizzes later
+You are a research importer for the Oregon CCB pre-license course wiki.
 
-Produce:
-1. final stack decision
-2. repo folder structure
-3. content storage format
-4. deployment strategy
-5. local development commands
-6. future migration path if we later add APIs
+Your job is to pull raw reference material into src/content/raw/. You work
+independently — other importer instances may be running on different topics
+at the same time.
 
-Optimize for maintainability, content authoring ease, and minimal moving parts.
+## What you do
+
+1. Research the focus area using official Oregon sources:
+   - Oregon Revised Statutes (ORS) and Oregon Administrative Rules (OAR)
+   - PSI Candidate Information Bulletin
+   - Official CCB pages and publications
+   - Tier 2 sources (textbooks, trade associations) for explanatory context
+
+2. For each source, create a research dump file in src/content/raw/:
+   - Filename: descriptive kebab-case, e.g. research-pass-m5-oregon-lien-law.md
+   - Include: source inventory, extracted facts with citation anchors,
+     unresolved questions, confidence rating, and recommended boundaries
+
+3. You may write and run scripts to pull structured data (e.g. scrape a
+   public ORS table, extract section headings from a PDF). Save any helper
+   scripts in src/content/raw/ alongside the data they produce.
+
+4. Register any new sources in src/content/metadata/sources.json with proper
+   tier classification and stable IDs.
+
+## Rules
+
+- Never modify wiki/ or artifacts/ — you only write to raw/ and metadata/.
+- Separate confirmed facts from inference. Flag gaps explicitly.
+- Use the source ID conventions from docs/content-model.md.
+- Each file should be self-contained — another agent must be able to read it
+  without context from your session.
+- If a research dump already exists for your focus area, append new findings
+  or create a numbered follow-up (e.g. research-pass-m5-lien-law-02.md).
+
+## Output
+
+One or more files in src/content/raw/ containing structured research. Each
+file should include:
+1. Source inventory (tier 1 and tier 2)
+2. Claim list with citation anchors
+3. Exact facts safe to teach
+4. Unresolved ambiguities
+5. Citation map
 ```
 
-## 3. Content Schema Design
+---
+
+## Role 2: Organizer — Raw Data to Wiki
+
+Copy this prompt into an agent session. Prefix with a focus area.
 
 ```text
-Design a content schema for a static licensing course site.
+FOCUS: [LETTER, TERM, OR TOPIC AREA — e.g. "contracts" or "letter C"]
 
-Requirements:
-- each course topic must support lesson text, audio-style script, quiz items, glossary terms, source citations, and review state
-- schema must be easy to validate in CI
-- schema must support later expansion into multiple difficulty levels
-- schema must keep one canonical source-backed topic record and derived learner artifacts
+You are a wiki organizer for the Oregon CCB pre-license course.
 
-Produce:
-1. content model
-2. TypeScript types or JSON schema
-3. example markdown topic file
-4. example quiz JSON file
-5. validation rules
-6. naming conventions for slugs and source references
+Your job is to convert raw research dumps from src/content/raw/ into indexed,
+cited wiki term pages at src/content/wiki/terms/{letter}/{slug}.md. You work
+independently — other organizer instances may be running on different terms
+at the same time.
+
+## What you do
+
+1. Read raw research files in src/content/raw/ that cover your focus area.
+
+2. For each distinct concept or term found in the research:
+   a. Create a wiki term file at the correct alphabetical path:
+      src/content/wiki/terms/{first-letter}/{slug}.md
+   b. The file must include YAML frontmatter matching the topic schema
+      (see docs/content-model.md) if the term is a curriculum topic, OR
+      a simplified frontmatter for sub-topic terms:
+      ```yaml
+      ---
+      slug: term-slug
+      title: Human Readable Title
+      sourceRefs:
+        - source-id-1
+      related:
+        - other-term-slug
+      ---
+      ```
+   c. Write clear, source-backed content. Every factual claim must cite a
+      source from sources.json.
+   d. Add wiki cross-links using [[term-slug]] syntax wherever the text
+      references another concept that has (or should have) its own page.
+
+3. Add new terms to src/content/wiki/INDEX.md under the appropriate
+   curriculum topic group.
+
+4. Add new glossary entries to src/content/metadata/glossary.json for any
+   key terms you create.
+
+5. After successfully converting a raw file's content into wiki pages,
+   delete the raw file with `git rm`. Raw data is disposable once organized.
+
+## Rules
+
+- Never modify src/content/raw/ except to delete fully-processed files.
+- Every factual claim must trace to a source in sources.json.
+- Follow the slug naming conventions: ^[a-z][a-z0-9-]*[a-z0-9]$
+- File must go in the correct alphabetical subdirectory (first letter of slug).
+- Run `npm run validate` and `npm run lint:wiki` before finishing — fix any
+  failures.
+- Wiki links ([[slug]]) must only point to terms that exist. If a related
+  term doesn't exist yet, mention it in a <!-- TODO: link --> comment instead.
+- Set reviewStatus to "draft" on all new content.
+
+## Output
+
+- New or updated files in src/content/wiki/terms/
+- Updated INDEX.md
+- Updated glossary.json (if new key terms)
+- Deleted raw files that have been fully processed
 ```
 
-## 4. Site Plumbing
+---
+
+## Role 3: Curator — Wiki Quality and Consistency
+
+Copy this prompt into an agent session. Prefix with a focus area.
 
 ```text
-Build the initial static site plumbing for a course website.
+FOCUS: [LETTER, TERM, OR TOPIC AREA — e.g. "all terms starting with L" or
+"Oregon lien law cluster"]
 
-Pages required: home, curriculum index, topic detail, quiz page, progress page, sources page, methodology page.
+You are a wiki curator for the Oregon CCB pre-license course.
 
-Constraints:
-- static site suitable for GitHub Pages
-- no backend
-- accessible semantic HTML
-- responsive layout
-- minimal styling
-- reusable components
+Your job is to improve the quality, consistency, and accuracy of existing
+wiki content. You work independently — other curator instances may be running
+on different sections of the wiki at the same time.
 
-Deliver:
-1. route map
-2. component map
-3. starter implementation plan
-4. acceptance criteria for each page
-5. recommended CSS strategy
+## What you do
+
+1. Audit wiki term pages in your focus area for:
+
+   **Conflicts** — Two pages that make contradictory claims about the same
+   fact. Resolve by checking sources.json references and keeping the claim
+   that matches the Tier 1 source. Document the resolution in a commit
+   message.
+
+   **Duplications** — Multiple pages that cover substantially the same
+   concept. Merge into the most specific or canonical page. Redirect or
+   remove the duplicate. Update all [[wiki-links]] that pointed to the
+   removed page.
+
+   **Ambiguities** — Claims that are vague, hedged without reason, or that
+   could mislead an exam taker. Sharpen the language using source material.
+   If the source itself is ambiguous, add a note flagging the uncertainty.
+
+   **Low-value material** — Content that doesn't help someone pass the exam
+   or understand a testable concept. Remove it. The wiki should be dense
+   with useful information, not padded.
+
+   **Broken cross-links** — [[wiki-links]] that point to nonexistent pages.
+   Either create the missing page (if the concept deserves one) or remove
+   the link.
+
+   **Source integrity** — Verify that sourceRefs in frontmatter actually
+   support the claims made in the body. Flag any unsupported claims.
+
+2. Improve the INDEX.md groupings if terms are miscategorized or missing.
+
+3. Ensure glossary.json stays in sync with wiki term pages:
+   - relatedTerms are bidirectional
+   - topicSlugs match actual term file locations
+   - definitions match the Key Terms sections in topic files
+
+## Rules
+
+- Never modify src/content/raw/ — that's the importer's domain.
+- Never change the meaning of a claim without checking the source first.
+- If you merge or delete a page, update all incoming [[wiki-links]] across
+  the entire wiki. Run `npm run lint:wiki` to verify.
+- Run `npm run validate` before finishing — fix any failures.
+- Keep commit messages descriptive: "merge duplicate lien-notice pages",
+  "resolve conflict between retainage definitions", etc.
+- Do not add new unsupported facts. Your job is to clean, not to create.
+
+## Output
+
+- Cleaner, more consistent wiki pages
+- Resolved conflicts and merged duplicates
+- Fixed cross-links and updated INDEX.md
+- Passing `npm run validate` and `npm run lint:wiki`
 ```
 
-## 5. Curriculum Map Generation
+---
 
-```text
-Use the public Oregon PSI Construction Contractors outline to generate a curriculum map for a free course site.
+## Supporting Prompts
 
-Goals:
-- create one course module per exam category
-- assign rough lesson order
-- estimate learner effort per module
-- tag high-weight topics for deeper coverage
-- identify modules that likely need Oregon-specific source validation beyond the PSI outline
+The following prompts support the overall content pipeline but are not part of
+the three core roles above.
 
-Return:
-1. curriculum table
-2. module order
-3. rationale for the order
-4. module metadata fields
-5. a recommendation for which 3 modules to build first
-```
-
-## 6. Topic Research
-
-```text
-Run a research pass for one Oregon CCB exam topic: [TOPIC NAME].
-
-Requirements:
-- prioritize official Oregon CCB sources, Oregon laws/rules, and the PSI bulletin
-- separate confirmed facts from inference
-- identify claims that require citation on the course page
-- flag gaps where the public sources are too vague
-
-Return:
-1. source inventory (tier 1 and tier 2)
-2. topic facts with citation anchors
-3. exact claims safe to teach
-4. unresolved ambiguities
-5. citation map
-6. recommended boundaries for what the course should and should not assert
-```
-
-## 7. Lesson Generation
+### Lesson Generation
 
 ```text
 Generate a source-backed lesson package for the Oregon CCB topic: [TOPIC NAME].
@@ -157,9 +253,11 @@ Rules:
 - distinguish source facts from study advice
 - optimize for clarity, not legalistic wording
 - avoid unsupported speculation
+- output the topic file to src/content/wiki/terms/{letter}/{slug}.md
+- output quiz to src/content/quizzes/{slug}.json
 ```
 
-## 8. Content Review
+### Content Review
 
 ```text
 Review this generated course artifact against its cited sources.
@@ -171,6 +269,7 @@ Check for:
 - missing caveats where the source is narrower than the lesson wording
 - quiz problems with weak distractors or unclear answers
 - mismatch between lesson, audio script, and quiz
+- broken [[wiki-links]]
 
 Return:
 1. pass/fail by section
@@ -180,7 +279,7 @@ Return:
 5. final publication recommendation (publish / revise / reject)
 ```
 
-## 9. Content Polish
+### Content Polish
 
 ```text
 Polish this already-reviewed lesson package for learning quality.
@@ -190,6 +289,7 @@ Improve:
 - scannability (headings, lists, short paragraphs)
 - auditory flow for read-aloud use
 - memory hooks and practical examples
+- wiki cross-links to related terms
 
 Do not:
 - add new unsupported facts
@@ -203,22 +303,19 @@ Return:
 4. a brief changelog of instructional improvements
 ```
 
-## 10. CI Validation Design
+### Artifact Generation
 
 ```text
-Design CI checks for a static course repo with markdown and JSON content.
+Generate a publishable artifact from wiki content for: [TOPIC OR FORMAT].
 
-Validate:
-- content schema (frontmatter fields, types)
-- quiz schema (4 choices, valid answerIndex, unique IDs)
-- source reference integrity (all refs exist in sources.json)
-- duplicate IDs across quiz files
-- broken internal links
-- required metadata fields
+Examples of artifacts:
+- Podcast script covering a curriculum module
+- Study guide summarizing key terms for a topic group
+- Flashcard set for a letter range of wiki terms
 
-Produce:
-1. CI workflow plan
-2. scripts to implement checks
-3. failure messages that help contributors fix issues quickly
-4. a future-ready test plan for content quality signals (reading level, citation coverage)
+Rules:
+- Draw only from existing wiki term pages — do not invent facts.
+- Cite the wiki page slugs as sources.
+- Save output to src/content/artifacts/ with a descriptive filename.
+- Artifacts are derived content — the wiki is the source of truth.
 ```

@@ -9,8 +9,8 @@ import {
 import { renderMarkdown, stripFrontmatter } from '../lib/markdown.js';
 import curriculum from '../content/metadata/curriculum.json';
 
-// Vite glob: bundles all topic markdown files for dynamic lookup
-const topicFiles = import.meta.glob<string>('../content/topics/*.md', {
+// Vite glob: bundles all wiki term markdown files for dynamic lookup
+const topicFiles = import.meta.glob<string>('../content/wiki/terms/**/*.md', {
   query: '?raw',
   import: 'default',
 });
@@ -35,7 +35,8 @@ export function render(params: RouteParams, container: HTMLElement): void {
 }
 
 async function loadContent(slug: string): Promise<string | null> {
-  const key = `../content/topics/${slug}.md`;
+  const letter = slug.charAt(0);
+  const key = `../content/wiki/terms/${letter}/${slug}.md`;
   const loader = topicFiles[key];
   if (!loader) return null;
   return loader();

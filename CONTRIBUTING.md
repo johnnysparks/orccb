@@ -19,11 +19,12 @@ Thank you for helping improve the Oregon CCB Pre-License Course.
 ## Content contribution workflow
 
 1. **Fork and branch** from `main`
-2. **Research first** — gather sources before writing. See the research prompt in [Agent Prompts](docs/agent-prompts.md).
-3. **Follow the schemas** — topic Markdown must have valid frontmatter; quiz JSON must match the schema.
-4. **Set `reviewStatus: draft`** — never submit content as `published`.
-5. **Run validation** — `npm run validate` must pass before opening a PR.
-6. **Open a PR** — use the pull request template and fill in all sections.
+2. **Research first** — gather sources before writing. Use the Importer prompt in [Agent Prompts](docs/agent-prompts.md) to dump research into `src/content/raw/`.
+3. **Organize into wiki pages** — use the Organizer prompt to convert raw research into wiki term pages at `src/content/wiki/terms/{letter}/{slug}.md`.
+4. **Follow the schemas** — topic Markdown must have valid frontmatter; quiz JSON must match the schema.
+5. **Set `reviewStatus: draft`** — never submit content as `published`.
+6. **Run validation** — both `npm run validate` and `npm run lint:wiki` must pass before opening a PR.
+7. **Open a PR** — use the pull request template and fill in all sections.
 
 ## Code contribution workflow
 
@@ -47,6 +48,7 @@ npm install
 npm run dev          # Dev server
 npm run check        # TypeScript check
 npm run validate     # Content validation
+npm run lint:wiki    # Wiki cross-link validation
 ```
 
 ## Questions?
