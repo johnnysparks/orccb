@@ -1,0 +1,15 @@
+{
+  "slug": "excavation-safety",
+  "term": "Excavation Safety",
+  "definition": "Oregon trenching and excavation requirements covering safe egress, competent-person inspections, and cave-in protective systems when rule triggers are met.",
+  "sourceRefs": [
+    "oar-437-003-subdivision-p-excavations"
+  ],
+  "relatedTerms": [
+    "competent-person",
+    "jobsite-safety"
+  ],
+  "topicSlugs": [
+    "jobsite-safety"
+  ]
+}

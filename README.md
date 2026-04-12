@@ -43,7 +43,7 @@ npm run check        # TypeScript type checking
         /terms/{letter}/{slug}.md     # Wiki term pages, alphabetically filed
       /artifacts                      # Publishable intermediates (podcast scripts, etc.)
       /quizzes                        # Quiz JSON files
-      /metadata                       # curriculum.json, sources/*.json, glossary.json
+      /metadata                       # curriculum.json, sources/*.json, glossary/*.json
   /scripts                            # Build and validation scripts
   /docs                               # Project documentation
   /.github/workflows                  # CI: deploy + content validation

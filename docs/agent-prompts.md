@@ -25,7 +25,7 @@ src/content/
   metadata/
     curriculum.json             # Topic list, order, weights
     sources/{id}.json           # Global source registry (one file per source)
-    glossary.json               # Shared glossary terms
+    glossary/{slug}.json        # Shared glossary terms (one file per term)
 ```
 
 ---
@@ -128,7 +128,7 @@ at the same time.
 3. Add new terms to src/content/wiki/INDEX.md under the appropriate
    curriculum topic group.
 
-4. Add new glossary entries to src/content/metadata/glossary.json for any
+4. Add new glossary entries to src/content/metadata/glossary/{slug}.json for any
    key terms you create.
 
 5. After successfully converting a raw file's content into wiki pages,
@@ -150,7 +150,7 @@ at the same time.
 
 - New or updated files in src/content/wiki/terms/
 - Updated INDEX.md
-- Updated glossary.json (if new key terms)
+- Updated metadata/glossary/*.json (if new key terms)
 - Deleted raw files that have been fully processed
 ```
 
@@ -201,7 +201,7 @@ on different sections of the wiki at the same time.
 
 2. Improve the INDEX.md groupings if terms are miscategorized or missing.
 
-3. Ensure glossary.json stays in sync with wiki term pages:
+3. Ensure metadata/glossary/*.json stays in sync with wiki term pages:
    - relatedTerms are bidirectional
    - topicSlugs match actual term file locations
    - definitions match the Key Terms sections in topic files

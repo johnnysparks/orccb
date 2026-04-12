@@ -1,0 +1,14 @@
+{
+  "slug": "liquidated-damages",
+  "term": "Liquidated Damages",
+  "definition": "A contractual clause specifying a predetermined amount — often per day — owed if a party fails to perform on time. Enforceable only when the specified amount is a reasonable pre-estimate of actual damages at the time of contracting, not a penalty.",
+  "sourceRefs": [
+    "psi-cib-oregon-construction-contractors"
+  ],
+  "relatedTerms": [
+    "breach-of-contract"
+  ],
+  "topicSlugs": [
+    "contracts"
+  ]
+}

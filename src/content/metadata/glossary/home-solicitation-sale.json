@@ -1,0 +1,15 @@
+{
+  "slug": "home-solicitation-sale",
+  "term": "Home Solicitation Sale",
+  "definition": "A transaction governed by ORS 83.720 and ORS 83.730 that generally gives a buyer until midnight of the third business day to cancel and requires a signed written agreement with prescribed cancellation notice content.",
+  "sourceRefs": [
+    "ors-83-720",
+    "ors-83-730"
+  ],
+  "relatedTerms": [
+    "right-of-rescission"
+  ],
+  "topicSlugs": [
+    "contracts"
+  ]
+}

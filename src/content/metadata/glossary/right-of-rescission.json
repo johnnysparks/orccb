@@ -1,0 +1,16 @@
+{
+  "slug": "right-of-rescission",
+  "term": "Right of Rescission",
+  "definition": "A statutory cancellation right allowing an owner to cancel an initial written residential contract until midnight of the next business day under ORS 701.310, with listed exceptions; qualifying home solicitation sales follow separate ORS 83 timelines.",
+  "sourceRefs": [
+    "ors-701-310",
+    "ors-83-720"
+  ],
+  "relatedTerms": [
+    "written-contract-threshold",
+    "home-solicitation-sale"
+  ],
+  "topicSlugs": [
+    "contracts"
+  ]
+}

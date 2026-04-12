@@ -10,7 +10,7 @@
  * Checks performed:
  *   1. metadata/sources/*.json — shape, unique IDs, required fields
  *   2. curriculum.json    — shape, unique slugs and orders
- *   3. glossary.json      — shape, unique slugs, source ref integrity
+ *   3. metadata/glossary/*.json — shape, unique slugs, source ref integrity
  *   4. topic .md files    — frontmatter fields, required sections,
  *                           source ref integrity, glossary term integrity,
  *                           slug↔filename agreement, published tier-1 rule
@@ -231,24 +231,33 @@ try {
 }
 
 // ---------------------------------------------------------------------------
-// 3. Validate glossary.json
+// 3. Validate metadata/glossary/*.json
 // ---------------------------------------------------------------------------
 
-section("glossary.json");
+section("metadata/glossary/*.json");
 
 let glossarySlugs = new Set();
 
 try {
-  const glossaryPath = resolve(contentDir, "metadata/glossary.json");
-  if (!existsSync(glossaryPath)) {
-    fail("glossary.json not found at src/content/metadata/glossary.json");
+  const glossaryDir = resolve(contentDir, "metadata/glossary");
+  if (!existsSync(glossaryDir) || !statSync(glossaryDir).isDirectory()) {
+    fail("glossary directory missing at src/content/metadata/glossary");
   } else {
-    const terms = readJSON(glossaryPath);
+    const glossaryFiles = readdirSync(glossaryDir)
+      .filter((name) => name.endsWith(".json"))
+      .sort();
 
-    if (!Array.isArray(terms)) {
-      fail("must be an array");
+    if (glossaryFiles.length === 0) {
+      fail("no glossary files found in src/content/metadata/glossary");
     } else {
-      for (const term of terms) {
+      const terms = [];
+
+      for (const file of glossaryFiles) {
+        const term = readJSON(resolve(glossaryDir, file));
+        terms.push({ file, term });
+      }
+
+      for (const { file, term } of terms) {
         totalChecks++;
         const missing = ["slug", "term", "definition", "sourceRefs"].filter(
           (f) => term[f] == null
@@ -259,6 +268,9 @@ try {
         }
         if (!SLUG_RE.test(term.slug) && !/^[a-z][a-z0-9-]*$/.test(term.slug)) {
           fail(`glossary slug does not match pattern: "${term.slug}"`);
+        }
+        if (file !== `${term.slug}.json`) {
+          fail(`glossary file "${file}" must be named "${term.slug}.json"`);
         }
         if (glossarySlugs.has(term.slug)) {
           fail(`duplicate glossary slug: "${term.slug}"`);
@@ -272,10 +284,10 @@ try {
           }
         }
       }
-      pass(`${terms.length} glossary terms, slugs unique`);
+      pass(`${terms.length} glossary entries, slugs unique`);
 
       // Validate relatedTerms cross-references (after all slugs are collected)
-      for (const term of terms) {
+      for (const { term } of terms) {
         for (const rel of term.relatedTerms ?? []) {
           totalChecks++;
           if (!glossarySlugs.has(rel)) {
@@ -286,7 +298,7 @@ try {
     }
   }
 } catch (e) {
-  fail(`cannot read/parse glossary.json: ${e.message}`);
+  fail(`cannot read/parse glossary files: ${e.message}`);
 }
 
 // ---------------------------------------------------------------------------
@@ -408,7 +420,7 @@ try {
     if (Array.isArray(fm.glossaryTermSlugs)) {
       for (const termSlug of fm.glossaryTermSlugs) {
         if (!glossarySlugs.has(termSlug)) {
-          topicFail(`glossaryTermSlug "${termSlug}" not found in glossary.json`);
+          topicFail(`glossaryTermSlug "${termSlug}" not found in metadata/glossary/*.json`);
         }
       }
     }
