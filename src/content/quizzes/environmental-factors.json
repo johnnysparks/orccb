@@ -1,0 +1,51 @@
+{
+  "topic": "environmental-factors",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "environmental-factors-001",
+      "prompt": "How many scored exam items does PSI allocate to Environmental Factors in the Oregon CCB outline?",
+      "choices": [
+        "2",
+        "4",
+        "6",
+        "10"
+      ],
+      "answerIndex": 1,
+      "difficulty": "foundation",
+      "explanation": "The PSI bulletin for Oregon Construction Contractors lists Environmental Factors as a domain with four scored items.",
+      "sourceRefs": ["psi-cib-oregon-construction-contractors"],
+      "tags": ["blueprint", "exam-weight"]
+    },
+    {
+      "id": "environmental-factors-002",
+      "prompt": "For covered renovation work in pre-1978 target housing, which Oregon compliance concept is most directly triggered for contractors?",
+      "choices": [
+        "Only DEQ asbestos disposal registration",
+        "Lead-related training/certification and contractor licensing compliance",
+        "No additional requirements if work is residential",
+        "Only a building permit from local jurisdiction"
+      ],
+      "answerIndex": 1,
+      "difficulty": "standard",
+      "explanation": "Oregon CCB and OHA lead program materials indicate that covered pre-1978 renovation activities require lead-related training/certification pathways and contractor licensing alignment.",
+      "sourceRefs": ["oregon-ccb-specialty-licenses-lead-based-paint", "oha-lead-contractors-and-painters"],
+      "tags": ["lead-based-paint", "pre-1978"]
+    },
+    {
+      "id": "environmental-factors-003",
+      "prompt": "Which Oregon rule location is identified by DEQ as the comprehensive asbestos rule set?",
+      "choices": [
+        "OAR chapter 812, division 3",
+        "OAR chapter 437, division 3",
+        "OAR chapter 340, division 248",
+        "ORS chapter 654 only"
+      ],
+      "answerIndex": 2,
+      "difficulty": "standard",
+      "explanation": "DEQ asbestos program resources identify OAR chapter 340, division 248 as the comprehensive asbestos requirements rule set in Oregon.",
+      "sourceRefs": ["deq-asbestos-information", "oar-340-248"],
+      "tags": ["asbestos", "deq", "oar-340-248"]
+    }
+  ]
+}
