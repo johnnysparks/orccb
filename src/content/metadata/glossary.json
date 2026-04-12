@@ -32,7 +32,7 @@
   {
     "slug": "consideration",
     "term": "Consideration",
-    "definition": "Something of legal value exchanged by each party to a contract \u2014 typically a promise to perform work or a promise to pay. A promise to do something already legally required does not constitute valid consideration.",
+    "definition": "Something of legal value exchanged by each party to a contract — typically a promise to perform work or a promise to pay. A promise to do something already legally required does not constitute valid consideration.",
     "sourceRefs": [
       "psi-cib-oregon-construction-contractors"
     ],
@@ -74,7 +74,7 @@
   {
     "slug": "liquidated-damages",
     "term": "Liquidated Damages",
-    "definition": "A contractual clause specifying a predetermined amount \u2014 often per day \u2014 owed if a party fails to perform on time. Enforceable only when the specified amount is a reasonable pre-estimate of actual damages at the time of contracting, not a penalty.",
+    "definition": "A contractual clause specifying a predetermined amount — often per day — owed if a party fails to perform on time. Enforceable only when the specified amount is a reasonable pre-estimate of actual damages at the time of contracting, not a penalty.",
     "sourceRefs": [
       "psi-cib-oregon-construction-contractors"
     ],
@@ -88,7 +88,7 @@
   {
     "slug": "retainage",
     "term": "Retainage",
-    "definition": "A percentage \u2014 typically 5 to 10 percent \u2014 of each progress payment withheld by the project owner until substantial completion. Retainage incentivizes the contractor to complete punch-list items and provides a fund to cover latent defects.",
+    "definition": "A percentage — typically 5 to 10 percent — of each progress payment withheld by the project owner until substantial completion. Retainage incentivizes the contractor to complete punch-list items and provides a fund to cover latent defects.",
     "sourceRefs": [
       "ors-chapter-701",
       "psi-cib-oregon-construction-contractors"
@@ -204,6 +204,15 @@
     "relatedTerms": [
       "home-solicitation-sale",
       "written-contract-threshold"
+    "slug": "written-contract-threshold",
+    "term": "Written Contract Threshold",
+    "definition": "Under ORS 701.305, a written residential contract is required when the aggregate contract price exceeds $2,000; if the price later crosses that amount, the contractor must deliver or mail the written contract within five days after knowing or having reason to know the threshold was exceeded.",
+    "sourceRefs": [
+      "ors-701-305"
+    ],
+    "relatedTerms": [
+      "right-of-rescission",
+      "home-solicitation-sale"
     ],
     "topicSlugs": [
       "contracts"
@@ -219,6 +228,16 @@
     ],
     "relatedTerms": [
       "right-of-rescission"
+    "slug": "right-of-rescission",
+    "term": "Right of Rescission",
+    "definition": "A statutory cancellation right allowing an owner to cancel an initial written residential contract until midnight of the next business day under ORS 701.310, with listed exceptions; qualifying home solicitation sales follow separate ORS 83 timelines.",
+    "sourceRefs": [
+      "ors-701-310",
+      "ors-83-720"
+    ],
+    "relatedTerms": [
+      "written-contract-threshold",
+      "home-solicitation-sale"
     ],
     "topicSlugs": [
       "contracts"
@@ -228,6 +247,7 @@
     "slug": "home-solicitation-sale",
     "term": "Home Solicitation Sale",
     "definition": "A transaction category regulated by ORS chapter 83 that requires specific written agreement content and cancellation-right notices, generally with a three-business-day cancellation period for qualifying sales.",
+    "definition": "A transaction governed by ORS 83.720 and ORS 83.730 that generally gives a buyer until midnight of the third business day to cancel and requires a signed written agreement with prescribed cancellation notice content.",
     "sourceRefs": [
       "ors-83-720",
       "ors-83-730"
@@ -237,6 +257,160 @@
     ],
     "topicSlugs": [
       "contracts"
+    "slug": "competent-person",
+    "term": "Competent Person",
+    "definition": "A person capable of identifying existing and predictable hazards in surroundings or working conditions and authorized to take prompt corrective measures under applicable Oregon safety rules.",
+    "sourceRefs": [
+      "oar-437-003-subdivision-c-general-safety",
+      "oar-437-003-subdivision-p-excavations"
+    ],
+    "relatedTerms": [
+      "jobsite-safety",
+      "excavation-safety"
+    ],
+    "topicSlugs": [
+      "jobsite-safety"
+    ]
+  },
+  {
+    "slug": "fall-protection",
+    "term": "Fall Protection",
+    "definition": "Oregon construction requirements designed to prevent fall injuries, including Oregon-specific duty provisions and employee training obligations for workers exposed to fall hazards.",
+    "sourceRefs": [
+      "oar-437-003-subdivision-m-fall-protection"
+    ],
+    "relatedTerms": [
+      "personal-protective-equipment",
+      "ladder-safety"
+    ],
+    "topicSlugs": [
+      "jobsite-safety"
+    ]
+  },
+  {
+    "slug": "personal-protective-equipment",
+    "term": "Personal Protective Equipment (PPE)",
+    "definition": "Protective equipment selected through hazard assessment and maintained in sanitary, reliable condition, with worker training on use, limits, and care required by Oregon construction safety rules.",
+    "sourceRefs": [
+      "oar-437-003-subdivision-e-ppe"
+    ],
+    "relatedTerms": [
+      "fall-protection",
+      "jobsite-safety"
+    ],
+    "topicSlugs": [
+      "jobsite-safety"
+    ]
+  },
+  {
+    "slug": "excavation-safety",
+    "term": "Excavation Safety",
+    "definition": "Oregon trenching and excavation requirements covering safe egress, competent-person inspections, and cave-in protective systems when rule triggers are met.",
+    "sourceRefs": [
+      "oar-437-003-subdivision-p-excavations"
+    ],
+    "relatedTerms": [
+      "competent-person",
+      "jobsite-safety"
+    ],
+    "topicSlugs": [
+      "jobsite-safety"
+    ]
+  },
+  {
+    "slug": "ladder-safety",
+    "term": "Ladder Safety",
+    "definition": "Oregon stairway and ladder rules requiring safe ladder condition and setup, including removal of defective ladders from service.",
+    "sourceRefs": [
+      "oar-437-003-subdivision-x-stairways-ladders"
+    ],
+    "relatedTerms": [
+      "fall-protection"
+    ],
+    "topicSlugs": [
+      "jobsite-safety"
+    ]
+  },
+  {
+    "slug": "lead-based-paint-renovation",
+    "term": "Lead-Based Paint Renovation",
+    "definition": "Covered renovation work in pre-1978 target housing or child-occupied facilities that requires Oregon lead training/certification pathways and contractor licensing compliance.",
+    "sourceRefs": [
+      "oregon-ccb-specialty-licenses-lead-based-paint",
+      "oha-lead-contractors-and-painters",
+      "ccb-lbp-relevant-laws-pdf"
+    ],
+    "relatedTerms": [
+      "lead-safe-work-practices",
+      "environmental-factors"
+    ],
+    "topicSlugs": [
+      "environmental-factors"
+    ]
+  },
+  {
+    "slug": "lead-safe-work-practices",
+    "term": "Lead-Safe Work Practices",
+    "definition": "Required methods in Oregon lead-renovation programs that reduce lead exposure risk during covered work in older housing and child-occupied settings.",
+    "sourceRefs": [
+      "oha-lead-contractors-and-painters"
+    ],
+    "relatedTerms": [
+      "lead-based-paint-renovation"
+    ],
+    "topicSlugs": [
+      "environmental-factors"
+    ]
+  },
+  {
+    "slug": "asbestos-compliance",
+    "term": "Asbestos Compliance",
+    "definition": "Oregon DEQ-administered asbestos compliance duties, including requirements codified in OAR chapter 340, division 248 and related contractor/business prerequisites.",
+    "sourceRefs": [
+      "deq-asbestos-information",
+      "deq-asbestos-for-businesses",
+      "oar-340-248"
+    ],
+    "relatedTerms": [
+      "environmental-factors"
+    ],
+    "topicSlugs": [
+      "environmental-factors"
+    ]
+  },
+  {
+    "slug": "jobsite-safety",
+    "term": "Jobsite Safety",
+    "definition": "Oregon construction safety compliance framework combining ORS chapter 654 duties with Oregon OSHA Division 3 operational rules.",
+    "sourceRefs": [
+      "psi-cib-oregon-construction-contractors",
+      "ors-chapter-654",
+      "oar-437-division-3-construction"
+    ],
+    "relatedTerms": [
+      "competent-person",
+      "fall-protection",
+      "excavation-safety"
+    ],
+    "topicSlugs": [
+      "jobsite-safety"
+    ]
+  },
+  {
+    "slug": "environmental-factors",
+    "term": "Environmental Factors",
+    "definition": "Exam domain focused on recognizing Oregon lead and asbestos compliance triggers, agency authority, and pre-work licensing or certification obligations.",
+    "sourceRefs": [
+      "psi-cib-oregon-construction-contractors",
+      "oregon-ccb-specialty-licenses-lead-based-paint",
+      "deq-asbestos-information"
+    ],
+    "relatedTerms": [
+      "lead-based-paint-renovation",
+      "asbestos-compliance"
+    ],
+    "topicSlugs": [
+      "environmental-factors"
     ]
   }
 ]

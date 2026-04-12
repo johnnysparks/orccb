@@ -8,6 +8,14 @@ version: "1.0.0"
 lastValidatedAt: null
 audioScriptEstMinutes: 9
 sourceRefs:
+  - ors-chapter-701
+  - ors-701-305
+  - ors-701-310
+  - ors-83-720
+  - ors-83-730
+  - ors-701-315
+  - ccb-contractor-tools
+  - ccb-required-notices-chart
   - psi-cib-oregon-construction-contractors
   - ors-701-305
   - ors-701-310
@@ -32,6 +40,8 @@ glossaryTermSlugs:
   - retainage
   - right-of-rescission
   - written-contract-threshold
+  - written-contract-threshold
+  - right-of-rescission
   - home-solicitation-sale
 prerequisites:
   - laws-and-regulations
@@ -48,6 +58,52 @@ The core Oregon contract rules in this module are statutory: when a written resi
 ### Exam framing: formation + compliance
 
 You still need general contract building blocks like [[offer]], [[acceptance]], and [[consideration]], but Oregon exam questions frequently test compliance mechanics tied to residential work. Source: psi-cib-oregon-construction-contractors, ccb-contractor-tools.
+Exam questions on this topic test two things: the general contract principles that apply in every state (formation, breach, remedy), and the Oregon-specific rules that apply to licensed contractors. Know both layers. Source: psi-cib-oregon-construction-contractors, ors-701-305, ors-701-310.
+
+Understanding contracts also protects you in the field. A verbal agreement about added work is the most common source of contractor-client disputes. The exam will test whether you know what the law requires before work starts — not just what's polite.
+
+## Lesson
+
+### Essential Elements of a Contract
+
+A valid and enforceable contract requires four elements. If any one is missing, there is no binding agreement.
+
+1. **Offer** — One party proposes definite terms: a specific scope of work, a price, and a timeline. A bid or estimate is not automatically an offer; it may be an invitation to negotiate.
+
+2. **Acceptance** — The other party agrees to exactly those terms, without modification. Changing a term creates a counteroffer, not an acceptance, and the original offer lapses.
+
+3. **Consideration** — Each party gives something of value. For a contractor, consideration is the promise to perform work. For the client, it is the promise to pay. Consideration need not be money, but it must be real — a promise to do something you are already legally required to do is not valid consideration.
+
+4. **Mutual assent (meeting of the minds)** — Both parties understand and agree to the same thing. A contract procured by fraud, duress, or misrepresentation lacks genuine mutual assent and can be voided.
+
+A fifth element — **legal purpose** — is sometimes listed separately: a contract for an illegal act is unenforceable regardless of how well formed it is.
+
+### Written Contract Requirements Under Oregon Law
+
+Oregon law imposes written contract requirements on top of common-law formation rules.
+
+**Residential contractors:** ORS 701.305 requires a written contract for covered residential work when aggregate contract price exceeds **$2,000**. If a project starts below the threshold and later exceeds it, the contractor must deliver or mail the written contract within **five days** after the contractor knows or should know the threshold was exceeded. Source: ors-701-305.
+
+When ORS 701.305 applies, CCB guidance also ties required notices and delivery-proof retention duties to the contract-compliance workflow. Source: ccb-contractor-tools, ccb-required-notices-chart.
+
+The written contract must include:
+
+- The contractor's name, address, and **CCB license number** — this is frequently tested
+- A description of the work to be performed
+- The contract price or the basis for calculating it
+- An estimated start date and substantial completion date
+- A disclosure that the contractor is bonded and insured (or the specific coverage amounts)
+
+Failure to include required elements does not automatically make the contract void, but it exposes the contractor to complaints, license sanctions, and potential loss of lien rights. Source: ors-701-305, ccb-contractor-tools.
+
+### Cancellation and Rescission Timelines
+
+Oregon contractors must distinguish between two different statutory cancellation frameworks:
+
+- **ORS 701.310 (residential contract cancellation):** For an initial written residential contract, a property owner generally has until **midnight of the next business day** to cancel, subject to listed exceptions. Source: ors-701-310.
+- **ORS 83.720 / ORS 83.730 (home solicitation sales):** Qualifying home solicitation sales generally carry a **third business day** cancellation window and specific written-notice requirements. Source: ors-83-720, ors-83-730.
+
+Exam questions often test whether a scenario is an ORS 701 cancellation case or an ORS 83 home-solicitation case. Source: ccb-contractor-tools.
 
 ### Written-contract trigger for residential work
 
@@ -92,6 +148,7 @@ In this module, think like an examiner first: Contracts is 9 scored questions on
 Start with the basics: contracts still depend on offer, acceptance, and consideration. But in Oregon residential work, ORS 701.305 adds a clear written-contract trigger when the aggregate price goes over two thousand dollars. Source: ors-701-305.
 
 If the project crosses that amount after work begins, the statute gives you five days from when you knew or should have known the threshold was exceeded to deliver the written contract. Source: ors-701-305.
+The contract also needs: a description of the work, the price or how it'll be calculated, start and completion dates, and a notice that the contractor is bonded and insured. For an initial written residential contract under ORS 701, the owner generally has until midnight of the next business day to cancel. Home-solicitation transactions under ORS 83 use a different three-business-day cancellation framework.
 
 Now remember the cancellation split. ORS 701.310 gives a next-business-day cancellation window for an initial written residential contract, with exceptions in the statute. Source: ors-701-310.
 
@@ -135,3 +192,13 @@ Failing to keep proof of required notice delivery. CCB guidance and the notices 
 - Search "83.720" and "83.730" for home solicitation cancellation and notice mechanics. Source: ors-83-720, ors-83-730.
 - Search "701.315" to confirm complaint-right non-waiver language. Source: ors-701-315.
 - Search CCB Contractor Tools and Required Notices Chart for notice timing/proof documentation reminders. Source: ccb-contractor-tools, ccb-required-notices-chart.
+- **ORS 701.305** — Written contract requirements for residential contractors. Search for "written contract" or "701.305" in your reference materials.
+- **ORS 701.310** — Residential cancellation timing and exceptions (next business day in most initial written-contract cases).
+- **ORS 83.720 and ORS 83.730** — Home solicitation sale cancellation timing (third business day) and required written notice content.
+- The CCB license number requirement appears in ORS 701.305(1)(a). It will not be far from the written-contract threshold.
+- For change orders, look for the phrase "change in scope" or "change order" in the CCB contractor reference materials.
+- If a question asks about damages and you're not sure, default to "compensatory damages" — that's the standard remedy and the most-tested answer.
+
+## See Also
+
+<!-- Wiki cross-links will be added as term pages are created by the organizer agent. -->

@@ -65,6 +65,14 @@ links resolve to existing term files.
 - [[safety-requirements]]
 - [[oregon-building-codes]]
 
+## Jobsite Safety
+
+- [[jobsite-safety]]
+
+## Environmental Factors
+
+- [[environmental-factors]]
+
 ## Building and Construction
 
 - [[building-permits]]
@@ -76,4 +84,3 @@ links resolve to existing term files.
 
 _Terms that do not yet have a wiki page are shown as broken links. Run
 `npm run lint:wiki` to see a list of missing pages._
-

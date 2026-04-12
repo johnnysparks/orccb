@@ -1,0 +1,51 @@
+{
+  "topic": "jobsite-safety",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "jobsite-safety-001",
+      "prompt": "Under Oregon jobsite safety law, which statement best reflects ORS chapter 654 duties?",
+      "choices": [
+        "Only employees must comply with safety rules on a jobsite.",
+        "Employers must furnish a safe and healthful workplace and comply with applicable safety rules.",
+        "Contractors only need to follow federal OSHA text exactly as written in 29 CFR.",
+        "Safety obligations apply only after an accident has occurred."
+      ],
+      "answerIndex": 1,
+      "difficulty": "foundation",
+      "explanation": "ORS chapter 654 includes a broad employer duty to provide a safe and healthful workplace and to comply with applicable safety rules and orders, making choice two the best answer.",
+      "sourceRefs": ["ors-chapter-654"],
+      "tags": ["legal-duty", "ors-654"]
+    },
+    {
+      "id": "jobsite-safety-002",
+      "prompt": "Which Oregon construction rule set requires employers to train workers exposed to fall hazards?",
+      "choices": [
+        "OAR chapter 340, division 248",
+        "OAR chapter 812, division 12",
+        "OAR chapter 437, division 3, subdivision M",
+        "ORS chapter 701 only"
+      ],
+      "answerIndex": 2,
+      "difficulty": "standard",
+      "explanation": "Oregon fall protection and related worker training requirements for construction are covered in Division 3 Subdivision M, including OAR 437-003-0503 training duties.",
+      "sourceRefs": ["oar-437-003-subdivision-m-fall-protection"],
+      "tags": ["fall-protection", "training"]
+    },
+    {
+      "id": "jobsite-safety-003",
+      "prompt": "In an Oregon trench 4 feet deep, what is a required compliance element?",
+      "choices": [
+        "No egress is required if workers have hard hats.",
+        "Workers may travel any distance laterally as long as shoring is present.",
+        "A safe means of egress must be provided so lateral travel does not exceed 25 feet.",
+        "Excavation inspections are only required after heavy rain."
+      ],
+      "answerIndex": 2,
+      "difficulty": "standard",
+      "explanation": "Subdivision P requires safe means of egress in trench excavations at 4 feet or more depth, with no more than 25 feet of lateral travel to exit.",
+      "sourceRefs": ["oar-437-003-subdivision-p-excavations"],
+      "tags": ["excavation", "egress", "competent-person"]
+    }
+  ]
+}
