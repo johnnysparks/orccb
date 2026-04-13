@@ -107,6 +107,7 @@ links resolve to existing term files.
 - [[flashing]]
 - [[exterior-site-improvements]]
 - [[roofing-and-weatherproofing]]
+- [[roof-geometry]]
 - [[oregon-residential-specialty-code]]
 - [[mechanical-hvac]]
 - [[plumbing]]
