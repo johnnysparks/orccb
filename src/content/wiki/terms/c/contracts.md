@@ -33,6 +33,7 @@ glossaryTermSlugs:
   - right-of-rescission
   - written-contract-threshold
   - home-solicitation-sale
+  - contract-cancellation-windows
 prerequisites:
   - laws-and-regulations
 ---
@@ -121,6 +122,8 @@ Finally, tie contracts to notices. ORS 701.330 supports required consumer notice
 **[[right-of-rescission]]** — Statutory cancellation rights with timing rules that depend on governing law and scenario. Source: ors-701-310, ors-83-720, ors-83-730.
 
 **[[home-solicitation-sale]]** — A transaction category with separate disclosure and cancellation mechanics under ORS chapter 83. Source: ors-83-720, ors-83-730.
+
+**[[contract-cancellation-windows]]** — The exam-critical distinction between ORS 701.310 next-business-day cancellation and ORS 83.720/83.730 third-business-day cancellation in qualifying solicitation scenarios. Source: ors-701-310, ors-83-720, ors-83-730, ccb-contractor-tools.
 
 ## Common Mistakes
 
