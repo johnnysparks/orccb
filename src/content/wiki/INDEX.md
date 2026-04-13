@@ -13,6 +13,8 @@ links resolve to existing term files.
 ## Laws and Regulations
 
 - [[laws-and-regulations]]
+- [[ccb-path]]
+- [[pre-license-education-and-exam-prep]]
 - [[ccb-license]]
 - [[contractor-classification]]
 - [[exempt-vs-nonexempt]]
@@ -24,6 +26,7 @@ links resolve to existing term files.
 - [[advertising-rules]]
 - [[insurance-requirements]]
 - [[bond-requirements]]
+- [[bond-liability-requirements]]
 
 
 ## Working with Subcontractors
@@ -31,10 +34,12 @@ links resolve to existing term files.
 - [[working-with-subcontractors]]
 - [[subcontractor-licensing]]
 - [[endorsement]]
+- [[endorsement-selection]]
 
 ## Contracts
 
 - [[contracts]]
+- [[contract-compliance]]
 - [[offer]]
 - [[acceptance]]
 - [[consideration]]
@@ -50,6 +55,7 @@ links resolve to existing term files.
 ## Hiring and Managing Employees
 
 - [[workers-compensation]]
+- [[workers-comp-awareness]]
 - [[license-status-change-notification]]
 - [[prevailing-wage]]
 - [[employee-vs-subcontractor]]
@@ -78,6 +84,11 @@ links resolve to existing term files.
 ## Business Practices and Project Management
 
 - [[business-structure]]
+- [[entity-setup]]
+- [[rmi-duties]]
+- [[records]]
+- [[complaint-claims-awareness]]
+- [[renewals]]
 - [[project-scheduling]]
 - [[weather-neighbor-planning-site-management]]
 - [[repair-vs-replacement-logic-pre-construction]]
