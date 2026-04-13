@@ -84,6 +84,8 @@ links resolve to existing term files.
 ## Business Practices and Project Management
 
 - [[business-structure]]
+- [[programming-through-construction-documents]]
+- [[interdisciplinary-coordination]]
 - [[entity-setup]]
 - [[rmi-duties]]
 - [[records]]
@@ -93,6 +95,7 @@ links resolve to existing term files.
 - [[weather-neighbor-planning-site-management]]
 - [[repair-vs-replacement-logic-pre-construction]]
 - [[scope-gap-analysis]]
+- [[space-planning]]
 - [[selections-and-allowances]]
 - [[gis-parcel-interpretation]]
 - [[district-applicability]]
@@ -127,6 +130,8 @@ links resolve to existing term files.
 ## Building and Construction
 
 - [[building-permits]]
+- [[permit-set-standards]]
+- [[life-safety-and-orsc-research]]
 - [[permit-package-assembly-sequencing-revisions]]
 - [[owner-builder]]
 - [[permit-license-verification]]
@@ -141,8 +146,11 @@ links resolve to existing term files.
 - [[foundation-floor-roof-systems]]
 - [[concrete-and-foundations]]
 - [[exterior-wall-envelope]]
+- [[envelope-detailing]]
+- [[energy-water-fire-resilience-detailing]]
 - [[drainage-plane]]
 - [[drywall-and-interior-finishes]]
+- [[finish-specifications]]
 - [[flashing]]
 - [[exterior-site-improvements]]
 - [[retaining]]
@@ -150,6 +158,7 @@ links resolve to existing term files.
 - [[right-of-way-improvements]]
 - [[roofing-and-weatherproofing]]
 - [[roof-geometry]]
+- [[openings-schedules]]
 - [[openings-headers]]
 - [[oregon-residential-specialty-code]]
 - [[mechanical-hvac]]
