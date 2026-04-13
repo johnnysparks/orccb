@@ -122,6 +122,7 @@ links resolve to existing term files.
 - [[deck-and-stair-design]]
 - [[right-of-way-improvements]]
 - [[roofing-and-weatherproofing]]
+- [[roof-geometry]]
 - [[oregon-residential-specialty-code]]
 - [[mechanical-hvac]]
 - [[plumbing]]
