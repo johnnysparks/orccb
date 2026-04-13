@@ -1,0 +1,20 @@
+{
+  "slug": "demolition-and-clearing",
+  "term": "Demolition and Clearing",
+  "definition": "A controlled preconstruction/early-construction phase that removes existing structures, vegetation, and obstacles while managing safety, environmental triggers, and downstream site readiness.",
+  "sourceRefs": [
+    "psi-cib-oregon-construction-contractors",
+    "oar-437-division-3-construction",
+    "deq-asbestos-information"
+  ],
+  "relatedTerms": [
+    "jobsite-safety",
+    "environmental-factors",
+    "excavation-safety"
+  ],
+  "topicSlugs": [
+    "environmental-factors",
+    "jobsite-safety",
+    "scheduling-and-project-management"
+  ]
+}
