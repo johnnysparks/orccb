@@ -1,0 +1,16 @@
+{
+  "slug": "subcontractor-licensing",
+  "term": "Subcontractor Licensing",
+  "definition": "Under ORS 701.026, a contractor generally may not hire another contractor unless the hired party is properly licensed and endorsed for the work, or exempt under ORS 701.010.",
+  "sourceRefs": [
+    "ors-701-026",
+    "ors-701-010"
+  ],
+  "relatedTerms": [
+    "ccb-license",
+    "endorsement"
+  ],
+  "topicSlugs": [
+    "working-with-subcontractors"
+  ]
+}

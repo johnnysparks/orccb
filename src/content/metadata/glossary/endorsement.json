@@ -1,0 +1,16 @@
+{
+  "slug": "endorsement",
+  "term": "Endorsement",
+  "definition": "A CCB license authorization category that must match the type of contractor work being offered, bid, or performed under Oregon's contractor licensing rules.",
+  "sourceRefs": [
+    "ors-701-021",
+    "ors-701-026"
+  ],
+  "relatedTerms": [
+    "ccb-license",
+    "subcontractor-licensing"
+  ],
+  "topicSlugs": [
+    "working-with-subcontractors"
+  ]
+}

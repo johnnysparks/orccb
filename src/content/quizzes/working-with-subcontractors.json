@@ -1,0 +1,51 @@
+{
+  "topic": "working-with-subcontractors",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "working-with-subcontractors-001",
+      "prompt": "Under ORS 701.026, when may a contractor hire another contractor as a subcontractor?",
+      "choices": [
+        "Only when the hired party is properly licensed/endorsed or exempt under ORS 701.010",
+        "Any time there is a written subcontract",
+        "Only if the project is residential",
+        "Only if the subcontractor has workers' compensation coverage"
+      ],
+      "answerIndex": 0,
+      "difficulty": "foundation",
+      "explanation": "ORS 701.026 focuses on licensing compliance: the hired contractor must be licensed and properly endorsed for the work unless an ORS 701.010 exemption applies.",
+      "sourceRefs": ["ors-701-026", "ors-701-010"],
+      "tags": ["subcontractor-licensing", "licensing"]
+    },
+    {
+      "id": "working-with-subcontractors-002",
+      "prompt": "Which statute is the best starting point to verify whether an exemption from CCB licensure might apply?",
+      "choices": [
+        "ORS 701.010",
+        "ORS 670.600",
+        "ORS 701.026",
+        "ORS 701.021"
+      ],
+      "answerIndex": 0,
+      "difficulty": "standard",
+      "explanation": "ORS 701.010 contains the exemption framework. ORS 701.021 and ORS 701.026 establish core licensing duties, while ORS 670.600 addresses independent-contractor criteria.",
+      "sourceRefs": ["ors-701-010", "ors-701-021", "ors-701-026", "ors-670-600"],
+      "tags": ["exemptions", "open-book-navigation"]
+    },
+    {
+      "id": "working-with-subcontractors-003",
+      "prompt": "The PSI Oregon CCB bulletin indicates that 'Working with Subcontractors' accounts for how many scored items?",
+      "choices": [
+        "2",
+        "5",
+        "10",
+        "18"
+      ],
+      "answerIndex": 0,
+      "difficulty": "foundation",
+      "explanation": "The reviewed PSI Candidate Information Bulletin allocates 2 scored items to Working with Subcontractors out of 80 scored items total.",
+      "sourceRefs": ["psi-cib-oregon-construction-contractors"],
+      "tags": ["exam-blueprint"]
+    }
+  ]
+}

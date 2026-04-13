@@ -22,6 +22,13 @@ links resolve to existing term files.
 - [[insurance-requirements]]
 - [[bond-requirements]]
 
+
+## Working with Subcontractors
+
+- [[working-with-subcontractors]]
+- [[subcontractor-licensing]]
+- [[endorsement]]
+
 ## Contracts
 
 - [[contracts]]
