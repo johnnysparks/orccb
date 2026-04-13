@@ -116,6 +116,7 @@ links resolve to existing term files.
 ## Financial Management
 
 - [[financial-management]]
+- [[job-costing]]
 - [[bond-penal-sum]]
 - [[insurance-certificate-requirements]]
 - [[license-application-fee]]
