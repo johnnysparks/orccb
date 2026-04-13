@@ -78,6 +78,7 @@ links resolve to existing term files.
 - [[business-structure]]
 - [[project-scheduling]]
 - [[selections-and-allowances]]
+- [[gis-parcel-interpretation]]
 - [[safety-requirements]]
 - [[oregon-building-codes]]
 
@@ -90,6 +91,8 @@ links resolve to existing term files.
 
 - [[environmental-factors]]
 - [[demolition-and-clearing]]
+- [[prohibited-plants]]
+- [[tree-management]]
 
 ## Building and Construction
 
