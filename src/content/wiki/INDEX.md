@@ -106,6 +106,7 @@ links resolve to existing term files.
 - [[drywall-and-interior-finishes]]
 - [[flashing]]
 - [[exterior-site-improvements]]
+- [[deck-and-stair-design]]
 - [[roofing-and-weatherproofing]]
 - [[oregon-residential-specialty-code]]
 - [[mechanical-hvac]]
