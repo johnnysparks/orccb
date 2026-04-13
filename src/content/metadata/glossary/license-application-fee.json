@@ -1,0 +1,15 @@
+{
+  "slug": "license-application-fee",
+  "term": "License Application Fee",
+  "definition": "CCB fee amount set by OAR for new license applications, renewals, and related licensing transactions, with amounts governed by rule effective dates.",
+  "sourceRefs": [
+    "oar-812-003-0142"
+  ],
+  "relatedTerms": [
+    "ccb-license",
+    "financial-management"
+  ],
+  "topicSlugs": [
+    "financial-management"
+  ]
+}

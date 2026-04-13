@@ -1,0 +1,19 @@
+{
+  "slug": "financial-management",
+  "term": "Financial Management",
+  "definition": "Oregon CCB exam domain focused on contractor financial-compliance operations such as maintaining required bond and insurance levels, meeting fee obligations, and completing required licensing records.",
+  "sourceRefs": [
+    "psi-cib-oregon-construction-contractors",
+    "ors-701-068",
+    "ors-701-073",
+    "oar-812-003-0142"
+  ],
+  "relatedTerms": [
+    "bond-penal-sum",
+    "insurance-certificate-requirements",
+    "license-application-fee"
+  ],
+  "topicSlugs": [
+    "financial-management"
+  ]
+}

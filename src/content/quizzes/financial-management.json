@@ -1,0 +1,51 @@
+{
+  "topic": "financial-management",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "financial-management-001",
+      "prompt": "How many scored items does the PSI Oregon CCB bulletin allocate to Financial Management?",
+      "choices": [
+        "2",
+        "4",
+        "6",
+        "10"
+      ],
+      "answerIndex": 1,
+      "difficulty": "foundation",
+      "explanation": "The PSI content outline allocates 4 scored items to Financial Management within the Oregon CCB exam blueprint.",
+      "sourceRefs": ["psi-cib-oregon-construction-contractors"],
+      "tags": ["exam-blueprint"]
+    },
+    {
+      "id": "financial-management-002",
+      "prompt": "Under ORS 701.068, what may CCB do if paid bond obligations exceed the bond penal sum?",
+      "choices": [
+        "Automatically forgive the excess and keep the license active",
+        "Suspend the license and require a higher replacement bond for reinstatement",
+        "Replace the bond with only additional insurance",
+        "Reduce the endorsement class permanently"
+      ],
+      "answerIndex": 1,
+      "difficulty": "standard",
+      "explanation": "ORS 701.068 allows CCB to suspend the license when bond-paid obligations exceed the penal sum and to condition reinstatement on a higher bond, potentially up to five times the ordinary amount.",
+      "sourceRefs": ["ors-701-068"],
+      "tags": ["bond-compliance", "enforcement"]
+    },
+    {
+      "id": "financial-management-003",
+      "prompt": "Which OAR section is the best primary lookup for required insurance certificate content fields for CCB licensing?",
+      "choices": [
+        "OAR 812-003-0142",
+        "OAR 812-003-0200",
+        "OAR 812-003-0221",
+        "OAR 812-003-0260"
+      ],
+      "answerIndex": 1,
+      "difficulty": "standard",
+      "explanation": "OAR 812-003-0200 is the section that specifies insurance certification and required insurance-certificate content details.",
+      "sourceRefs": ["oar-812-003-0200"],
+      "tags": ["insurance-certificate", "open-book-lookup"]
+    }
+  ]
+}
