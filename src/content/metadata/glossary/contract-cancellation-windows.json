@@ -1,0 +1,19 @@
+{
+  "slug": "contract-cancellation-windows",
+  "term": "Contract Cancellation Windows",
+  "definition": "In Oregon residential contracting, cancellation timing depends on governing law: ORS 701.310 generally provides a next-business-day cancellation period for initial written residential contracts, while qualifying ORS 83 home solicitation sales generally use a third-business-day period with separate notice requirements.",
+  "sourceRefs": [
+    "ors-701-310",
+    "ors-83-720",
+    "ors-83-730",
+    "ccb-contractor-tools"
+  ],
+  "relatedTerms": [
+    "right-of-rescission",
+    "home-solicitation-sale",
+    "written-contract-threshold"
+  ],
+  "topicSlugs": [
+    "contracts"
+  ]
+}

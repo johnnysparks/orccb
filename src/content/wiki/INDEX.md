@@ -37,6 +37,7 @@ links resolve to existing term files.
 - [[consideration]]
 - [[breach-of-contract]]
 - [[change-order]]
+- [[contract-cancellation-windows]]
 - [[liquidated-damages]]
 - [[retainage]]
 - [[right-of-rescission]]
