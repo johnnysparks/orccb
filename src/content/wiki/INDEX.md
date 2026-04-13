@@ -110,6 +110,7 @@ links resolve to existing term files.
 - [[painting]]
 - [[electrical]]
 - [[framing]]
+- [[seismic-wind-basics]]
 - [[concrete-and-foundations]]
 - [[exterior-wall-envelope]]
 - [[drainage-plane]]
