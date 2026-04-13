@@ -1,0 +1,16 @@
+{
+  "slug": "lien-perfection",
+  "term": "Lien Perfection",
+  "definition": "Completion of statutory filing and notice steps needed to make a construction lien enforceable, including ORS 87.035 filing and ORS 87.039 post-filing notice requirements.",
+  "sourceRefs": [
+    "ors-chapter-87",
+    "ors-701-131"
+  ],
+  "relatedTerms": [
+    "construction-lien",
+    "lien-foreclosure"
+  ],
+  "topicSlugs": [
+    "oregon-lien-law"
+  ]
+}

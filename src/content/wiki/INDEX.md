@@ -63,6 +63,7 @@ links resolve to existing term files.
 
 ## Oregon Lien Law
 
+- [[oregon-lien-law]]
 - [[construction-lien]]
 - [[notice-of-right-to-lien]]
 - [[lien-perfection]]

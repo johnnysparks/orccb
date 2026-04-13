@@ -1,0 +1,15 @@
+{
+  "slug": "lien-foreclosure",
+  "term": "Lien Foreclosure",
+  "definition": "The lawsuit process used to enforce a perfected construction lien, generally requiring suit within ORS 87.055 timelines and notice of intent under ORS 87.057.",
+  "sourceRefs": [
+    "ors-chapter-87"
+  ],
+  "relatedTerms": [
+    "lien-perfection",
+    "construction-lien"
+  ],
+  "topicSlugs": [
+    "oregon-lien-law"
+  ]
+}

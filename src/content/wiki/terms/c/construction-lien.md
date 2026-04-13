@@ -3,15 +3,16 @@ slug: construction-lien
 title: Construction Lien
 reviewStatus: draft
 sourceRefs:
-  - nascla-contractors-guide-or-2e
-  - oregon-ccb-contractor-tools
+  - ors-chapter-87
+  - ors-701-131
 related:
+  - oregon-lien-law
   - notice-of-right-to-lien
   - lien-perfection
 ---
 
-**Construction Lien** is an exam-relevant concept in the Oregon CCB pre-license outline. Use this page as a quick definition and navigation point to deeper topic modules. Source: nascla-contractors-guide-or-2e, oregon-ccb-contractor-tools.
+A **construction lien** is a statutory security interest against improved real property that can secure payment for qualifying labor, services, or materials when Oregon lien-law conditions are met. Source: ors-chapter-87.
 
-For open-book prep, pair this term with the linked pages below and verify any rule-specific detail against the cited statute, rule, or agency reference before relying on it in a scenario question. Source: nascla-contractors-guide-or-2e.
+In Oregon CCB exam scenarios, lien rights depend on both Chapter 87 procedural compliance and licensure eligibility under ORS 701.131. Source: ors-chapter-87, ors-701-131.
 
-See [[notice-of-right-to-lien]] and [[lien-perfection]].
+Start with [[oregon-lien-law]], then review [[notice-of-right-to-lien]] and [[lien-perfection]].

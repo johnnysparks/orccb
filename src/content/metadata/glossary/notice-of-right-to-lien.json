@@ -1,0 +1,15 @@
+{
+  "slug": "notice-of-right-to-lien",
+  "term": "Notice of Right to Lien",
+  "definition": "The statutory pre-lien notice framework in ORS 87.021, with form language in ORS 87.023, that can affect lien validity and amount based on timing and statutory exceptions.",
+  "sourceRefs": [
+    "ors-chapter-87"
+  ],
+  "relatedTerms": [
+    "construction-lien",
+    "residential-lien-notice"
+  ],
+  "topicSlugs": [
+    "oregon-lien-law"
+  ]
+}

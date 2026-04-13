@@ -1,0 +1,16 @@
+{
+  "slug": "residential-lien-notice",
+  "term": "Residential Lien Notice",
+  "definition": "The Information Notice to Owner requirement for covered residential contracts under ORS 87.093, with form adoption in OAR 812-001-0200.",
+  "sourceRefs": [
+    "ors-chapter-87",
+    "oar-812-001-0200"
+  ],
+  "relatedTerms": [
+    "notice-of-right-to-lien",
+    "construction-lien"
+  ],
+  "topicSlugs": [
+    "oregon-lien-law"
+  ]
+}
