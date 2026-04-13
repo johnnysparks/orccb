@@ -1,0 +1,19 @@
+{
+  "slug": "owner-builder",
+  "term": "Owner-Builder",
+  "definition": "A property owner using an exemption pathway instead of operating as a licensed contractor, subject to owner statement and acknowledgment requirements during residential permit issuance workflows.",
+  "sourceRefs": [
+    "ors-701-010",
+    "ors-701-325",
+    "oar-812-001-0200"
+  ],
+  "relatedTerms": [
+    "building-permits",
+    "permit-license-verification",
+    "owner-responsibility-notice"
+  ],
+  "topicSlugs": [
+    "laws-and-regulations",
+    "oregon-building-codes"
+  ]
+}

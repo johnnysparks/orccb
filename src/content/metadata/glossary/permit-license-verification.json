@@ -1,0 +1,18 @@
+{
+  "slug": "permit-license-verification",
+  "term": "Permit License Verification",
+  "definition": "Permit-counter legal check under ORS 701.325 requiring agencies to verify valid CCB licensure when licensure is required, or collect an applicant exemption statement when licensure is not required.",
+  "sourceRefs": [
+    "ors-701-325",
+    "ors-701-010"
+  ],
+  "relatedTerms": [
+    "building-permits",
+    "ccb-license",
+    "owner-builder"
+  ],
+  "topicSlugs": [
+    "laws-and-regulations",
+    "oregon-building-codes"
+  ]
+}

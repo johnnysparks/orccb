@@ -4,14 +4,18 @@ title: Building Permits
 reviewStatus: draft
 sourceRefs:
   - ors-chapter-455
-  - oregon-ccb-contractor-tools
+  - ors-701-325
+  - ccb-owner-construction-responsibilities-notice
 related:
   - oregon-building-codes
   - owner-builder
+  - permit-license-verification
 ---
 
-**Building Permits** is an exam-relevant concept in the Oregon CCB pre-license outline. Use this page as a quick definition and navigation point to deeper topic modules. Source: ors-chapter-455, oregon-ccb-contractor-tools.
+In Oregon, **building permits** are code-enforcement authorizations under the statewide building code framework, and permit issuance also intersects with CCB licensing law for residential contractor activity. Source: ors-chapter-455, ors-701-325.
 
-For open-book prep, pair this term with the linked pages below and verify any rule-specific detail against the cited statute, rule, or agency reference before relying on it in a scenario question. Source: ors-chapter-455.
+Under ORS 701.325, permit offices must check whether the applicant is required to hold a CCB license and collect a signed applicant statement tied to license status or exemption status before issuance. Source: ors-701-325.
 
-See [[oregon-building-codes]] and [[owner-builder]].
+For owner-exempt residential workflows, agencies use the CCB owner responsibilities notice/statement, which also references residential electrical, mechanical, and plumbing permits in its form language. Source: ccb-owner-construction-responsibilities-notice.
+
+See [[oregon-building-codes]], [[owner-builder]], and [[permit-license-verification]].

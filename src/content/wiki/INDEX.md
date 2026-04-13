@@ -16,6 +16,8 @@ links resolve to existing term files.
 - [[ccb-license]]
 - [[contractor-classification]]
 - [[exempt-vs-nonexempt]]
+- [[permit-license-verification]]
+- [[owner-responsibility-notice]]
 - [[independent-contractor]]
 - [[worker-leasing]]
 - [[license-status-change-notification]]
@@ -88,6 +90,8 @@ links resolve to existing term files.
 
 - [[building-permits]]
 - [[owner-builder]]
+- [[permit-license-verification]]
+- [[owner-responsibility-notice]]
 - [[building-exterior-shell]]
 - [[exterior-wall-envelope]]
 - [[drainage-plane]]
