@@ -1,0 +1,19 @@
+{
+  "slug": "owner-responsibility-notice",
+  "term": "Owner Responsibility Notice",
+  "definition": "CCB-adopted owner notice and acknowledgment statement required in owner-exemption permit workflows under ORS 701.325, including commitments about using properly licensed and endorsed contractors when hired.",
+  "sourceRefs": [
+    "ors-701-325",
+    "oar-812-001-0200",
+    "ccb-owner-construction-responsibilities-notice"
+  ],
+  "relatedTerms": [
+    "owner-builder",
+    "building-permits",
+    "subcontractor-licensing"
+  ],
+  "topicSlugs": [
+    "laws-and-regulations",
+    "oregon-building-codes"
+  ]
+}
