@@ -96,5 +96,194 @@
     "examWeightPct": 3,
     "order": 14,
     "estimatedMinutes": 30
+  },
+  {
+    "slug": "ashland-built-environment-literacy",
+    "title": "Ashland Built Environment Literacy",
+    "examWeightPct": 4,
+    "order": 15,
+    "estimatedMinutes": 75
+  },
+  {
+    "slug": "land-acquisition-and-due-diligence",
+    "title": "Land Acquisition and Due Diligence",
+    "examWeightPct": 4,
+    "order": 16,
+    "estimatedMinutes": 90
+  },
+  {
+    "slug": "ashland-zoning-and-entitlement",
+    "title": "Ashland Zoning and Entitlement",
+    "examWeightPct": 4,
+    "order": 17,
+    "estimatedMinutes": 90
+  },
+  {
+    "slug": "physical-environmental-constraints",
+    "title": "Physical and Environmental Constraints",
+    "examWeightPct": 3,
+    "order": 18,
+    "estimatedMinutes": 75
+  },
+  {
+    "slug": "survey-soils-and-site-evaluation",
+    "title": "Survey, Soils, and Site Evaluation",
+    "examWeightPct": 3,
+    "order": 19,
+    "estimatedMinutes": 80
+  },
+  {
+    "slug": "residential-design-studio-i",
+    "title": "Residential Design Studio I",
+    "examWeightPct": 3,
+    "order": 20,
+    "estimatedMinutes": 90
+  },
+  {
+    "slug": "residential-design-studio-ii",
+    "title": "Residential Design Studio II",
+    "examWeightPct": 3,
+    "order": 21,
+    "estimatedMinutes": 90
+  },
+  {
+    "slug": "structural-systems-for-houses",
+    "title": "Structural Systems for Houses",
+    "examWeightPct": 3,
+    "order": 22,
+    "estimatedMinutes": 80
+  },
+  {
+    "slug": "building-science-and-energy",
+    "title": "Building Science and Energy",
+    "examWeightPct": 3,
+    "order": 23,
+    "estimatedMinutes": 80
+  },
+  {
+    "slug": "ashland-permit-set-assembly",
+    "title": "Ashland Permit Set Assembly",
+    "examWeightPct": 3,
+    "order": 24,
+    "estimatedMinutes": 90
+  },
+  {
+    "slug": "permit-sequencing-and-agency-coordination",
+    "title": "Permit Sequencing and Agency Coordination",
+    "examWeightPct": 3,
+    "order": 25,
+    "estimatedMinutes": 75
+  },
+  {
+    "slug": "site-logistics-and-preconstruction",
+    "title": "Site Logistics and Preconstruction",
+    "examWeightPct": 3,
+    "order": 26,
+    "estimatedMinutes": 75
+  },
+  {
+    "slug": "excavation-grading-and-foundations",
+    "title": "Excavation, Grading, and Foundations",
+    "examWeightPct": 3,
+    "order": 27,
+    "estimatedMinutes": 90
+  },
+  {
+    "slug": "framing-and-structural-shell",
+    "title": "Framing and Structural Shell",
+    "examWeightPct": 3,
+    "order": 28,
+    "estimatedMinutes": 90
+  },
+  {
+    "slug": "roofing-and-weatherproofing",
+    "title": "Roofing and Weatherproofing",
+    "examWeightPct": 2,
+    "order": 29,
+    "estimatedMinutes": 70
+  },
+  {
+    "slug": "mep-rough-in-and-coordination",
+    "title": "MEP Rough-In and Coordination",
+    "examWeightPct": 3,
+    "order": 30,
+    "estimatedMinutes": 90
+  },
+  {
+    "slug": "windows-doors-and-exterior-envelope",
+    "title": "Windows, Doors, and Exterior Envelope",
+    "examWeightPct": 2,
+    "order": 31,
+    "estimatedMinutes": 80
+  },
+  {
+    "slug": "insulation-air-sealing-performance",
+    "title": "Insulation, Air Sealing, and Performance",
+    "examWeightPct": 2,
+    "order": 32,
+    "estimatedMinutes": 70
+  },
+  {
+    "slug": "interior-finishes-and-turnover",
+    "title": "Interior Finishes and Turnover",
+    "examWeightPct": 2,
+    "order": 33,
+    "estimatedMinutes": 80
+  },
+  {
+    "slug": "site-improvements-and-public-interface",
+    "title": "Site Improvements and Public Interface",
+    "examWeightPct": 2,
+    "order": 34,
+    "estimatedMinutes": 70
+  },
+  {
+    "slug": "inspection-corrections-and-final-approval",
+    "title": "Inspections, Corrections, and Final Approval",
+    "examWeightPct": 3,
+    "order": 35,
+    "estimatedMinutes": 75
+  },
+  {
+    "slug": "ownership-and-maintenance-stewardship",
+    "title": "Ownership and Maintenance Stewardship",
+    "examWeightPct": 2,
+    "order": 36,
+    "estimatedMinutes": 75
+  },
+  {
+    "slug": "wildfire-tree-and-exterior-risk",
+    "title": "Wildfire, Tree, and Exterior Risk Management",
+    "examWeightPct": 2,
+    "order": 37,
+    "estimatedMinutes": 70
+  },
+  {
+    "slug": "retrofit-and-improvement-planning",
+    "title": "Retrofit and Improvement Planning",
+    "examWeightPct": 2,
+    "order": 38,
+    "estimatedMinutes": 70
+  },
+  {
+    "slug": "oregon-ccb-licensing-framework",
+    "title": "Oregon CCB Licensing Framework",
+    "examWeightPct": 3,
+    "order": 39,
+    "estimatedMinutes": 70
+  },
+  {
+    "slug": "oregon-exam-drill-lab",
+    "title": "Oregon Exam Drill Lab",
+    "examWeightPct": 3,
+    "order": 40,
+    "estimatedMinutes": 80
+  },
+  {
+    "slug": "integrated-house-delivery-capstone",
+    "title": "Integrated House Delivery Capstone",
+    "examWeightPct": 4,
+    "order": 41,
+    "estimatedMinutes": 120
   }
 ]
