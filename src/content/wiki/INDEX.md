@@ -80,6 +80,14 @@ links resolve to existing term files.
 - [[building-exterior-shell]]
 - [[oregon-residential-specialty-code]]
 
+
+## Tax Basics
+
+- [[tax-basics]]
+- [[business-identification-number]]
+- [[statewide-transit-tax]]
+- [[corporate-activity-tax]]
+
 ---
 
 _Terms that do not yet have a wiki page are shown as broken links. Run

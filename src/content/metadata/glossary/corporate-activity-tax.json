@@ -1,0 +1,15 @@
+{
+  "slug": "corporate-activity-tax",
+  "term": "Corporate Activity Tax",
+  "definition": "Oregon tax on commercial activity under ORS chapter 317A with threshold-based registration and filing/payment obligations.",
+  "sourceRefs": [
+    "oregon-dor-corporate-activity-tax",
+    "ors-chapter-317a"
+  ],
+  "relatedTerms": [
+    "tax-basics"
+  ],
+  "topicSlugs": [
+    "tax-basics"
+  ]
+}

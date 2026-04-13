@@ -1,0 +1,17 @@
+{
+  "slug": "statewide-transit-tax",
+  "term": "Statewide Transit Tax",
+  "definition": "Oregon employee-wage withholding tax framework administered by DOR and codified in ORS 320.550, with wage definitions tied to ORS 316.162.",
+  "sourceRefs": [
+    "oregon-dor-statewide-transit-tax",
+    "ors-320-550",
+    "ors-316-162"
+  ],
+  "relatedTerms": [
+    "tax-basics",
+    "business-identification-number"
+  ],
+  "topicSlugs": [
+    "tax-basics"
+  ]
+}

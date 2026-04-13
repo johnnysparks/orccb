@@ -1,0 +1,16 @@
+{
+  "slug": "business-identification-number",
+  "term": "Business Identification Number",
+  "definition": "Oregon employer tax account identifier used for state payroll tax registration, withholding, and combined payroll reporting.",
+  "sourceRefs": [
+    "oregon-dor-withholding-and-payroll-tax",
+    "oregon-ccb-license-page"
+  ],
+  "relatedTerms": [
+    "tax-basics",
+    "statewide-transit-tax"
+  ],
+  "topicSlugs": [
+    "tax-basics"
+  ]
+}
