@@ -1,0 +1,17 @@
+{
+  "slug": "fixed-price-contract",
+  "term": "Fixed-Price Contract",
+  "definition": "A pricing method where the contract states a defined total project price at the time of contract formation.",
+  "sourceRefs": [
+    "oregon-ccb-guide-to-hiring-a-contractor"
+  ],
+  "relatedTerms": [
+    "time-and-materials",
+    "bidding",
+    "estimating"
+  ],
+  "topicSlugs": [
+    "bidding-and-estimating",
+    "contracts"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "estimating",
+  "term": "Estimating",
+  "definition": "The process of forecasting labor, material, and other project costs and translating that forecast into bid or contract pricing.",
+  "sourceRefs": [
+    "psi-cib-oregon-construction-contractors",
+    "oregon-ccb-education-providers"
+  ],
+  "relatedTerms": [
+    "bidding",
+    "fixed-price-contract",
+    "time-and-materials"
+  ],
+  "topicSlugs": [
+    "bidding-and-estimating"
+  ]
+}

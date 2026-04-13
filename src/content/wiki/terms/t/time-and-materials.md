@@ -3,15 +3,16 @@ slug: time-and-materials
 title: Time and Materials
 reviewStatus: draft
 sourceRefs:
-  - psi-cib-oregon-construction-contractors
-  - nascla-contractors-guide-or-2e
+  - oregon-ccb-guide-to-hiring-a-contractor
+  - ors-701-305
 related:
+  - bidding-and-estimating
   - fixed-price-contract
-  - estimating
+  - written-contract-threshold
 ---
 
-**Time and Materials** is an exam-relevant concept in the Oregon CCB pre-license outline. Use this page as a quick definition and navigation point to deeper topic modules. Source: psi-cib-oregon-construction-contractors, nascla-contractors-guide-or-2e.
+**Time and materials** pricing is a contract model where total price depends on actual labor and material usage, so the final total may be unknown when the agreement is signed. Source: oregon-ccb-guide-to-hiring-a-contractor.
 
-For open-book prep, pair this term with the linked pages below and verify any rule-specific detail against the cited statute, rule, or agency reference before relying on it in a scenario question. Source: psi-cib-oregon-construction-contractors.
+Because total cost can grow during performance, contractors should monitor when aggregate price crosses Oregon's [[written-contract-threshold]] for residential work. Source: ors-701-305.
 
-See [[fixed-price-contract]] and [[estimating]].
+See [[fixed-price-contract]] and [[written-contract-threshold]].
