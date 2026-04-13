@@ -1,0 +1,15 @@
+{
+  "slug": "insurance-certificate-requirements",
+  "term": "Insurance Certificate Requirements",
+  "definition": "Rule-specified insurance certificate fields and statements that must be provided to CCB as evidence of compliant contractor liability coverage.",
+  "sourceRefs": [
+    "oar-812-003-0200"
+  ],
+  "relatedTerms": [
+    "endorsement",
+    "financial-management"
+  ],
+  "topicSlugs": [
+    "financial-management"
+  ]
+}

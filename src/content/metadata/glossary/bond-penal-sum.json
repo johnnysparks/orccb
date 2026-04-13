@@ -1,0 +1,15 @@
+{
+  "slug": "bond-penal-sum",
+  "term": "Bond Penal Sum",
+  "definition": "The maximum dollar amount payable under a contractor license bond before additional obligations can trigger license suspension and higher-bond reinstatement conditions under Oregon law.",
+  "sourceRefs": [
+    "ors-701-068"
+  ],
+  "relatedTerms": [
+    "ccb-license",
+    "financial-management"
+  ],
+  "topicSlugs": [
+    "financial-management"
+  ]
+}
