@@ -79,6 +79,7 @@ links resolve to existing term files.
 
 - [[business-structure]]
 - [[project-scheduling]]
+- [[repair-vs-replacement-logic-pre-construction]]
 - [[scope-gap-analysis]]
 - [[selections-and-allowances]]
 - [[gis-parcel-interpretation]]
