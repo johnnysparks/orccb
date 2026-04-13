@@ -92,6 +92,7 @@ links resolve to existing term files.
 ## Building and Construction
 
 - [[building-permits]]
+- [[permit-package-assembly-sequencing-revisions]]
 - [[owner-builder]]
 - [[permit-license-verification]]
 - [[owner-responsibility-notice]]
