@@ -58,6 +58,7 @@ links resolve to existing term files.
 ## Bidding and Estimating
 
 - [[bidding-and-estimating]]
+- [[bid-leveling-pre-construction]]
 - [[bidding]]
 - [[estimating]]
 - [[time-and-materials]]
