@@ -101,6 +101,7 @@ links resolve to existing term files.
 - [[exterior-wall-envelope]]
 - [[drainage-plane]]
 - [[flashing]]
+- [[roofing-and-weatherproofing]]
 - [[oregon-residential-specialty-code]]
 
 
