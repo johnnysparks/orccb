@@ -62,6 +62,7 @@ links resolve to existing term files.
 - [[estimating]]
 - [[time-and-materials]]
 - [[fixed-price-contract]]
+- [[selections-and-allowances]]
 
 ## Oregon Lien Law
 
@@ -76,6 +77,7 @@ links resolve to existing term files.
 
 - [[business-structure]]
 - [[project-scheduling]]
+- [[selections-and-allowances]]
 - [[safety-requirements]]
 - [[oregon-building-codes]]
 
