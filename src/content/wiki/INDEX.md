@@ -76,6 +76,7 @@ links resolve to existing term files.
 
 - [[business-structure]]
 - [[project-scheduling]]
+- [[repair-vs-replacement-logic-pre-construction]]
 - [[safety-requirements]]
 - [[oregon-building-codes]]
 
