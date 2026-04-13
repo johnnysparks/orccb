@@ -82,10 +82,12 @@ links resolve to existing term files.
 ## Jobsite Safety
 
 - [[jobsite-safety]]
+- [[earthwork-and-excavation]]
 
 ## Environmental Factors
 
 - [[environmental-factors]]
+- [[demolition-and-clearing]]
 
 ## Building and Construction
 
@@ -95,10 +97,19 @@ links resolve to existing term files.
 - [[owner-responsibility-notice]]
 - [[building-exterior-shell]]
 - [[appliances]]
+- [[painting]]
+- [[electrical]]
+- [[framing]]
+- [[concrete-and-foundations]]
 - [[exterior-wall-envelope]]
 - [[drainage-plane]]
+- [[drywall-and-interior-finishes]]
 - [[flashing]]
+- [[roofing-and-weatherproofing]]
 - [[oregon-residential-specialty-code]]
+- [[mechanical-hvac]]
+- [[plumbing]]
+- [[insulation-air-sealing-performance]]
 
 
 ## Financial Management
