@@ -97,6 +97,7 @@ links resolve to existing term files.
 - [[exterior-wall-envelope]]
 - [[drainage-plane]]
 - [[flashing]]
+- [[exterior-site-improvements]]
 - [[oregon-residential-specialty-code]]
 
 
