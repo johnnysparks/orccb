@@ -76,6 +76,7 @@ links resolve to existing term files.
 
 - [[business-structure]]
 - [[project-scheduling]]
+- [[scope-gap-analysis]]
 - [[safety-requirements]]
 - [[oregon-building-codes]]
 
