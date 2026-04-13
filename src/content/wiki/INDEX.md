@@ -86,6 +86,7 @@ links resolve to existing term files.
 ## Environmental Factors
 
 - [[environmental-factors]]
+- [[demolition-and-clearing]]
 
 ## Building and Construction
 
