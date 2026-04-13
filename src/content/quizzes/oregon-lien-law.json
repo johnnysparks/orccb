@@ -1,0 +1,65 @@
+{
+  "topic": "oregon-lien-law",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "oregon-lien-law-001",
+      "prompt": "According to the PSI Oregon CCB bulletin, how many scored exam items are allocated to Oregon Lien Law?",
+      "choices": [
+        "3",
+        "5",
+        "8",
+        "12"
+      ],
+      "answerIndex": 1,
+      "difficulty": "foundation",
+      "explanation": "The PSI content outline lists Oregon Lien Law as a distinct domain with 5 scored items, making it a smaller but still testable section.",
+      "sourceRefs": [
+        "psi-cib-oregon-construction-contractors"
+      ],
+      "tags": [
+        "exam-blueprint"
+      ]
+    },
+    {
+      "id": "oregon-lien-law-002",
+      "prompt": "After filing a claim of construction lien, what additional step does ORS 87.039 require?",
+      "choices": [
+        "Record a second claim within 10 days",
+        "Mail notice of filing with a copy of the claim to owner and mortgagee within 20 days",
+        "Serve foreclosure summons within 30 days",
+        "File a CCB complaint before suit"
+      ],
+      "answerIndex": 1,
+      "difficulty": "standard",
+      "explanation": "ORS 87.039 requires post-filing notice: the claimant must mail notice of filing and include a copy of the claim to the owner and mortgagee within 20 days.",
+      "sourceRefs": [
+        "ors-chapter-87"
+      ],
+      "tags": [
+        "post-filing-notice",
+        "timelines"
+      ]
+    },
+    {
+      "id": "oregon-lien-law-003",
+      "prompt": "Which statement best reflects Oregon law on licensure and lien perfection?",
+      "choices": [
+        "Licensure only matters for bid eligibility, not lien rights",
+        "A contractor can perfect a lien without a license if work quality is proven",
+        "ORS 701.131 generally conditions lien perfection and certain remedies on proper licensure, subject to exceptions",
+        "Licensure affects only residential liens and never commercial liens"
+      ],
+      "answerIndex": 2,
+      "difficulty": "standard",
+      "explanation": "ORS 701.131 links lien perfection and other compensation remedies to required licensure status, while also including statutory exceptions that must be analyzed in context.",
+      "sourceRefs": [
+        "ors-701-131"
+      ],
+      "tags": [
+        "licensing",
+        "lien-eligibility"
+      ]
+    }
+  ]
+}

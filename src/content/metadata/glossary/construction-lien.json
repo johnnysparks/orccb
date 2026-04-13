@@ -1,0 +1,16 @@
+{
+  "slug": "construction-lien",
+  "term": "Construction Lien",
+  "definition": "A statutory security interest in improved real property that may secure payment for qualifying construction labor, services, or materials when Oregon lien-law conditions are satisfied.",
+  "sourceRefs": [
+    "ors-chapter-87"
+  ],
+  "relatedTerms": [
+    "notice-of-right-to-lien",
+    "lien-perfection",
+    "lien-foreclosure"
+  ],
+  "topicSlugs": [
+    "oregon-lien-law"
+  ]
+}

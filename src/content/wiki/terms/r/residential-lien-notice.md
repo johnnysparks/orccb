@@ -3,15 +3,17 @@ slug: residential-lien-notice
 title: Residential Lien Notice
 reviewStatus: draft
 sourceRefs:
-  - nascla-contractors-guide-or-2e
-  - oregon-ccb-contractor-tools
+  - ors-chapter-87
+  - oar-812-001-0200
+  - ors-701-992
 related:
+  - oregon-lien-law
   - notice-of-right-to-lien
   - construction-lien
 ---
 
-**Residential Lien Notice** is an exam-relevant concept in the Oregon CCB pre-license outline. Use this page as a quick definition and navigation point to deeper topic modules. Source: nascla-contractors-guide-or-2e, oregon-ccb-contractor-tools.
+The **residential lien notice** is the Information Notice to Owner requirement for covered residential contracts in ORS 87.093. Source: ors-chapter-87.
 
-For open-book prep, pair this term with the linked pages below and verify any rule-specific detail against the cited statute, rule, or agency reference before relying on it in a scenario question. Source: nascla-contractors-guide-or-2e.
+OAR 812-001-0200 adopts the form titled "Information Notice to Owner About Construction Liens," and CCB may pursue discipline and civil-penalty authority for violations under ORS 87.093 and ORS 701.992. Source: oar-812-001-0200, ors-701-992.
 
-See [[notice-of-right-to-lien]] and [[construction-lien]].
+Do not confuse this owner-information notice with [[notice-of-right-to-lien]]; they are separate requirements with different legal effects. Source: ors-chapter-87.
