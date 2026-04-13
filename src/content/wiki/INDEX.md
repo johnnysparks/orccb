@@ -82,6 +82,7 @@ links resolve to existing term files.
 ## Jobsite Safety
 
 - [[jobsite-safety]]
+- [[earthwork-and-excavation]]
 
 ## Environmental Factors
 
