@@ -94,6 +94,7 @@ links resolve to existing term files.
 - [[permit-license-verification]]
 - [[owner-responsibility-notice]]
 - [[building-exterior-shell]]
+- [[framing]]
 - [[exterior-wall-envelope]]
 - [[drainage-plane]]
 - [[flashing]]
