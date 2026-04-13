@@ -1,0 +1,18 @@
+{
+  "slug": "time-and-materials",
+  "term": "Time and Materials",
+  "definition": "A pricing method where the customer pays for actual labor and materials used, so the final contract total may not be known at signing.",
+  "sourceRefs": [
+    "oregon-ccb-guide-to-hiring-a-contractor"
+  ],
+  "relatedTerms": [
+    "fixed-price-contract",
+    "bidding",
+    "estimating",
+    "written-contract-threshold"
+  ],
+  "topicSlugs": [
+    "bidding-and-estimating",
+    "contracts"
+  ]
+}

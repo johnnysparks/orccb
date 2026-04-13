@@ -1,0 +1,17 @@
+{
+  "slug": "bidding",
+  "term": "Bidding",
+  "definition": "The business practice of proposing project scope and price to a prospective customer for acceptance as the basis of a construction contract.",
+  "sourceRefs": [
+    "psi-cib-oregon-construction-contractors",
+    "oregon-ccb-education-providers"
+  ],
+  "relatedTerms": [
+    "estimating",
+    "fixed-price-contract",
+    "time-and-materials"
+  ],
+  "topicSlugs": [
+    "bidding-and-estimating"
+  ]
+}

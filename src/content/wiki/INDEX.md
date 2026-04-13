@@ -45,6 +45,7 @@ links resolve to existing term files.
 
 ## Bidding and Estimating
 
+- [[bidding-and-estimating]]
 - [[bidding]]
 - [[estimating]]
 - [[time-and-materials]]

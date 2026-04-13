@@ -4,14 +4,15 @@ title: Estimating
 reviewStatus: draft
 sourceRefs:
   - psi-cib-oregon-construction-contractors
-  - nascla-contractors-guide-or-2e
+  - oregon-ccb-education-providers
 related:
+  - bidding-and-estimating
   - bidding
   - time-and-materials
 ---
 
-**Estimating** is an exam-relevant concept in the Oregon CCB pre-license outline. Use this page as a quick definition and navigation point to deeper topic modules. Source: psi-cib-oregon-construction-contractors, nascla-contractors-guide-or-2e.
+**Estimating** is the process of forecasting project costs and converting those forecasts into pricing for bids and contracts in the Oregon CCB [[bidding-and-estimating]] domain. Source: psi-cib-oregon-construction-contractors, oregon-ccb-education-providers.
 
-For open-book prep, pair this term with the linked pages below and verify any rule-specific detail against the cited statute, rule, or agency reference before relying on it in a scenario question. Source: psi-cib-oregon-construction-contractors.
+For exam prep, estimating should be paired with contract-threshold awareness because estimate changes can push aggregate residential price into written-contract requirements. Source: psi-cib-oregon-construction-contractors.
 
 See [[bidding]] and [[time-and-materials]].

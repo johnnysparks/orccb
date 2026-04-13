@@ -1,0 +1,66 @@
+{
+  "topic": "bidding-and-estimating",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "bidding-and-estimating-001",
+      "prompt": "How many scored items does the PSI Oregon CCB outline assign to the Bidding and Estimating domain?",
+      "choices": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "answerIndex": 1,
+      "difficulty": "foundation",
+      "explanation": "The PSI Candidate Information Bulletin lists Bidding and Estimating as a separate domain with 6 scored items, so it is a dedicated part of exam preparation.",
+      "sourceRefs": [
+        "psi-cib-oregon-construction-contractors"
+      ],
+      "tags": [
+        "exam-outline",
+        "domain-weight"
+      ]
+    },
+    {
+      "id": "bidding-and-estimating-002",
+      "prompt": "A residential job starts at $1,900 and later increases to $2,600. Under ORS 701.305, when must the written contract be delivered or mailed?",
+      "choices": [
+        "Before any work began",
+        "Within five days after the contractor knew or should have known the threshold was exceeded",
+        "Within 30 days of final payment",
+        "Only if the owner requests it in writing"
+      ],
+      "answerIndex": 1,
+      "difficulty": "standard",
+      "explanation": "ORS 701.305 requires a written contract once aggregate residential price exceeds $2,000, including a five-day catch-up delivery-or-mailing rule when the threshold is crossed during performance.",
+      "sourceRefs": [
+        "ors-701-305"
+      ],
+      "tags": [
+        "written-contract-threshold",
+        "timing-rule"
+      ]
+    },
+    {
+      "id": "bidding-and-estimating-003",
+      "prompt": "Which statement best matches CCB guidance on pricing models?",
+      "choices": [
+        "Time-and-materials guarantees a final total at signing",
+        "Fixed-price contracts always forbid change orders",
+        "Fixed-price contracts state a defined overall price, while time-and-materials may leave the final total unknown at signing",
+        "Oregon law bans time-and-materials residential contracts"
+      ],
+      "answerIndex": 2,
+      "difficulty": "foundation",
+      "explanation": "CCB consumer guidance distinguishes fixed-price and time-and-materials by price certainty at contract formation; fixed-price states a defined total while time-and-materials may not.",
+      "sourceRefs": [
+        "oregon-ccb-guide-to-hiring-a-contractor"
+      ],
+      "tags": [
+        "pricing-models",
+        "contract-formation"
+      ]
+    }
+  ]
+}
