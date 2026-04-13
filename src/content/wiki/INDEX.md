@@ -92,6 +92,15 @@ links resolve to existing term files.
 
 - [[jobsite-safety]]
 - [[earthwork-and-excavation]]
+- [[hazard-identification]]
+- [[fall-and-excavation-safety]]
+- [[ladder-scaffold-and-electrical-safety]]
+- [[ppe]]
+- [[housekeeping]]
+- [[incident-reporting]]
+- [[emergency-response]]
+- [[smoke-heat-planning]]
+- [[documentation]]
 
 ## Environmental Factors
 
