@@ -101,6 +101,7 @@ links resolve to existing term files.
 - [[concrete-and-foundations]]
 - [[exterior-wall-envelope]]
 - [[drainage-plane]]
+- [[drywall-and-interior-finishes]]
 - [[flashing]]
 - [[roofing-and-weatherproofing]]
 - [[oregon-residential-specialty-code]]
