@@ -1,0 +1,8 @@
+{
+  "slug": "bond-depletion",
+  "term": "Bond Depletion",
+  "definition": "A condition that arises when cumulative claims paid against a contractor's surety bond exceed the bond's penal sum; under ORS 701.068, this triggers CCB authority to suspend the license and to require a replacement bond of up to five times the ordinary endorsement amount before reinstatement.",
+  "sourceRefs": ["ors-701-068"],
+  "relatedTerms": ["surety-bond", "endorsement-bond-insurance-amounts"],
+  "topicSlugs": ["financial-management"]
+}

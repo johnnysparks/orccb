@@ -1,0 +1,8 @@
+{
+  "slug": "endorsement-bond-insurance-amounts",
+  "term": "Endorsement Bond and Insurance Amounts",
+  "definition": "The minimum surety bond and general liability insurance dollar amounts a contractor must carry, which vary by endorsement class; residential amounts are set in ORS 701.081 (e.g., RGC: $25,000 bond / $500,000 insurance) and commercial amounts in ORS 701.084 (e.g., CGC-1: $80,000 bond / $2,000,000 insurance).",
+  "sourceRefs": ["ors-701-081", "ors-701-084", "oar-812-003-0221"],
+  "relatedTerms": ["surety-bond", "bond-depletion"],
+  "topicSlugs": ["financial-management"]
+}

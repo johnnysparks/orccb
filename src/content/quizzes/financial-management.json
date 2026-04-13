@@ -1,0 +1,66 @@
+{
+  "topic": "financial-management",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "financial-management-001",
+      "prompt": "A contractor holds a Residential General Contractor (RGC) endorsement. Under ORS 701.081, what are the minimum surety bond and general liability insurance amounts required?",
+      "choices": [
+        "$15,000 bond / $100,000 insurance",
+        "$20,000 bond / $300,000 insurance",
+        "$25,000 bond / $500,000 insurance",
+        "$80,000 bond / $2,000,000 insurance"
+      ],
+      "answerIndex": 2,
+      "difficulty": "standard",
+      "explanation": "ORS 701.081 sets the RGC minimums at $25,000 surety bond and $500,000 general liability insurance. The $15,000/$100,000 figures apply to the Residential Limited Contractor (RLC) class, $20,000/$300,000 to Residential Specialty Contractor (RSC), and $80,000/$2,000,000 to the commercial CGC-1 endorsement under ORS 701.084.",
+      "sourceRefs": ["ors-701-081"],
+      "tags": ["endorsement-amounts", "bond", "insurance"]
+    },
+    {
+      "id": "financial-management-002",
+      "prompt": "Under ORS 701.068, what authority does the CCB have when the total claims paid against a contractor's surety bond exceed the bond's penal sum?",
+      "choices": [
+        "The CCB must immediately revoke the license permanently with no reinstatement option.",
+        "The CCB may suspend the license and may require a replacement bond of up to five times the ordinary amount before reinstatement.",
+        "The CCB may issue a written warning only; no suspension is permitted for a first occurrence.",
+        "The contractor's insurance policy automatically substitutes as the required bond until a replacement is filed."
+      ],
+      "answerIndex": 1,
+      "difficulty": "standard",
+      "explanation": "ORS 701.068 authorizes CCB to suspend the license when bond-paid obligations exceed the penal sum. Reinstatement may be conditioned on filing a new bond up to five times the ordinary endorsement amount. Permanent revocation on first occurrence is not the statutory default, and insurance does not substitute for the bond requirement.",
+      "sourceRefs": ["ors-701-068"],
+      "tags": ["bond-depletion", "suspension", "reinstatement"]
+    },
+    {
+      "id": "financial-management-003",
+      "prompt": "OAR 812-003-0200 requires a contractor's insurance certificate submitted to CCB to include which of the following?",
+      "choices": [
+        "The contractor's federal employer identification number and payroll tax account number",
+        "The insurer's name, policy number, policy dates, required coverage amounts, products/completed-operations statement, and CCB as certificate holder",
+        "A signed acknowledgment from the property owner that the coverage is adequate for the project",
+        "The contractor's bonding company contact information and current bond balance"
+      ],
+      "answerIndex": 1,
+      "difficulty": "standard",
+      "explanation": "OAR 812-003-0200 lists the required certificate fields: insurer name, policy number, policy effective and expiration dates, required coverage amounts, a statement of products/completed-operations coverage, and the CCB named as certificate holder. The other choices describe information not required by this rule.",
+      "sourceRefs": ["oar-812-003-0200"],
+      "tags": ["insurance-certificate", "insurance-requirements"]
+    },
+    {
+      "id": "financial-management-004",
+      "prompt": "Under OAR 812-003-0142, a contractor submitting a new license application on August 1, 2025 should expect to pay which application fee?",
+      "choices": [
+        "$200, the standard new-applicant fee that has been in effect since 2020",
+        "$325, the fee that applied to new applications before the 2025 transition",
+        "$400, the new-license application fee effective 2025-07-01",
+        "$480, a surcharge applies for applications filed in the second half of the calendar year"
+      ],
+      "answerIndex": 2,
+      "difficulty": "standard",
+      "explanation": "OAR 812-003-0142 sets the new-license application fee at $400, effective 2025-07-01. A $325 prior fee applied to new applications before that date. Renewals and reissues moved to $400 earlier, effective 2024-07-01. There is no calendar-based surcharge in the rule.",
+      "sourceRefs": ["oar-812-003-0142"],
+      "tags": ["license-fees", "application-timing"]
+    }
+  ]
+}

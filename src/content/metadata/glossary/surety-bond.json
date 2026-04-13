@@ -1,0 +1,8 @@
+{
+  "slug": "surety-bond",
+  "term": "Surety Bond",
+  "definition": "A three-party financial guarantee in which a bonding company (surety) promises to pay valid claims against a licensed contractor (principal) up to the bond's penal sum; Oregon law requires CCB licensees to file and maintain a surety bond in an amount tied to their endorsement class.",
+  "sourceRefs": ["ors-701-068", "ors-701-081", "ors-701-084"],
+  "relatedTerms": ["bond-depletion", "endorsement-bond-insurance-amounts"],
+  "topicSlugs": ["financial-management"]
+}

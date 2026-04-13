@@ -1,0 +1,8 @@
+{
+  "slug": "insurance-certificate",
+  "term": "Insurance Certificate",
+  "definition": "A document submitted to the CCB as evidence of a contractor's general liability insurance; under OAR 812-003-0200, it must include the insurer's name, policy number, policy effective and expiration dates, required coverage amounts, a products/completed-operations statement, and the CCB as the named certificate holder.",
+  "sourceRefs": ["oar-812-003-0200", "ors-701-073"],
+  "relatedTerms": ["endorsement-bond-insurance-amounts"],
+  "topicSlugs": ["financial-management"]
+}
