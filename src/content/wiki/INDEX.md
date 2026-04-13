@@ -122,6 +122,7 @@ links resolve to existing term files.
 - [[plumbing]]
 - [[shear-and-hold-downs]]
 - [[insulation-air-sealing-performance]]
+- [[durability-and-condensation-risk-air-vapor-moisture-control]]
 
 
 ## Financial Management
