@@ -104,6 +104,7 @@ links resolve to existing term files.
 - [[flashing]]
 - [[roofing-and-weatherproofing]]
 - [[oregon-residential-specialty-code]]
+- [[plumbing]]
 - [[insulation-air-sealing-performance]]
 
 
