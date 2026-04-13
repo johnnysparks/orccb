@@ -1,0 +1,16 @@
+{
+  "slug": "license-status-change-notice",
+  "term": "License Status Change Notice",
+  "definition": "A filing that a CCB-licensed contractor must submit to the CCB within 10 days of any change between exempt and nonexempt license status, required by OAR 812-003-0321.",
+  "sourceRefs": [
+    "oar-812-003-0321",
+    "ors-chapter-701"
+  ],
+  "relatedTerms": [
+    "exempt-vs-nonexempt",
+    "worker-leasing"
+  ],
+  "topicSlugs": [
+    "laws-and-regulations"
+  ]
+}

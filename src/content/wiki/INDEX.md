@@ -18,6 +18,7 @@ links resolve to existing term files.
 - [[exempt-vs-nonexempt]]
 - [[independent-contractor]]
 - [[worker-leasing]]
+- [[license-status-change-notice]]
 - [[advertising-rules]]
 - [[insurance-requirements]]
 - [[bond-requirements]]

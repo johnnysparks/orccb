@@ -5,13 +5,23 @@ reviewStatus: draft
 sourceRefs:
   - ors-670-600
   - oregon-independent-contractors-notice-workers
+  - ors-chapter-701
 related:
   - exempt-vs-nonexempt
   - employee-vs-subcontractor
+  - contractor-classification
 ---
 
-**Independent Contractor** is an exam-relevant concept in the Oregon CCB pre-license outline. Use this page as a quick definition and navigation point to deeper topic modules. Source: ors-670-600, oregon-independent-contractors-notice-workers.
+An **independent contractor** in Oregon is a person or business that meets the definition established in ORS 670.600. This cross-chapter definition is used across multiple Oregon licensing and compliance contexts, including CCB licensing under ORS chapter 701. Source: ors-670-600, ors-chapter-701.
 
-For open-book prep, pair this term with the linked pages below and verify any rule-specific detail against the cited statute, rule, or agency reference before relying on it in a scenario question. Source: ors-670-600.
+## CCB Licensing Eligibility
 
-See [[exempt-vs-nonexempt]] and [[employee-vs-subcontractor]].
+CCB license applicants must qualify as an independent contractor under ORS 670.600. ORS 701.035 incorporates that definition as a licensing prerequisite, so a contractor who does not meet the ORS 670.600 test is ineligible for a CCB license. Source: ors-chapter-701, ors-670-600.
+
+Once licensed, a contractor's exempt or nonexempt class depends on whether they employ workers or use a [[worker-leasing]] arrangement. See [[exempt-vs-nonexempt]] for the classification rules. Source: ors-chapter-701.
+
+## Worker Notices
+
+Oregon's interagency notice for workers explains the classification criteria under ORS 670.600 and describes the tax-filing implications for individuals classified as independent contractors rather than employees. Source: oregon-independent-contractors-notice-workers.
+
+See also [[employee-vs-subcontractor]] and [[contractor-classification]].
