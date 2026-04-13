@@ -60,6 +60,7 @@ links resolve to existing term files.
 - [[bidding-and-estimating]]
 - [[bidding]]
 - [[estimating]]
+- [[takeoff]]
 - [[time-and-materials]]
 - [[fixed-price-contract]]
 
