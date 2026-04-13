@@ -1,0 +1,16 @@
+{
+  "slug": "exterior-wall-envelope",
+  "term": "Exterior Wall Envelope",
+  "definition": "The exterior wall system concept that must resist weather and manage moisture, including drainage and flashing integration under Oregon residential code references.",
+  "sourceRefs": [
+    "oregon-bcd-2021-orsc-significant-changes"
+  ],
+  "relatedTerms": [
+    "drainage-plane",
+    "flashing",
+    "specialty-code"
+  ],
+  "topicSlugs": [
+    "building-exterior-shell"
+  ]
+}
