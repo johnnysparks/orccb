@@ -58,10 +58,13 @@ links resolve to existing term files.
 ## Bidding and Estimating
 
 - [[bidding-and-estimating]]
+- [[bid-leveling-pre-construction]]
 - [[bidding]]
 - [[estimating]]
+- [[takeoff]]
 - [[time-and-materials]]
 - [[fixed-price-contract]]
+- [[selections-and-allowances]]
 
 ## Oregon Lien Law
 
@@ -77,8 +80,12 @@ links resolve to existing term files.
 - [[business-structure]]
 - [[project-scheduling]]
 - [[repair-vs-replacement-logic-pre-construction]]
+- [[scope-gap-analysis]]
+- [[selections-and-allowances]]
+- [[gis-parcel-interpretation]]
 - [[safety-requirements]]
 - [[oregon-building-codes]]
+- [[soi-awareness]]
 
 ## Jobsite Safety
 
@@ -89,10 +96,13 @@ links resolve to existing term files.
 
 - [[environmental-factors]]
 - [[demolition-and-clearing]]
+- [[prohibited-plants]]
+- [[tree-management]]
 
 ## Building and Construction
 
 - [[building-permits]]
+- [[permit-package-assembly-sequencing-revisions]]
 - [[owner-builder]]
 - [[permit-license-verification]]
 - [[owner-responsibility-notice]]
@@ -101,22 +111,28 @@ links resolve to existing term files.
 - [[painting]]
 - [[electrical]]
 - [[framing]]
+- [[seismic-wind-basics]]
 - [[concrete-and-foundations]]
 - [[exterior-wall-envelope]]
 - [[drainage-plane]]
 - [[drywall-and-interior-finishes]]
 - [[flashing]]
 - [[exterior-site-improvements]]
+- [[deck-and-stair-design]]
+- [[right-of-way-improvements]]
 - [[roofing-and-weatherproofing]]
 - [[oregon-residential-specialty-code]]
 - [[mechanical-hvac]]
 - [[plumbing]]
+- [[shear-and-hold-downs]]
 - [[insulation-air-sealing-performance]]
+- [[durability-and-condensation-risk-air-vapor-moisture-control]]
 
 
 ## Financial Management
 
 - [[financial-management]]
+- [[job-costing]]
 - [[bond-penal-sum]]
 - [[insurance-certificate-requirements]]
 - [[license-application-fee]]
