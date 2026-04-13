@@ -1,0 +1,18 @@
+{
+  "slug": "worker-leasing",
+  "term": "Worker Leasing",
+  "definition": "A staffing arrangement where workers are supplied by a worker leasing company; under Oregon CCB rules this generally places a contractor in nonexempt status rather than exempt.",
+  "sourceRefs": [
+    "ors-701-035",
+    "oar-812-003-0250"
+  ],
+  "relatedTerms": [
+    "exempt-vs-nonexempt",
+    "license-status-change-notification",
+    "ccb-license"
+  ],
+  "topicSlugs": [
+    "laws-and-regulations",
+    "hiring-and-managing-employees"
+  ]
+}

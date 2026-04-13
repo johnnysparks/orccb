@@ -18,6 +18,7 @@ links resolve to existing term files.
 - [[exempt-vs-nonexempt]]
 - [[independent-contractor]]
 - [[worker-leasing]]
+- [[license-status-change-notification]]
 - [[advertising-rules]]
 - [[insurance-requirements]]
 - [[bond-requirements]]
@@ -46,6 +47,7 @@ links resolve to existing term files.
 ## Hiring and Managing Employees
 
 - [[workers-compensation]]
+- [[license-status-change-notification]]
 - [[prevailing-wage]]
 - [[employee-vs-subcontractor]]
 - [[boli-requirements]]
