@@ -81,6 +81,7 @@ links resolve to existing term files.
 - [[gis-parcel-interpretation]]
 - [[safety-requirements]]
 - [[oregon-building-codes]]
+- [[soi-awareness]]
 
 ## Jobsite Safety
 
