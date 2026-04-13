@@ -78,6 +78,7 @@ links resolve to existing term files.
 - [[project-scheduling]]
 - [[safety-requirements]]
 - [[oregon-building-codes]]
+- [[soi-awareness]]
 
 ## Jobsite Safety
 
