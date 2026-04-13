@@ -111,6 +111,7 @@ links resolve to existing term files.
 - [[mechanical-hvac]]
 - [[plumbing]]
 - [[insulation-air-sealing-performance]]
+- [[durability-and-condensation-risk-air-vapor-moisture-control]]
 
 
 ## Financial Management
