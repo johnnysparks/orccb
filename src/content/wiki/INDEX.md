@@ -88,6 +88,7 @@ links resolve to existing term files.
 
 - [[environmental-factors]]
 - [[demolition-and-clearing]]
+- [[prohibited-plants]]
 
 ## Building and Construction
 
