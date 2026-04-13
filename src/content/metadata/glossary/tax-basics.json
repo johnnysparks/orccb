@@ -1,0 +1,19 @@
+{
+  "slug": "tax-basics",
+  "term": "Tax Basics",
+  "definition": "Oregon CCB exam domain covering core contractor tax-compliance concepts such as payroll withholding setup, transit-tax withholding basics, and CAT threshold awareness.",
+  "sourceRefs": [
+    "psi-cib-oregon-construction-contractors",
+    "oregon-dor-withholding-and-payroll-tax",
+    "oregon-dor-statewide-transit-tax",
+    "oregon-dor-corporate-activity-tax"
+  ],
+  "relatedTerms": [
+    "business-identification-number",
+    "statewide-transit-tax",
+    "corporate-activity-tax"
+  ],
+  "topicSlugs": [
+    "tax-basics"
+  ]
+}

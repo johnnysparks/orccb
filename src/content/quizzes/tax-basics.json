@@ -1,0 +1,51 @@
+{
+  "topic": "tax-basics",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "tax-basics-001",
+      "prompt": "For an Oregon contractor with paid employees working in Oregon, which step is required before issuing paychecks?",
+      "choices": [
+        "Register for a Business Identification Number (BIN)",
+        "File an annual CAT return",
+        "Apply for a TriMet district tax exemption",
+        "Submit Form WR for the prior year"
+      ],
+      "answerIndex": 0,
+      "difficulty": "foundation",
+      "explanation": "Oregon DOR states employers with paid employees working in Oregon should register for a BIN before issuing paychecks; the other options are different tax processes.",
+      "sourceRefs": ["oregon-dor-withholding-and-payroll-tax"],
+      "tags": ["payroll", "bin"]
+    },
+    {
+      "id": "tax-basics-002",
+      "prompt": "Which statement best describes Oregon's Statewide Transit Tax (STT) for exam purposes?",
+      "choices": [
+        "It is employee-wage withholding administered by DOR under ORS 320.550",
+        "It is an employer-side district payroll tax only",
+        "It applies to self-employment income but not wages",
+        "It replaces Oregon withholding and combined payroll reporting"
+      ],
+      "answerIndex": 0,
+      "difficulty": "standard",
+      "explanation": "DOR describes STT as statewide wage withholding tied to ORS 320.550 and wage definitions, not a replacement for other payroll reporting and not self-employment withholding.",
+      "sourceRefs": ["oregon-dor-statewide-transit-tax", "ors-320-550"],
+      "tags": ["statewide-transit-tax", "withholding"]
+    },
+    {
+      "id": "tax-basics-003",
+      "prompt": "Under Oregon DOR CAT guidance, when does filing/payment generally begin?",
+      "choices": [
+        "When taxable Oregon commercial activity exceeds $1 million",
+        "As soon as any Oregon revenue is earned",
+        "Only after taxable Oregon commercial activity exceeds $5 million",
+        "Only when the business has Oregon payroll employees"
+      ],
+      "answerIndex": 0,
+      "difficulty": "standard",
+      "explanation": "DOR's threshold framework distinguishes registration from filing/payment, with filing/payment generally triggered above $1 million of taxable Oregon commercial activity.",
+      "sourceRefs": ["oregon-dor-corporate-activity-tax"],
+      "tags": ["cat", "thresholds"]
+    }
+  ]
+}
