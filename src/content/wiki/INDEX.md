@@ -117,6 +117,7 @@ links resolve to existing term files.
 - [[drywall-and-interior-finishes]]
 - [[flashing]]
 - [[exterior-site-improvements]]
+- [[deck-and-stair-design]]
 - [[right-of-way-improvements]]
 - [[roofing-and-weatherproofing]]
 - [[oregon-residential-specialty-code]]
