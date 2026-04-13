@@ -1,0 +1,51 @@
+{
+  "topic": "insulation-air-sealing-performance",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "insulation-air-sealing-performance-001",
+      "prompt": "What is the best first action before locking insulation and air-sealing scope for an Oregon project?",
+      "choices": [
+        "Verify the currently adopted code cycle and jurisdiction process",
+        "Reuse last year's details without checking code updates",
+        "Order materials first and resolve scope during rough-in",
+        "Wait for final inspection comments"
+      ],
+      "answerIndex": 0,
+      "difficulty": "foundation",
+      "explanation": "Code-edition control comes first; scope and sequencing should follow confirmed adopted requirements.",
+      "sourceRefs": ["oregon-bcd-adopted-codes-online", "oregon-bcd-orsc-adoption"],
+      "tags": ["adopted-codes", "workflow"]
+    },
+    {
+      "id": "insulation-air-sealing-performance-002",
+      "prompt": "Which Oregon statute chapter provides statewide building-code administration context for permit and inspection pathways?",
+      "choices": [
+        "ORS Chapter 455",
+        "ORS Chapter 701",
+        "OAR Chapter 812",
+        "OAR Chapter 340"
+      ],
+      "answerIndex": 0,
+      "difficulty": "foundation",
+      "explanation": "ORS Chapter 455 establishes Oregon's statewide building-code administration framework.",
+      "sourceRefs": ["ors-chapter-455"],
+      "tags": ["authority", "permits"]
+    },
+    {
+      "id": "insulation-air-sealing-performance-003",
+      "prompt": "Which practice best reduces concealed envelope defects before drywall?",
+      "choices": [
+        "Assign penetration-sealing responsibility by trade and run staged pre-concealment checks",
+        "Let every trade decide sealing details independently on install day",
+        "Skip documentation and rely on memory during punch list",
+        "Correct missed items after turnover if complaints occur"
+      ],
+      "answerIndex": 0,
+      "difficulty": "standard",
+      "explanation": "Clear accountability plus staged QA checks catches gaps before they become hidden defects.",
+      "sourceRefs": ["ors-chapter-701", "oregon-bcd-adopted-codes-online"],
+      "tags": ["quality-control", "trade-coordination"]
+    }
+  ]
+}
