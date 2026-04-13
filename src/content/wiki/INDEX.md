@@ -76,6 +76,7 @@ links resolve to existing term files.
 
 - [[business-structure]]
 - [[project-scheduling]]
+- [[gis-parcel-interpretation]]
 - [[safety-requirements]]
 - [[oregon-building-codes]]
 
