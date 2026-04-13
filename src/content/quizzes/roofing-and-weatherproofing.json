@@ -1,0 +1,69 @@
+{
+  "topic": "roofing-and-weatherproofing",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "roofing-and-weatherproofing-001",
+      "prompt": "Why is roofing and weatherproofing a schedule-critical milestone on a residential project?",
+      "choices": [
+        "It establishes dry-in so moisture risk is reduced before interior work",
+        "It allows final accounting closeout to begin",
+        "It completes all permit inspections automatically",
+        "It eliminates the need for trade coordination"
+      ],
+      "answerIndex": 0,
+      "difficulty": "foundation",
+      "explanation": "Dry-in is a major sequencing gate: once the roof assembly is weather-protective, interior work can proceed with lower exposure to rain-related damage and rework.",
+      "sourceRefs": [
+        "oregon-bcd-adopted-codes-online",
+        "ors-chapter-701"
+      ],
+      "tags": [
+        "dry-in",
+        "sequencing"
+      ]
+    },
+    {
+      "id": "roofing-and-weatherproofing-002",
+      "prompt": "Before relying on remembered roof-detail rules in Oregon, what should a contractor do first?",
+      "choices": [
+        "Verify the current adopted code cycle and local jurisdiction requirements",
+        "Proceed with installation and update details at inspection",
+        "Use only supplier guidance without code cross-check",
+        "Wait until interior punch list to confirm details"
+      ],
+      "answerIndex": 0,
+      "difficulty": "standard",
+      "explanation": "Oregon code cycles and local implementation details can change; validating currently adopted requirements first prevents avoidable corrections and failed inspections.",
+      "sourceRefs": [
+        "oregon-bcd-adopted-codes-online",
+        "oregon-bcd-orsc-adoption"
+      ],
+      "tags": [
+        "code-cycle",
+        "compliance"
+      ]
+    },
+    {
+      "id": "roofing-and-weatherproofing-003",
+      "prompt": "Which field condition is a common roofing edge case that requires strong GC coordination?",
+      "choices": [
+        "Late MEP penetrations after roofing is complete",
+        "Cabinet hardware lead time changes",
+        "Owner paint sheen preferences",
+        "Final appliance warranty registration"
+      ],
+      "answerIndex": 0,
+      "difficulty": "standard",
+      "explanation": "Late penetrations can compromise completed weatherproofing unless detailing, resealing, and reinspection are coordinated immediately and documented.",
+      "sourceRefs": [
+        "ors-chapter-701",
+        "oar-437-003-subdivision-m-fall-protection"
+      ],
+      "tags": [
+        "penetrations",
+        "risk-management"
+      ]
+    }
+  ]
+}
