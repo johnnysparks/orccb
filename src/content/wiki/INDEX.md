@@ -120,6 +120,7 @@ links resolve to existing term files.
 - [[oregon-residential-specialty-code]]
 - [[mechanical-hvac]]
 - [[plumbing]]
+- [[shear-and-hold-downs]]
 - [[insulation-air-sealing-performance]]
 
 
