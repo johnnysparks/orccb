@@ -61,6 +61,7 @@ links resolve to existing term files.
 - [[bid-leveling-pre-construction]]
 - [[bidding]]
 - [[estimating]]
+- [[takeoff]]
 - [[time-and-materials]]
 - [[fixed-price-contract]]
 - [[selections-and-allowances]]
