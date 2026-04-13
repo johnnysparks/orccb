@@ -1,0 +1,15 @@
+{
+  "slug": "drainage-plane",
+  "term": "Drainage Plane",
+  "definition": "A moisture-management concept where incidental water is directed to drain out of the wall assembly rather than becoming trapped.",
+  "sourceRefs": [
+    "oregon-bcd-2021-orsc-significant-changes"
+  ],
+  "relatedTerms": [
+    "exterior-wall-envelope",
+    "flashing"
+  ],
+  "topicSlugs": [
+    "building-exterior-shell"
+  ]
+}

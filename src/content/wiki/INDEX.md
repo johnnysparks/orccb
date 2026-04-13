@@ -87,6 +87,9 @@ links resolve to existing term files.
 - [[building-permits]]
 - [[owner-builder]]
 - [[building-exterior-shell]]
+- [[exterior-wall-envelope]]
+- [[drainage-plane]]
+- [[flashing]]
 - [[oregon-residential-specialty-code]]
 
 

@@ -1,0 +1,15 @@
+{
+  "slug": "flashing",
+  "term": "Flashing",
+  "definition": "Integrated detailing at penetrations and interfaces used to direct water to the exterior as part of a weather-resistant wall-envelope system.",
+  "sourceRefs": [
+    "oregon-bcd-2021-orsc-significant-changes"
+  ],
+  "relatedTerms": [
+    "exterior-wall-envelope",
+    "drainage-plane"
+  ],
+  "topicSlugs": [
+    "building-exterior-shell"
+  ]
+}
