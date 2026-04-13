@@ -62,6 +62,7 @@ links resolve to existing term files.
 - [[estimating]]
 - [[time-and-materials]]
 - [[fixed-price-contract]]
+- [[selections-and-allowances]]
 
 ## Oregon Lien Law
 
@@ -77,8 +78,11 @@ links resolve to existing term files.
 - [[business-structure]]
 - [[project-scheduling]]
 - [[scope-gap-analysis]]
+- [[selections-and-allowances]]
+- [[gis-parcel-interpretation]]
 - [[safety-requirements]]
 - [[oregon-building-codes]]
+- [[soi-awareness]]
 
 ## Jobsite Safety
 
@@ -89,6 +93,8 @@ links resolve to existing term files.
 
 - [[environmental-factors]]
 - [[demolition-and-clearing]]
+- [[prohibited-plants]]
+- [[tree-management]]
 
 ## Building and Construction
 
@@ -117,6 +123,7 @@ links resolve to existing term files.
 ## Financial Management
 
 - [[financial-management]]
+- [[job-costing]]
 - [[bond-penal-sum]]
 - [[insurance-certificate-requirements]]
 - [[license-application-fee]]
