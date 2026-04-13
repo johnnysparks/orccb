@@ -77,6 +77,7 @@ links resolve to existing term files.
 
 - [[business-structure]]
 - [[project-scheduling]]
+- [[scope-gap-analysis]]
 - [[selections-and-allowances]]
 - [[gis-parcel-interpretation]]
 - [[safety-requirements]]
